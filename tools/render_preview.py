@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+"""Render a plain-text preview of what a payload covers, grouped by distributor,
+with every link, for the side-by-side test (TEST_PLAN.md). This is NOT the
+email: the bot still writes the real HTML email. It is the checklist the
+bot-written email must cover.
+
+usage: tools/render_preview.py out/payload_*.json > preview.txt
+"""
+import json, sys
+from collections import defaultdict
+
+for fn in sys.argv[1:]:
+    d = json.load(open(fn))
+    print(f"=== {fn}  run {d.get('run_at_central')}")
+    by = defaultdict(list)
+    for c in d.get("site_changes", []):
+        if c["kind"] == "truncated":
+            by[c["distributor"]].append(f"  ... and {c['more']} more ({c['source']})"); continue
+        if c["kind"] == "changed":
+            f = "; ".join(f"{k}: {o} -> {n}" for k, (o, n) in c["fields"].items())
+            by[c["distributor"]].append(f"  * {c['name']}: {f}  <{c.get('url')}>")
+        else:
+            sign = "+" if c["kind"] == "new" else "-"
+            by[c["distributor"]].append(f"  {sign} {c['kind'].upper()} {c['name']}  <{c.get('url')}>")
+    for e in d.get("new_emails", []):
+        by[e.get("distributor") or "Email"].append(
+            f"  @ email {e['date']}: {e['subject']} ({e['from']})  <https://mail.google.com/mail/u/0/#all/{e['id']}>")
+    a = d.get("asm_diff")
+    if a:
+        for c, desc, o, n in a["increases"] + a["decreases"]:
+            by["All Sports Marketing"].append(f"  * ASM {c} {desc}: ${o:g} -> ${n:g}")
+        for it in a["new"]:
+            by["All Sports Marketing"].append(f"  + ASM new {it['code']} {it['desc']} ${it['price']:g}")
+        for it in a["removed"]:
+            by["All Sports Marketing"].append(f"  - ASM removed {it['code']} {it['desc']}")
+    for dist in sorted(by):
+        print(f"\n## {dist}")
+        print("\n".join(by[dist]))
+    errs = [e for e in d.get("errors", []) if e.get("alert")]
+    if errs:
+        print("\n## Errors")
+        for e in errs:
+            print(f"  ! {e['distributor']} / {e['source']}: {e['error']} ({e['consecutive_runs']} runs)")
+    print()
