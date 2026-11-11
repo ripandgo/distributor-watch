@@ -1,0 +1,97 @@
+name: distributor-watch
+
+# Every 5 minutes, Mon-Fri, 5:00-21:55 America/Chicago.
+# GitHub cron is UTC-only, so these two lines cover BOTH Central offsets:
+#   CDT (UTC-5, Mar-Nov): 5:00-21:55 CT = 10:00-02:55 UTC
+#   CST (UTC-6, Nov-Mar): 5:00-21:55 CT = 11:00-03:55 UTC
+# Union = 10:00-23:55 UTC Mon-Fri, plus 00:00-03:55 UTC Tue-Sat (= Mon-Fri evening CT).
+# The extra hour each side (4 AM CST / 10 PM CDT) is dropped by the
+# in-code window guard (watch/__main__.py: in_window), which uses real
+# America/Chicago time, so DST changes need no edits here.
+on:
+  schedule:
+    - cron: "*/5 10-23 * * 1-5"
+    - cron: "*/5 0-3 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even outside the 5 AM-10 PM weekday window"
+        type: boolean
+        default: false
+      dry_run:
+        description: "Print the payload instead of POSTing to the webhook"
+        type: boolean
+        default: false
+
+# One run at a time; a run that starts while another is going waits
+# (GitHub keeps at most one pending run, extra ones are dropped, which is fine).
+concurrency:
+  group: distributor-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # to commit updated state/ back
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Private state (ASM dealer price list, Gmail ids seen) never goes in the
+      # public repo; it is carried between runs in the Actions cache instead.
+      - name: Restore private state
+        uses: actions/cache/restore@v4
+        with:
+          path: state/private
+          key: private-state-${{ github.run_id }}
+          restore-keys: private-state-
+
+      - name: Install pdftotext (poppler-utils)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils >/dev/null
+
+      - name: Run watch
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          WATCH_WEBHOOK_URL: ${{ secrets.WATCH_WEBHOOK_URL }}
+          WATCH_WEBHOOK_TOKEN: ${{ secrets.WATCH_WEBHOOK_TOKEN }}
+          WATCH_WEBHOOK_HEADER: ${{ vars.WATCH_WEBHOOK_HEADER || 'Authorization' }}
+          TZ: America/Chicago
+        run: |
+          ARGS=""
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python -m watch $ARGS
+
+      - name: Save private state
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: state/private
+          key: private-state-${{ github.run_id }}
+
+      - name: Commit public state
+        if: success()
+        run: |
+          git config user.name  "distributor-watch[bot]"
+          git config user.email "distributor-watch@users.noreply.github.com"
+          git add state/   # state/private is gitignored
+          if git diff --cached --quiet; then
+            echo "state unchanged"; exit 0
+          fi
+          git commit -q -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep 5
+          done
+          echo "push failed"; exit 1
