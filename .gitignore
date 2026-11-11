@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+out/
+test_state/
+state/*.tmp
+.env
+state/private/
+tests/*.pdf
+tests/expected_*.json
