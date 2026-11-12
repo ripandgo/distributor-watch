@@ -1,10 +1,22 @@
-"""Window and chain-decision tests, plus backup-cron coverage in both DST offsets."""
+"""Window and chain-decision tests, plus backup-cron coverage in both DST offsets.
+
+Also covers overnight bridge planning: next_window_start and bridge_plan.
+"""
 import datetime as dt
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from watch.window import TZ, WINDOW, in_window, should_chain
+from watch.window import (
+    TZ,
+    WINDOW,
+    MAX_BRIDGE_SLEEP,
+    BRIDGE_EARLY_SLACK,
+    in_window,
+    should_chain,
+    next_window_start,
+    bridge_plan,
+)
 
 
 def at(year, month, day, hour, minute, label=None):
@@ -35,7 +47,7 @@ def check(ts, expect_in, expect_chain, name):
 
 def test_requested_timestamps():
     print("requested timestamps")
-    # 3:59 AM CT weekday: still closed; do not chain (4:00 AM cron restarts).
+    # 3:59 AM CT weekday: still closed; do not chain (bridge / 4:00 AM cron restarts).
     check(at(*WED_CST, 3, 59), False, False, "3:59 AM CT Wednesday")
     check(at(*WED_CST, 4, 30), True, True, "4:30 AM CT Wednesday (open)")
     # 9:58 PM CT weekday: 21:58 is inside 04:00-21:59, so chain continues.
@@ -97,7 +109,7 @@ def first_in_window_fire(date_ct):
 def test_backup_cron_covers_5am_and_window():
     print("backup cron coverage")
     # A Monday in CST and a Monday in CDT must have a fire at 4:00 AM CT
-    # (or no later than 4:30) so the chain can restart.
+    # (or no later than 4:30) so the chain can restart if the bridge misses.
     for label, ymd in (
         ("CST Monday 2026-11-09", (2026, 11, 9)),
         ("CST Friday 2026-11-13", (2026, 11, 13)),
@@ -130,7 +142,8 @@ def test_backup_cron_covers_5am_and_window():
         print(f"  ok: {label}: last cron at {hit.astimezone(TZ):%H:%M %Z}")
 
     # Cron expressions themselves: valid 5-field, */30 step, inclusive ranges.
-    lines = ['*/30 10-23 * * 1-5', '*/30 0-3 * * 2-6']
+    # Must match .github/workflows/watch.yml (union of CST and CDT offsets).
+    lines = ["*/30 9-23 * * 1-5", "*/30 0-3 * * 2-6"]
     for line in lines:
         parts = line.split()
         assert len(parts) == 5, f"{line} is not a 5-field cron"
@@ -145,6 +158,204 @@ def test_backup_cron_covers_5am_and_window():
 
 def test_window_constants():
     assert WINDOW == (4 * 60, 21 * 60 + 59)
+    assert MAX_BRIDGE_SLEEP == 5 * 3600 + 30 * 60
+    assert BRIDGE_EARLY_SLACK == 2 * 60
+
+
+def _assert_start(ts, want, name):
+    got = next_window_start(ts)
+    # Compare as Chicago-local instants; equal instants may differ only by tz label
+    # after a DST boundary when constructed different ways, so use the epoch.
+    status = "ok" if got == want else "FAIL"
+    print(
+        f"  {status}: {name}: {ts:%a %Y-%m-%d %H:%M %Z} -> "
+        f"{got:%a %Y-%m-%d %H:%M %Z} (want {want:%a %H:%M %Z})"
+    )
+    assert got == want, f"{name}: next_window_start={got}, expected {want}"
+
+
+def test_next_window_start():
+    print("next_window_start")
+    # Wednesday 10:00 PM CST -> Thursday 4:00 AM CST.
+    _assert_start(at(*WED_CST, 22, 0), at(2026, 11, 12, 4, 0), "Wed 10:00 PM CST")
+    # Before 4:00 on a weekday is that same morning.
+    _assert_start(at(*WED_CST, 3, 59), at(*WED_CST, 4, 0), "Wed 3:59 AM CST")
+    _assert_start(at(*WED_CST, 4, 0), at(*WED_CST, 4, 0), "Wed 4:00 AM CST exactly")
+    # After 4:00 rolls to the next weekday.
+    _assert_start(at(*WED_CST, 4, 1), at(2026, 11, 12, 4, 0), "Wed 4:01 AM CST")
+    _assert_start(at(*WED_CST, 10, 0), at(2026, 11, 12, 4, 0), "Wed 10:00 AM CST")
+    # Friday 10:00 PM CST (and the weekend) -> Monday 4:00 AM CST.
+    _assert_start(at(*FRI_CST, 22, 0), at(2026, 11, 16, 4, 0), "Fri 10:00 PM CST")
+    _assert_start(at(*SAT_CST, 10, 0), at(2026, 11, 16, 4, 0), "Sat 10:00 AM CST")
+    _assert_start(at(2026, 11, 15, 3, 59), at(2026, 11, 16, 4, 0), "Sun 3:59 AM CST")
+    _assert_start(at(2026, 11, 15, 4, 0), at(2026, 11, 16, 4, 0), "Sun 4:00 AM CST")
+    # UTC input converts correctly (Wed 10 PM CST = Thu 04:00 UTC in November).
+    utc = at(*WED_CST, 22, 0).astimezone(dt.timezone.utc)
+    _assert_start(utc, at(2026, 11, 12, 4, 0), "Wed 10:00 PM CST given as UTC")
+    # CDT midweek.
+    _assert_start(at(*WED_CDT, 22, 0), at(2026, 7, 16, 4, 0), "Wed 10:00 PM CDT")
+    # DST fall-back night: Sunday 2026-11-01. Friday 10 PM CDT -> Monday 4 AM CST.
+    _assert_start(at(2026, 10, 30, 22, 0), at(2026, 11, 2, 4, 0), "Fri 10:00 PM CDT over fall-back")
+    # DST spring-forward night: Sunday 2026-03-08. Friday 10 PM CST -> Monday 4 AM CDT.
+    _assert_start(at(2026, 3, 6, 22, 0), at(2026, 3, 9, 4, 0), "Fri 10:00 PM CST over spring-forward")
+
+
+def _advance(now, seconds):
+    """Advance `now` by real elapsed seconds (DST-safe; not wall-clock math)."""
+    return dt.datetime.fromtimestamp(now.timestamp() + seconds, TZ)
+
+
+def real_seconds(start, end):
+    """Elapsed seconds between two aware datetimes, including DST shifts."""
+    return end.timestamp() - start.timestamp()
+
+
+def walk_bridge(start, limit=20):
+    """Follow bridge hops from `start`. Returns (hops, arrival, last_plan).
+
+    Each hop is (when_the_hop_started, plan). Arrival is the clock after the
+    last hop's sleep, which is when a loop run should be dispatched.
+    """
+    now = start
+    hops = []
+    for _ in range(limit):
+        plan = bridge_plan(now)
+        hops.append((now, plan))
+        now = _advance(now, plan.sleep_seconds)
+        if plan.action == "loop":
+            return hops, now, plan
+    raise AssertionError(f"did not reach a loop dispatch in {limit} hops from {start}")
+
+
+def _assert_arrival(start, want, name, min_hops=1):
+    hops, arrival, last = walk_bridge(start)
+    n = len(hops)
+    delta = abs((arrival - want).total_seconds())
+    # Intermediate hops must stay under the 6h-safe cap and not already be a loop
+    # except the last one.
+    for i, (when, plan) in enumerate(hops):
+        assert plan.sleep_seconds <= MAX_BRIDGE_SLEEP, (
+            f"{name} hop {i} slept {plan.sleep_seconds}s, over the cap"
+        )
+        assert plan.sleep_seconds >= 0
+        assert plan.action in ("bridge", "loop")
+        if i < n - 1:
+            assert plan.action == "bridge", f"{name} hop {i} was {plan.action}, expected bridge"
+        assert plan.target == want, f"{name} hop {i} target={plan.target}, expected {want}"
+    assert last.action == "loop", f"{name}: last action was {last.action}"
+    assert n >= min_hops, f"{name}: only {n} hop(s), expected at least {min_hops}"
+    assert delta <= 1, f"{name}: arrived {arrival}, want {want} (off by {delta}s)"
+    hop_desc = ", ".join(
+        f"{plan.sleep_seconds}s->{plan.action}" for _, plan in hops
+    )
+    print(
+        f"  ok: {name}: {n} hop(s) [{hop_desc}] "
+        f"arrive {arrival:%a %Y-%m-%d %H:%M %Z}"
+    )
+    return hops, arrival
+
+
+def test_bridge_plan_wed_cst_to_thu():
+    print("bridge plan: Wed 10:00 PM CST -> Thu 4:00 AM CST")
+    start = at(*WED_CST, 22, 0)
+    want = at(2026, 11, 12, 4, 0)
+    # 6 hours even: first hop 5h30m bridge, second hop 30m loop.
+    hops, arrival = _assert_arrival(start, want, "Wed 10 PM CST", min_hops=2)
+    assert hops[0][1].sleep_seconds == MAX_BRIDGE_SLEEP
+    assert hops[1][1].sleep_seconds == 30 * 60
+    assert arrival == want
+
+
+def test_bridge_plan_fri_to_mon():
+    print("bridge plan: Fri 10:00 PM CST -> Mon 4:00 AM CST (multiple hops)")
+    start = at(*FRI_CST, 22, 0)
+    want = at(2026, 11, 16, 4, 0)
+    hops, arrival = _assert_arrival(start, want, "Fri 10 PM CST to Mon 4 AM")
+    # 54 hours: 9 full 5h30m hops + a 4h30m final hop.
+    total = sum(p.sleep_seconds for _, p in hops)
+    expected = int(real_seconds(start, want))
+    assert total == expected, f"slept {total}s, expected {expected}s"
+    assert len(hops) > 2, "weekend crossing should take more than two hops"
+    assert arrival == want
+
+
+def test_bridge_plan_cdt():
+    print("bridge plan: Wed 10:00 PM CDT -> Thu 4:00 AM CDT")
+    start = at(*WED_CDT, 22, 0)
+    want = at(2026, 7, 16, 4, 0)
+    hops, arrival = _assert_arrival(start, want, "Wed 10 PM CDT", min_hops=2)
+    assert hops[0][1].sleep_seconds == MAX_BRIDGE_SLEEP
+    assert hops[1][1].sleep_seconds == 30 * 60
+    assert arrival == want
+    # 6 hours in CDT is the same clock span as in CST (no transition that night).
+    assert real_seconds(start, want) == 6 * 3600
+
+
+def test_bridge_plan_dst_transitions():
+    print("bridge plan: DST transition nights")
+    # Fall back, Sunday 2026-11-01: Friday 10 PM CDT -> Monday 4 AM CST.
+    # The repeated hour makes this 55 hours of real time, not 54.
+    start = at(2026, 10, 30, 22, 0)
+    want = at(2026, 11, 2, 4, 0)
+    span = real_seconds(start, want)
+    assert span == 55 * 3600, f"fall-back span was {span}s, expected 55h"
+    hops, arrival = _assert_arrival(start, want, "fall-back Fri 10 PM CDT -> Mon 4 AM CST")
+    assert sum(p.sleep_seconds for _, p in hops) == int(span)
+    assert arrival == want
+
+    # Spring forward, Sunday 2026-03-08: Friday 10 PM CST -> Monday 4 AM CDT.
+    # The skipped hour makes this 53 hours of real time, not 54.
+    start = at(2026, 3, 6, 22, 0)
+    want = at(2026, 3, 9, 4, 0)
+    span = real_seconds(start, want)
+    assert span == 53 * 3600, f"spring-forward span was {span}s, expected 53h"
+    hops, arrival = _assert_arrival(start, want, "spring-forward Fri 10 PM CST -> Mon 4 AM CDT")
+    assert sum(p.sleep_seconds for _, p in hops) == int(span)
+    assert arrival == want
+
+
+def test_bridge_plan_woke_early():
+    print("bridge plan: woke slightly early / already at or in the window")
+    target = at(2026, 11, 12, 4, 0)  # Thursday 4:00 AM CST
+
+    # 2 minutes early: sleep the remaining 120s, then start the loop.
+    p = bridge_plan(at(2026, 11, 12, 3, 58))
+    assert p.action == "loop" and p.sleep_seconds == 120 and p.target == target
+    print("  ok: 3:58 AM CST -> sleep 120s, action loop")
+
+    # 1 minute early.
+    p = bridge_plan(at(2026, 11, 12, 3, 59))
+    assert p.action == "loop" and p.sleep_seconds == 60 and p.target == target
+    print("  ok: 3:59 AM CST -> sleep 60s, action loop")
+
+    # Just over the slack (3 minutes early): one short hop that still ends in loop.
+    p = bridge_plan(at(2026, 11, 12, 3, 57))
+    assert p.action == "loop" and p.sleep_seconds == 180 and p.target == target
+    print("  ok: 3:57 AM CST -> sleep 180s, action loop")
+
+    # Exactly 4:00, and a minute later: already in the window, dispatch immediately.
+    p = bridge_plan(target)
+    assert p.action == "loop" and p.sleep_seconds == 0 and p.target == target
+    print("  ok: 4:00 AM CST exactly -> sleep 0s, action loop")
+    p = bridge_plan(at(2026, 11, 12, 4, 1))
+    assert p.action == "loop" and p.sleep_seconds == 0 and p.target == target
+    print("  ok: 4:01 AM CST -> sleep 0s, action loop")
+
+    # Mid-window also starts a loop immediately (today's 4:00 is the target).
+    p = bridge_plan(at(*WED_CST, 10, 0))
+    assert p.action == "loop" and p.sleep_seconds == 0
+    assert p.target == at(*WED_CST, 4, 0)
+    print("  ok: Wed 10:00 AM CST (in window) -> sleep 0s, action loop")
+
+
+def test_bridge_plan_sleep_cap():
+    print("bridge plan: sleep cap")
+    assert MAX_BRIDGE_SLEEP == 19800
+    # A hop more than 5h30m from the target must cap the sleep and continue.
+    p = bridge_plan(at(*WED_CST, 22, 0))
+    assert p.sleep_seconds == MAX_BRIDGE_SLEEP
+    assert p.action == "bridge"
+    print("  ok: 6h remaining caps at 5h30m and continues as a bridge")
 
 
 if __name__ == "__main__":
@@ -152,4 +363,11 @@ if __name__ == "__main__":
     test_requested_timestamps()
     test_edges()
     test_backup_cron_covers_5am_and_window()
+    test_next_window_start()
+    test_bridge_plan_wed_cst_to_thu()
+    test_bridge_plan_fri_to_mon()
+    test_bridge_plan_cdt()
+    test_bridge_plan_dst_transitions()
+    test_bridge_plan_woke_early()
+    test_bridge_plan_sleep_cap()
     print("all window tests passed")
