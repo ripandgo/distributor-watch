@@ -8,10 +8,15 @@ ripndgo@gmail.com (to that address only) from the shop Gmail with the HTML logo
 signature. Most fires find nothing, yet each one costs plan usage.
 
 ## Proposed
-1. **GitHub Actions** (`.github/workflows/watch.yml`) is scheduled every 20 minutes
-   (GitHub throttles a `*/5` cron to ~15–20 min). Each job loops internally and runs
-   `python -m watch` every 5 minutes for ~18 minutes inside the same window, committing
-   state after each pass. Quiet pass => exit 0, no POST, no AI usage.
+1. **GitHub Actions** (`.github/workflows/watch.yml`) is self-chaining: each job
+   loops internally and runs `python -m watch` every 5 minutes for ~55 minutes,
+   commits state after each pass, then triggers the next run with
+   `gh workflow run` (GITHUB_TOKEN is allowed to fire `workflow_dispatch`). A
+   `*/30` cron in the weekday 5 AM–10 PM CT window is only a backup restarter
+   (including 5:00 AM CT the next weekday). GitHub throttles a `*/5` cron to
+   ~15–20 min and has been observed to skip scheduled starts entirely after a
+   workflow-file change, so cadence cannot depend on cron. Quiet pass => exit 0,
+   no POST, no AI usage.
 2. When something real remains after noise filtering, it POSTs JSON to the
    routine's webhook URL:
    ```json
@@ -73,11 +78,15 @@ The side-by-side day (TEST_PLAN.md) will measure the real ratio.
 
 ## Caveats
 - **GitHub cron is best-effort.** A `*/5` schedule was observed firing about every
-  20 min. The workflow is therefore scheduled every 20 min; each job loops and
-  scans every 5 min for ~18 min (concurrency group, no overlap, state committed
-  after each pass). Individual scheduled starts may still be a few minutes late.
-- Public repo = unlimited free Actions minutes. A private repo would need
-  ~204 runs/day x ~4 min ≈ 17,000 min/month, well past the 2,000 free.
+  20 min (23:36Z manual, then 00:33Z, 00:53Z). After the workflow was switched
+  to `*/20` at 01:09Z, no scheduled run fired through at least 01:56Z (missed
+  01:20 and 01:40), even though the workflow was `active` and the cron
+  expressions were valid. Cadence therefore comes from the 55-minute self-chain;
+  cron is only a 30-minute backup restarter. A few minutes of gap between one
+  job ending and the next runner starting is expected.
+- Public repo = unlimited free Actions minutes. A weekday is ~17 hours of nearly
+  continuous work, about 1,050 minutes/weekday (~5,250/week, ~21,000/month). A
+  private repo would blow past the 2,000 free private minutes/month.
 - GitHub turns off schedules in public repos after 60 days with no commits.
   State commits normally keep it active.
 - Cloudflare on Southern Hobby (and other sites) may challenge GitHub's

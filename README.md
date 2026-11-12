@@ -14,10 +14,12 @@ watch/gmail_imap.py  read-only IMAP check of All Mail + Trash for distributor se
 watch/asm.py         ASM Inventory PDF -> pdftotext -layout -> price/new/removed diff
 watch/state.py       per-source JSON state in state/ (one item per line, small git deltas);
                      ASM prices + Gmail ids go to state/private/ (gitignored, Actions cache)
+watch/window.py      weekday 5 AM-10 PM CT window (DST-aware) and chain decision
 watch/__main__.py    runner: window guard, scan, filter, compact payload, POST or exit quietly, save state
 watch/payload.py      cap the webhook JSON under 6 KB; summary + per-source counts first
-.github/workflows/watch.yml   */20 cron (UTC, covers CST+CDT); job loops every 5 min,
-                             concurrency, commits state/ after each pass
+.github/workflows/watch.yml   self-chaining 55-min jobs (5-min inner loop) plus a
+                             */30 backup cron (UTC, covers CST+CDT); concurrency,
+                             commits state/ after each pass, then workflow_dispatch
 tools/render_preview.py       payload -> plain-text coverage checklist (for TEST_PLAN.md)
 tests/               noise unit tests, ASM fixture PDFs (11/09, 11/10) + expected diff
 ```
