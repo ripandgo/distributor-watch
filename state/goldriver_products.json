@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T22:15:11.100593+00:00",
+"fetched_at": "2026-11-12T22:20:10.244626+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1094,7 +1094,7 @@
 "15463264026897": {"available": true, "name": "2026 PANINI DONRUSS ELITE RTC WOMENS", "price": "0.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-don-elite-rtc-womens"},
 "15463264223505": {"available": true, "name": "2026 PANINI SELECT WNBA BASKETBALL", "price": "0.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-select-wnba-bsk"},
 "15465036120337": {"available": true, "name": "BCW TOP LOADER 79 POINT 25 COUNT", "price": "4.97", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/bcw-top-loader-79-point-25-count"},
-"15467105452305": {"available": false, "name": "26 TOPPS HOLIDAY FOOTBALL MEGA", "price": "36.50", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-ftb-mega"},
+"15467105452305": {"available": true, "name": "26 TOPPS HOLIDAY FOOTBALL MEGA", "price": "36.50", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-ftb-mega"},
 "15467108663569": {"available": false, "name": "26 TOPPS HOLIDAY BASEBALL ADVENT CALENDAR", "price": "65.00", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-bse-advent"},
 "15467117904145": {"available": false, "name": "26 TOPPS HOLIDAY BASEBALL MEGA", "price": "35.00", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-bse-mega"},
 "15467120886033": {"available": false, "name": "26 TOPPS HOLIDAY BASEBALL TINS", "price": "40.00", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-bse-tins"},
