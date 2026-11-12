@@ -6,20 +6,12 @@ State is saved only after the payload is delivered (or printed in --dry-run),
 so a failed POST is retried on the next run instead of losing the change.
 """
 import argparse, datetime as dt, json, os, sys, time, traceback, urllib.request
-from zoneinfo import ZoneInfo
 
 from . import state, noise, asm, gmail_imap, payload
 from .fetchers import SOURCES, IncompleteFetch, SHRINK_GUARD, SHRINK_MIN_DROP
+from .window import TZ, in_window
 
-TZ = ZoneInfo("America/Chicago")
-WINDOW = (5 * 60, 21 * 60 + 59)          # 05:00-21:59 Central, Mon-Fri
 ERROR_ALERT_RUNS = int(os.environ.get("WATCH_ERROR_ALERT_RUNS", "6"))  # 6 x 5 min = 30 min
-
-
-def in_window(now):
-    loc = now.astimezone(TZ)
-    m = loc.hour * 60 + loc.minute
-    return loc.weekday() < 5 and WINDOW[0] <= m <= WINDOW[1]
 
 
 def post(payload):
