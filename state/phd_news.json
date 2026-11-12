@@ -1,10 +1,9 @@
 {
 "count": 100,
-"fetched_at": "2026-11-12T21:28:32.211255+00:00",
-"pending": {},
+"fetched_at": "2026-11-12T21:34:15.282408+00:00",
+"pending": {"86673": {"item": {"modified": "2026-07-02T12:53:13", "name": "Giant Foam Dice, One Piece Board Games, & More — Kess Entertainment", "posted": "2026-06-29", "url": "https://www.phdgames.com/2026/06/29/giant-foam-dice-one-piece-board-games-more-kess-entertainment/"}, "since": "2026-11-12T21:34:15.282408+00:00"}},
 "items": {
 "86602": {"modified": "2026-07-15T17:54:38", "name": "Magic: The Gathering — Reality Fracture | Wizards of the Coast", "posted": "2026-07-15", "url": "https://www.phdgames.com/2026/07/15/magic-the-gathering-reality-fracture-wizards-of-the-coast/"},
-"86673": {"modified": "2026-07-02T12:53:13", "name": "Giant Foam Dice, One Piece Board Games, & More — Kess Entertainment", "posted": "2026-06-29", "url": "https://www.phdgames.com/2026/06/29/giant-foam-dice-one-piece-board-games-more-kess-entertainment/"},
 "86717": {"modified": "2026-08-19T12:33:16", "name": "Pokémon TCG: 30th Celebration", "posted": "2026-07-10", "url": "https://www.phdgames.com/2026/07/10/pokemon-tcg-30th-celebration/"},
 "86760": {"modified": "2026-09-28T11:09:41", "name": "Chaotic TCG: Dawn of Perim — Secrets Decoded | Panini", "posted": "2026-07-20", "url": "https://www.phdgames.com/2026/07/20/chaotic-tcg-dawn-of-perim-secrets-decoded-panini/"},
 "86784": {"modified": "2026-07-06T15:00:09", "name": "Chessex Lab Dice 10", "posted": "2026-07-06", "url": "https://www.phdgames.com/2026/07/06/chessex-lab-dice-10/"},
@@ -102,6 +101,7 @@
 "88806": {"modified": "2026-11-05T17:05:10", "name": "Boulder 100+ Clear, Four New Colors! — Ultimate Guard", "posted": "2026-11-05", "url": "https://www.phdgames.com/2026/11/05/boulder-100-clear-four-new-colors-ultimate-guard/"},
 "88823": {"modified": "2026-11-06T11:36:10", "name": "Pokémon TCG: Valentine’s Box", "posted": "2026-11-06", "url": "https://www.phdgames.com/2026/11/06/pokemon-tcg-valentines-box/"},
 "88842": {"modified": "2026-11-09T15:29:33", "name": "Flesh and Blood TCG: Outbreak — Legend Story Studios", "posted": "2026-11-09", "url": "https://www.phdgames.com/2026/11/09/flesh-and-blood-tcg-outbreak-legend-story-studios/"},
-"88854": {"modified": "2026-11-10T11:48:13", "name": "PSi December 9 Releases", "posted": "2026-11-10", "url": "https://www.phdgames.com/2026/11/10/psi-december-9-releases/"}
+"88854": {"modified": "2026-11-10T11:48:13", "name": "PSi December 9 Releases", "posted": "2026-11-10", "url": "https://www.phdgames.com/2026/11/10/psi-december-9-releases/"},
+"88868": {"modified": "2026-11-12T16:35:02", "name": "Ultimate Guard Store Display", "posted": "2026-11-12", "url": "https://www.phdgames.com/2026/11/12/ultimate-guard-store-display/"}
 }
 }
