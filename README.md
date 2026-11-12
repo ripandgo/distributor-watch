@@ -14,7 +14,7 @@ watch/gmail_imap.py  read-only IMAP check of All Mail + Trash for distributor se
 watch/asm.py         ASM Inventory PDF -> pdftotext -layout -> price/new/removed diff
 watch/state.py       per-source JSON state in state/ (one item per line, small git deltas);
                      ASM prices + Gmail ids go to state/private/ (gitignored, Actions cache)
-watch/window.py      weekday 5 AM-10 PM CT window (DST-aware) and chain decision
+watch/window.py      weekday 4 AM-10 PM CT window (DST-aware) and chain decision
 watch/__main__.py    runner: window guard, scan, filter, compact payload, POST or exit quietly, save state
 watch/payload.py      cap the webhook JSON under 6 KB; summary + per-source counts first
 .github/workflows/watch.yml   self-chaining 55-min jobs (5-min inner loop) plus a
@@ -28,7 +28,7 @@ Run locally:
 ```
 python3 -m watch --seed-from /workspace/distro-monitor/state.json   # one-time baseline import
 python3 -m watch --dry-run            # print payload instead of POSTing (inside window)
-python3 -m watch --dry-run --force    # ignore the weekday 5 AM-10 PM CT window
+python3 -m watch --dry-run --force    # ignore the weekday 4 AM-10 PM CT window
 python3 -m watch --skip-sites --asm-pdf old.pdf new.pdf --no-save --dry-run --force
 python3 tests/test_noise.py
 ```
