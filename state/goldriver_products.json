@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T18:32:41.556755+00:00",
+"fetched_at": "2026-11-12T18:37:37.669815+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1011,7 +1011,7 @@
 "11202807267601": {"available": true, "name": "26 TOPPS FLAGSHIP NFL HOBBY", "price": "180.00", "published": "2026-09-05", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-hobby"},
 "11205374607633": {"available": true, "name": "POKEMON MEGA GRENINJA EX BATTLE DECK ( SUBJECT TO ALLOCATION)", "price": "18.75", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-mega-greninja-ex-bt-dk"},
 "11205382799633": {"available": true, "name": "25 TOPPS CHROME BLACK BASKETBALL", "price": "465.00", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-chrome-black-bsk"},
-"11206392643857": {"available": false, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
+"11206392643857": {"available": true, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
 "11207045644561": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
 "11207076118801": {"available": true, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
 "11207092928785": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
