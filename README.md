@@ -14,8 +14,10 @@ watch/gmail_imap.py  read-only IMAP check of All Mail + Trash for distributor se
 watch/asm.py         ASM Inventory PDF -> pdftotext -layout -> price/new/removed diff
 watch/state.py       per-source JSON state in state/ (one item per line, small git deltas);
                      ASM prices + Gmail ids go to state/private/ (gitignored, Actions cache)
-watch/__main__.py    runner: window guard, scan, filter, POST or exit quietly, save state
-.github/workflows/watch.yml   */5 cron (UTC, covers CST+CDT), concurrency, commits state/
+watch/__main__.py    runner: window guard, scan, filter, compact payload, POST or exit quietly, save state
+watch/payload.py      cap the webhook JSON under 6 KB; summary + per-source counts first
+.github/workflows/watch.yml   */20 cron (UTC, covers CST+CDT); job loops every 5 min,
+                             concurrency, commits state/ after each pass
 tools/render_preview.py       payload -> plain-text coverage checklist (for TEST_PLAN.md)
 tests/               noise unit tests, ASM fixture PDFs (11/09, 11/10) + expected diff
 ```
@@ -31,7 +33,7 @@ python3 tests/test_noise.py
 Env: `GMAIL_USER`, `GMAIL_APP_PASSWORD` (Gmail part skips cleanly if absent),
 `WATCH_WEBHOOK_URL`, `WATCH_WEBHOOK_TOKEN`, optional `WATCH_WEBHOOK_HEADER`
 (default `Authorization: Bearer <token>`), `WATCH_FLAP_MINUTES` (default 9),
-`WATCH_ERROR_ALERT_RUNS` (default 6), `WATCH_STATE_DIR`.
+`WATCH_ERROR_ALERT_RUNS` (default 6), `WATCH_STATE_DIR`, optional `WATCH_PAYLOAD_MAX_BYTES` (default 6000).
 
 What counts as "real" (triggers a POST): any new / removed / changed item after
 noise filtering, any new distributor email, an ASM inventory diff with at least

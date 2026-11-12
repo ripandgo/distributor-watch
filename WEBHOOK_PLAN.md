@@ -8,21 +8,33 @@ ripndgo@gmail.com (to that address only) from the shop Gmail with the HTML logo
 signature. Most fires find nothing, yet each one costs plan usage.
 
 ## Proposed
-1. **GitHub Actions** (`.github/workflows/watch.yml`) runs `python -m watch`
-   every 5 minutes inside the same window. Quiet run => exit 0, no POST, no AI usage.
+1. **GitHub Actions** (`.github/workflows/watch.yml`) is scheduled every 20 minutes
+   (GitHub throttles a `*/5` cron to ~15–20 min). Each job loops internally and runs
+   `python -m watch` every 5 minutes for ~18 minutes inside the same window, committing
+   state after each pass. Quiet pass => exit 0, no POST, no AI usage.
 2. When something real remains after noise filtering, it POSTs JSON to the
    routine's webhook URL:
    ```json
-   {"run_at": "...Z", "run_at_central": "...-06:00",
-    "site_changes": [{"source","distributor","source_desc","kind":"new|changed|removed",
-                      "key","name","url","fields":{"price":["30.00","27.00"]},"item":{...}}],
+   {"summary": "Distributor watch 6:33 PM CT: Mad Al 12 new, 8 price, 4 stock-in, 2 removed; Gold River 3 price; 1 new email; no ASM; 0 errors. 15 of 29 site changes listed.",
+    "run_at": "...Z", "run_at_central": "...-06:00",
+    "source_counts": [{"source","distributor","new","price","stock_in","changed_other","removed","total","listed","omitted"}],
+    "site_changes": [{"source","distributor","kind":"new|changed|removed",
+                      "key","name","url","fields":{"price":["30.00","27.00"]}}],
     "new_emails":   [{"id","thread_id","from","subject","date","distributor","mailbox"}],
-    "asm_diff":     {"date","vs","email_id","increases":[[code,desc,old,new]],
-                     "decreases":[...],"new":[{...}],"removed":[{...}]} | null,
+    "asm_diff":     {"date","vs","email_id","count",
+                     "n_increases","n_decreases","n_new","n_removed",
+                     "increases":[[code,desc,old,new]],
+                     "decreases":[...],"new":[{...}],"removed":[{...}],
+                     "omitted":{"increases":0}} | null,
     "errors":       [{"source","distributor","error","consecutive_runs","alert"}],
     "noise_dropped":{"rename":0,"encoding":0,"flap":0,"pending_removal":0},
-    "sources_ok": 11, "gmail": "ok: 1 new", "run_url": "https://github.com/.../actions/runs/..."}
+    "sources_ok": 11, "gmail": "ok: 1 new", "run_url": "https://github.com/.../actions/runs/...",
+    "truncated": false}
    ```
+   The JSON is capped at 6 KB (well under an ~8 KB webhook/event ceiling that cut off
+   earlier busy posts mid-list). `summary` is first; `source_counts` always has every
+   changed source and its full totals, even when item lists are trimmed. Removals are
+   counts. The full `item` dict is not sent.
    Auth header: `WATCH_WEBHOOK_TOKEN` (the routine panel's sender key), sent as
    `Authorization: Bearer <key>` by default. If the panel says to use a different
    header name, set the repo variable `WATCH_WEBHOOK_HEADER`. The bot never sees the key.
@@ -60,10 +72,10 @@ instead of 204. That puts watch usage down roughly 75-90%. This is an estimate.
 The side-by-side day (TEST_PLAN.md) will measure the real ratio.
 
 ## Caveats
-- **GitHub cron is best-effort.** Scheduled runs often start 5-15 min late under
-  load and are occasionally skipped. Concurrency keeps one run at a time, and a
-  run takes ~4 min (the 11/11 local test took 3m45s), so expect a report every
-  ~5-10 min, not on the dot.
+- **GitHub cron is best-effort.** A `*/5` schedule was observed firing about every
+  20 min. The workflow is therefore scheduled every 20 min; each job loops and
+  scans every 5 min for ~18 min (concurrency group, no overlap, state committed
+  after each pass). Individual scheduled starts may still be a few minutes late.
 - Public repo = unlimited free Actions minutes. A private repo would need
   ~204 runs/day x ~4 min ≈ 17,000 min/month, well past the 2,000 free.
 - GitHub turns off schedules in public repos after 60 days with no commits.
