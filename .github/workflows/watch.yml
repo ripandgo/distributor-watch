@@ -11,16 +11,16 @@ name: distributor-watch
 # state after each pass, then triggers the next run with
 # `gh workflow run` (GITHUB_TOKEN is allowed to fire workflow_dispatch).
 # Cron is only a backup restarter every 30 minutes in the window, including
-# 5:00 AM CT. Outside the weekday 5 AM–10 PM CT window the chain stops;
-# the next in-window cron (5:00 AM CT the next weekday) restarts it.
+# 4:00 AM CT (5 AM ET). Outside the weekday 4 AM–10 PM CT window the chain stops;
+# the next in-window cron (4:00 AM CT the next weekday) restarts it.
 #
 # The two UTC cron lines cover BOTH Central offsets, with the in-code
 # window guard (watch.window.in_window) dropping the extra hour each side:
-#   CDT (UTC-5, Mar-Nov): 5:00-21:59 CT = 10:00-02:59 UTC
-#   CST (UTC-6, Nov-Mar): 5:00-21:59 CT = 11:00-03:59 UTC
-# Union = 10:00-23:59 UTC Mon-Fri, plus 00:00-03:59 UTC Tue-Sat
-# (= Mon-Fri evening CT). 10:00 UTC Mon-Fri = 5:00 AM CDT;
-# 11:00 UTC Mon-Fri = 5:00 AM CST. DST changes need no edits here.
+#   CDT (UTC-5, Mar-Nov): 4:00-21:59 CT = 09:00-02:59 UTC
+#   CST (UTC-6, Nov-Mar): 4:00-21:59 CT = 10:00-03:59 UTC
+# Union = 09:00-23:59 UTC Mon-Fri, plus 00:00-03:59 UTC Tue-Sat
+# (= Mon-Fri evening CT). 09:00 UTC Mon-Fri = 4:00 AM CDT;
+# 10:00 UTC Mon-Fri = 4:00 AM CST. DST changes need no edits here.
 #
 # Public repo = unlimited free Actions minutes. A weekday is ~17 hours of
 # nearly continuous work (~55 min loop + ~2-3 min setup, ~17 times) plus
@@ -29,12 +29,12 @@ name: distributor-watch
 # the 2,000 free private minutes/month.
 "on":
   schedule:
-    - cron: "*/30 10-23 * * 1-5"
+    - cron: "*/30 9-23 * * 1-5"
     - cron: "*/30 0-3 * * 2-6"
   workflow_dispatch:
     inputs:
       force:
-        description: "Run even outside the 5 AM-10 PM weekday window"
+        description: "Run even outside the 4 AM-10 PM weekday window"
         type: boolean
         default: false
       dry_run:
