@@ -1,22 +1,36 @@
 name: distributor-watch
 
-# GitHub cron is UTC-only and best-effort. A */5 schedule was throttled
-# to about every 20 minutes (runs at 23:36Z manual, then 00:33Z, 00:53Z).
-# Schedule every 20 minutes and loop inside the job every 5 minutes so the
-# scan cadence stays 5 minutes. The two UTC lines still cover BOTH Central
-# offsets, with the in-code window guard (watch/__main__.py: in_window)
-# dropping the extra hour each side:
-#   CDT (UTC-5, Mar-Nov): 5:00-21:55 CT = 10:00-02:55 UTC
-#   CST (UTC-6, Nov-Mar): 5:00-21:55 CT = 11:00-03:55 UTC
-# Union = 10:00-23:59 UTC Mon-Fri, plus 00:00-03:59 UTC Tue-Sat
-# (= Mon-Fri evening CT). DST changes need no edits here.
+# GitHub cron is UTC-only and best-effort. It is not a reliable 5-minute
+# timer: a */5 schedule was throttled to ~20 minutes (23:36Z manual, then
+# 00:33Z, 00:53Z), and after the workflow was switched to */20 at 01:09Z
+# no scheduled run fired through at least 01:56Z (missed 01:20 and 01:40).
+# The workflow stayed active; the cron expressions were valid. Cadence
+# therefore cannot depend on cron.
 #
-# Public repo = unlimited free Actions minutes, so a ~18-20 min job is fine.
-# Do not make this repo private; that would burn ~1,000 min/day.
-on:
+# Primary cadence: each job loops every 5 minutes for ~55 minutes, commits
+# state after each pass, then triggers the next run with
+# `gh workflow run` (GITHUB_TOKEN is allowed to fire workflow_dispatch).
+# Cron is only a backup restarter every 30 minutes in the window, including
+# 5:00 AM CT. Outside the weekday 5 AM–10 PM CT window the chain stops;
+# the next in-window cron (5:00 AM CT the next weekday) restarts it.
+#
+# The two UTC cron lines cover BOTH Central offsets, with the in-code
+# window guard (watch.window.in_window) dropping the extra hour each side:
+#   CDT (UTC-5, Mar-Nov): 5:00-21:59 CT = 10:00-02:59 UTC
+#   CST (UTC-6, Nov-Mar): 5:00-21:59 CT = 11:00-03:59 UTC
+# Union = 10:00-23:59 UTC Mon-Fri, plus 00:00-03:59 UTC Tue-Sat
+# (= Mon-Fri evening CT). 10:00 UTC Mon-Fri = 5:00 AM CDT;
+# 11:00 UTC Mon-Fri = 5:00 AM CST. DST changes need no edits here.
+#
+# Public repo = unlimited free Actions minutes. A weekday is ~17 hours of
+# nearly continuous work (~55 min loop + ~2-3 min setup, ~17 times) plus
+# a couple of skipped backup crons: about 1,050 minutes/weekday, ~5,250
+# minutes/week. Do not make this repo private; that would burn far past
+# the 2,000 free private minutes/month.
+"on":
   schedule:
-    - cron: "*/20 10-23 * * 1-5"
-    - cron: "*/20 0-3 * * 2-6"
+    - cron: "*/30 10-23 * * 1-5"
+    - cron: "*/30 0-3 * * 2-6"
   workflow_dispatch:
     inputs:
       force:
@@ -28,31 +42,43 @@ on:
         type: boolean
         default: false
       loop:
-        description: "Loop every 5 minutes for the 20-minute window (on by default for scheduled runs)"
+        description: "Loop every 5 minutes for ~55 minutes (on by default for scheduled runs)"
         type: boolean
         default: false
 
-# One run at a time; a run that starts while another is going waits
-# (GitHub keeps at most one pending run, extra ones are dropped, which is fine).
+# One run at a time. A backup cron that starts while a chain is running
+# waits (GitHub keeps at most one pending run; a follow-on dispatch then
+# replaces that pending cron). cancel-in-progress stays false so a backup
+# never kills a live loop. The "Skip if another run is already going" step
+# also exits immediately if another run is in_progress or queued, so a
+# queued backup cannot start a second chain.
 concurrency:
   group: distributor-watch
   cancel-in-progress: false
 
 permissions:
   contents: write   # to commit updated state/ back
+  actions: write    # to dispatch the next run with GITHUB_TOKEN
 
 jobs:
   watch:
     runs-on: ubuntu-latest
-    # 18-min loop + checkout/setup buffer; leaves ~2 min before the next
-    # 20-min scheduled job so the two do not overlap.
-    timeout-minutes: 25
+    # 55-min loop + checkout/setup/dispatch buffer.
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Enough history for commit_state.sh to rebase over recent state commits.
+          fetch-depth: 50
+
+      - name: Skip if another run is already going
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash tools/skip_if_other_run.sh
 
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip != 'true'
         with:
           python-version: "3.12"
 
@@ -62,9 +88,11 @@ jobs:
       # "Path Validation Error" / "Cache save failed" warning. Save is skipped
       # when the dir is still empty (hashFiles == '').
       - name: Ensure private state dir
+        if: steps.gate.outputs.skip != 'true'
         run: mkdir -p state/private
 
       - name: Restore private state
+        if: steps.gate.outputs.skip != 'true'
         uses: actions/cache/restore@v4
         with:
           path: state/private
@@ -72,11 +100,13 @@ jobs:
           restore-keys: private-state-
 
       - name: Install pdftotext (poppler-utils)
+        if: steps.gate.outputs.skip != 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils >/dev/null
 
       - name: Run watch
+        if: steps.gate.outputs.skip != 'true'
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -92,11 +122,28 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.loop }}" = "true" ]; then
             LOOP=1
           fi
-          WATCH_ARGS="$ARGS" LOOP="$LOOP" LOOP_SECS=1080 bash tools/run_loop.sh
+          WATCH_ARGS="$ARGS" LOOP="$LOOP" LOOP_SECS=3300 bash tools/run_loop.sh
 
       - name: Save private state
-        if: success() && hashFiles('state/private/**') != ''
+        if: success() && steps.gate.outputs.skip != 'true' && hashFiles('state/private/**') != ''
         uses: actions/cache/save@v4
         with:
           path: state/private
           key: private-state-${{ github.run_id }}
+
+      - name: Trigger the next run
+        if: success() && steps.gate.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if bash tools/should_chain.sh; then
+            echo "Still inside the CT weekday window; dispatching the next run"
+            ARGS="-f loop=true"
+            if [ "${{ inputs.dry_run }}" = "true" ]; then
+              ARGS="$ARGS -f dry_run=true"
+            fi
+            # GITHUB_TOKEN is allowed to trigger workflow_dispatch.
+            gh workflow run watch.yml --ref main $ARGS
+          else
+            echo "Outside the watch window; chain stops until the next in-window cron"
+          fi
