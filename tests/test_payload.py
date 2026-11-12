@@ -110,9 +110,22 @@ def test_large_payload_fits_and_keeps_counts():
         assert r["listed"] + r["omitted"] == r["total"], r
         # Summary must name the distributor and not drop its counts
         assert r["distributor"] in body["summary"]
-    # Removals are counts, not a flood of listed rows
+    # Removals are listed when they fit (phd_news is removals-only and
+    # is well under the per-source cap once the busy body is shrunk).
     listed_removed = [c for c in body["site_changes"] if c["kind"] == "removed"]
-    assert listed_removed == []
+    assert body["truncated"] is True
+    if by["phd_news"]["omitted"] == 0:
+        assert len([c for c in listed_removed if c["source"] == "phd_news"]) == 4
+    # A source should not list a removal while omitting a higher-priority kind.
+    listed_kinds = {}
+    for c in body["site_changes"]:
+        listed_kinds.setdefault(c["source"], set()).add(payload.classify(c))
+    for src, row in by.items():
+        kinds = listed_kinds.get(src, set())
+        if "removed" in kinds:
+            for higher in ("new", "price", "stock_in", "changed_other"):
+                if row.get(higher):
+                    assert higher in kinds, (src, higher, kinds, row)
     # No full item dicts
     assert all("item" not in c for c in body["site_changes"])
     # Emails kept (ids the bot needs) and subject clipped
@@ -153,6 +166,109 @@ def test_priority_prefers_new_and_price():
     kinds = [payload.classify(c) for c in picked]
     assert kinds == ["new"] * 3 + ["price"] * 3 + ["stock_in"] * 2
     assert "removed" not in kinds
+    # With enough room, removals come after every other kind — they are
+    # listed, not dropped as a policy.
+    picked_all = payload.select_changes(changes, cap_per_source=19)
+    kinds_all = [payload.classify(c) for c in picked_all]
+    assert kinds_all == (
+        ["new"] * 3 + ["price"] * 3 + ["stock_in"] * 3
+        + ["changed_other"] * 5 + ["removed"] * 5
+    )
+
+
+def _build(changes, emails=None, asm=None, errors=None, max_bytes=None, **kw):
+    kwargs = dict(
+        now_central=NOW,
+        site_changes=changes,
+        new_emails=emails or [],
+        asm_diff=asm,
+        errors=errors or [],
+        noise_tot={"rename": 0, "encoding": 0, "flap": 0, "pending_removal": 0},
+        sources_ok=11,
+        gmail_status="ok: 0 new",
+        run_at="2026-11-12T02:04:00+00:00",
+        run_at_central="2026-11-11T20:04:00-06:00",
+        run_url="https://github.com/ripandgo/distributor-watch/actions/runs/43138802373",
+    )
+    kwargs.update(kw)
+    return payload.build(**kwargs, max_bytes=max_bytes)
+
+
+def test_small_run_lists_removal_and_is_not_truncated():
+    """Run #5 pass 1 shape: a stock flip + a catalog removal must both be listed.
+
+    The 8:04 PM CT webhook was 972 bytes, well under the 6000-byte cap, yet
+    marked truncated with '1 of 2 site changes listed' because removals were
+    filtered out unconditionally.
+    """
+    changes = [
+        ch(
+            "madal_catalog", "Mad Al", "changed", 1,
+            fields={"available": [True, False]},
+            name="Some in-stock item that flipped",
+        ),
+        ch(
+            "madal_catalog", "Mad Al", "removed", 2,
+            name="Ultra PRO 12-Pocket Zippered PRO-Binder, Purple",
+        ),
+    ]
+    body = _build(changes)
+    n = payload.payload_size(body)
+    assert n <= payload.PAYLOAD_MAX_BYTES
+    assert n < 2000, n
+    assert body["truncated"] is False
+    assert "1 of 2" not in body["summary"]
+    kinds = [c["kind"] for c in body["site_changes"]]
+    assert kinds.count("changed") == 1
+    assert kinds.count("removed") == 1
+    names = {c["name"] for c in body["site_changes"]}
+    assert any("PRO-Binder" in n for n in names)
+    row = body["source_counts"][0]
+    assert row["removed"] == 1
+    assert row["changed_other"] == 1
+    assert row["listed"] == 2
+    assert row["omitted"] == 0
+    assert row["total"] == 2
+
+
+def test_mixed_kinds_all_listed_when_they_fit():
+    changes = (
+        [ch("s", "X", "new", i) for i in range(3)]
+        + [ch("s", "X", "changed", 10 + i, fields={"price": ["2", "1"]}) for i in range(2)]
+        + [ch("s", "X", "changed", 20 + i, fields={"available": [False, True]}) for i in range(2)]
+        + [ch("s", "X", "removed", 30 + i) for i in range(2)]
+    )
+    body = _build(changes)
+    assert body["truncated"] is False
+    assert payload.payload_size(body) <= payload.PAYLOAD_MAX_BYTES
+    kinds = [payload.classify(c) for c in body["site_changes"]]
+    assert kinds == ["new"] * 3 + ["price"] * 2 + ["stock_in"] * 2 + ["removed"] * 2
+    row = body["source_counts"][0]
+    assert row["listed"] == 9 and row["omitted"] == 0
+
+
+def test_tiny_budget_drops_removals_first_and_sets_truncated():
+    changes = (
+        [ch("s", "X", "new", i) for i in range(3)]
+        + [ch("s", "X", "removed", 10 + i) for i in range(3)]
+    )
+    full = _build(changes)
+    assert full["truncated"] is False
+    assert len(full["site_changes"]) == 6
+    # Just under the full size, so at least one item must be dropped.
+    body = _build(changes, max_bytes=payload.payload_size(full) - 1)
+    assert body["truncated"] is True
+    assert len(body["site_changes"]) < 6
+    kinds = [payload.classify(c) for c in body["site_changes"]]
+    # Removals are dropped before any "new" item.
+    if "removed" in kinds:
+        assert kinds.count("new") == 3
+    else:
+        assert kinds.count("new") >= 1 or kinds == []
+    row = body["source_counts"][0]
+    assert row["listed"] + row["omitted"] == 6
+    assert row["omitted"] > 0
+
 
 
 if __name__ == "__main__":
