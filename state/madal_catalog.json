@@ -1,7 +1,7 @@
 {
-"count": 7251,
-"fetched_at": "2026-11-12T23:05:10.272048+00:00",
-"pending": {},
+"count": 7250,
+"fetched_at": "2026-11-12T23:10:13.481495+00:00",
+"pending": {"18539": {"item": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Madoka Magica Ultimate Madoka", "preorder_status": "", "sku": "ULT84561", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Magica-Madoka-Deck-Box-Ultimate-Madoka"}, "since": "2026-11-12T23:10:13.481495+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -3079,7 +3079,6 @@
 "18532": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box My Little Pony Nightmare Moon", "preorder_status": "", "sku": "ULT84544", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/My-Little-Pony-Deck-Box-Nigh-are-Moon"},
 "18533": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box My Little Pony Discord", "preorder_status": "", "sku": "ULT84545", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/My-Little-Pony-Deck-Box-Discord"},
 "18534": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box My Little Pony Queen Chrysalis", "preorder_status": "", "sku": "ULT84546", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/My-Little-Pony-Deck-Box-Queen-Chrysalis"},
-"18539": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Madoka Magica Ultimate Madoka", "preorder_status": "", "sku": "ULT84561", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Magica-Madoka-Deck-Box-Ultimate-Madoka"},
 "18542": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Standard Printed Life Hearts 50ct", "preorder_status": "", "sku": "ULT84577", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/SALE-Printed-Sleeve-Covers-50ct-Pack-Life"},
 "18544": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Standard Printed Hue Hue Hue 50ct", "preorder_status": "", "sku": "ULT84579", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/SALE-Printed-Sleeve-Covers-50ct-Pack-Hue-Hue-Hue"},
 "18549": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Force of Will Red Card Back", "preorder_status": "", "sku": "ULT84608", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/SALE-Force-of-Will-Deck-Box-Red-Card-Back"},
