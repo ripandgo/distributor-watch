@@ -1,6 +1,6 @@
 {
-"count": 7233,
-"fetched_at": "2026-11-12T16:03:05.805358+00:00",
+"count": 7242,
+"fetched_at": "2026-11-12T16:08:05.677977+00:00",
 "pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
@@ -2223,7 +2223,7 @@
 "16814": {"badge": "&nbsp;", "maker": "Turn One Gaming Supplies", "name": "Sleeves Kaboom! Standard 100ct Pack Matte", "preorder_status": "", "sku": "TOGSLV102", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/16814"},
 "16826": {"badge": "&nbsp;", "maker": "The Bazooka Companies, LLC", "name": "Monsuno Booster Pack 24ct Display", "preorder_status": "", "sku": "TOP336", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/16826"},
 "16827": {"badge": "&nbsp;", "maker": "The Bazooka Companies, LLC", "name": "Monsuno 2-Player Starter Plus Pack", "preorder_status": "", "sku": "TOP401", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/16827"},
-"16832": {"badge": "&nbsp;", "maker": "Toy Vault", "name": "Life Counter Dark Djinn", "preorder_status": "", "sku": "TOY06006", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/16832"},
+"16832": {"badge": "&nbsp;", "maker": "Toy Vault", "name": "Life Counter Dark Djinn", "preorder_status": "", "sku": "TOY06006", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/16832"},
 "16833": {"badge": "&nbsp;", "maker": "Toy Vault", "name": "Life Counter Merfolk Princess", "preorder_status": "", "sku": "TOY06008", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/product/16833"},
 "16836": {"badge": "&nbsp;", "maker": "Toy Vault", "name": "Cthulhu Plush Gloves Hands of Cthulhu", "preorder_status": "", "sku": "TOY12524", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/16836"},
 "16849": {"badge": "&nbsp;", "maker": null, "name": "UFC Round 5 Unlimited Series #2 RANDY COUTURE", "preorder_status": "", "sku": "UFCUNL2COUT", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/product/16849"},
@@ -7235,6 +7235,15 @@
 "48131": {"badge": "Pre-Order", "maker": "Sirius Dice", "name": "PRE-ORDER D&D Metal Miniatures Animated Series Set Villains ", "preorder_status": "Pre-Order-Open", "sku": "SDZ2301-02", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Dungeons-Dragons-Metal-Miniatures-Animated-Series-Set-Villains"},
 "48132": {"badge": "Pre-Order", "maker": "Sirius Dice", "name": "PRE-ORDER D&D Metal Miniatures Animated Series Set 15ct Bundle", "preorder_status": "Pre-Order-Open", "sku": "SDZ2301-03", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Dungeons-Dragons-Metal-Miniatures-Animated-Series-Set-Heroes-and-Villains-15ct-Bundle"},
 "48133": {"badge": "Pre-Order", "maker": "Sirius Dice", "name": "PRE-ORDER Dice D20 Magic Nauctis TSR Treasure Pack 25ct Display", "preorder_status": "Pre-Order-Open", "sku": "SDZ3002-01", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Magic-The-Gathering-Nauctis-The-Sunken-Realm-Treasure-Pack-25ct-Display"},
-"48134": {"badge": "Pre-Order", "maker": "Sirius Dice", "name": "PRE-ORDER Dice D20 Magic Nauctis TSR Spindown 55mm (Single)", "preorder_status": "Pre-Order-Open", "sku": "SDZ3004-12", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Magic-The-Gathering-Nauctis-The-Sunken-Realm-Spindown-55mm-D20-Dice-Single"}
+"48134": {"badge": "Pre-Order", "maker": "Sirius Dice", "name": "PRE-ORDER Dice D20 Magic Nauctis TSR Spindown 55mm (Single)", "preorder_status": "Pre-Order-Open", "sku": "SDZ3004-12", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Magic-The-Gathering-Nauctis-The-Sunken-Realm-Spindown-55mm-D20-Dice-Single"},
+"48227": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER One-Touch Moments Hatsune Mike - Snow Miku", "preorder_status": "", "sku": "ULT32066", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Hatsune-Miku-Snow-Miku-2026-ONE-TOUCH-Edge-Moments"},
+"48228": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Sleeves Hatsune Mike - Snow Miku APEX Deck Protector 105ct", "preorder_status": "", "sku": "ULT32062", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Hatsune-Miku-Snow-Miku-2026-105ct-APEX-Deck-Protector-Sleeves"},
+"48229": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Deck Box Alcove Flip Hatsune Mike - Snow Miku", "preorder_status": "", "sku": "ULT32063", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Hatsune-Miku-Snow-Miku-2026-Alcove-Edge-Deck-Box"},
+"48230": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER 9-Pocket Zippered Premium Pro-Binder Hatsune Mike - Snow Miku", "preorder_status": "", "sku": "ULT32067", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Hatsune-Miku-Snow-Miku-2026-9-Pocket-Zippered-Premium-PRO-Binder"},
+"48231": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Playmat Stitched Edge Hatsune Mike - Snow Miku", "preorder_status": "", "sku": "ULT32064", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Hatsune-Miku-Snow-Miku-2026-Stitched-Edge-Playmat"},
+"48232": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Sleeves Warhammer 40K APEX Deck Protector Imperium 105ct", "preorder_status": "", "sku": "ULT32135", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-105ct-APEX-Deck-Protector-Sleeves-Imperium"},
+"48233": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Sleeves Warhammer 40K APEX Deck Protector Chaos Marines 105ct", "preorder_status": "", "sku": "ULT32137", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-105ct-APEX-Deck-Protector-Sleeves-Chaos-Marines"},
+"48234": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Playmat Warhammer 40K Stitched Edge Imperium", "preorder_status": "", "sku": "ULT32136", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-Stitched-Edge-Playmat-Imperium"},
+"48235": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Playmat Warhammer 40K Stitched Edge Chaos Marines", "preorder_status": "", "sku": "ULT32138", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-Stitched-Edge-Playmat-Chaos-Marines"}
 }
 }
