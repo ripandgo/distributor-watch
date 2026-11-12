@@ -8,13 +8,12 @@ so a failed POST is retried on the next run instead of losing the change.
 import argparse, datetime as dt, json, os, sys, time, traceback, urllib.request
 from zoneinfo import ZoneInfo
 
-from . import state, noise, asm, gmail_imap
+from . import state, noise, asm, gmail_imap, payload
 from .fetchers import SOURCES, IncompleteFetch, SHRINK_GUARD, SHRINK_MIN_DROP
 
 TZ = ZoneInfo("America/Chicago")
 WINDOW = (5 * 60, 21 * 60 + 59)          # 05:00-21:59 Central, Mon-Fri
 ERROR_ALERT_RUNS = int(os.environ.get("WATCH_ERROR_ALERT_RUNS", "6"))  # 6 x 5 min = 30 min
-MAX_PER_SOURCE = 200
 
 
 def in_window(now):
@@ -84,15 +83,8 @@ def scan_sites(only, meta, now):
         for k, v in nz.items():
             noise_tot[k] += v
         print(f"[{key}] {len(items)} items, {secs:.0f}s: {len(ch)} real change(s), noise {nz}")
-        for c in ch[:MAX_PER_SOURCE]:
-            c.update({"source": key, "distributor": distro, "source_desc": desc,
-                      "name": c["item"].get("name"), "url": c["item"].get("url")})
-            if "fields" in c:
-                c["fields"] = {f: list(v) for f, v in c["fields"].items()}
-            site_changes.append(c)
-        if len(ch) > MAX_PER_SOURCE:
-            site_changes.append({"source": key, "distributor": distro, "kind": "truncated",
-                                 "more": len(ch) - MAX_PER_SOURCE})
+        for c in ch:
+            site_changes.append(payload.slim_change(c, key, distro, desc))
         new_states[key] = {"fetched_at": now.isoformat(), "count": len(items), "items": items, "pending": pending}
     return site_changes, noise_tot, errors, new_states, ok
 
@@ -189,31 +181,37 @@ def main(argv=None):
 
     alert_errors = [e for e in errors if e["alert"]]
     real = bool(site_changes or new_emails or asm_diff or alert_errors)
-    payload = {
-        "run_at": now.isoformat(),
-        "run_at_central": now.astimezone(TZ).isoformat(),
-        "site_changes": site_changes,
-        "new_emails": new_emails,
-        "asm_diff": asm_diff,
-        "errors": errors,
-        "noise_dropped": noise_tot,
-        "sources_ok": ok,
-        "gmail": gmail_status,
-        "run_url": (f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
-                    if os.environ.get("GITHUB_RUN_ID") else None),
-    }
+    body = payload.build(
+        now_central=now.astimezone(TZ),
+        site_changes=site_changes,
+        new_emails=new_emails,
+        asm_diff=asm_diff,
+        errors=errors,
+        noise_tot=noise_tot,
+        sources_ok=ok,
+        gmail_status=gmail_status,
+        run_at=now.isoformat(),
+        run_at_central=now.astimezone(TZ).isoformat(),
+        run_url=(f"{os.environ['GITHUB_SERVER_URL']}/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}"
+                 if os.environ.get("GITHUB_RUN_ID") else None),
+        max_bytes=int(os.environ["WATCH_PAYLOAD_MAX_BYTES"]) if os.environ.get("WATCH_PAYLOAD_MAX_BYTES") else None,
+    )
+    n_bytes = payload.payload_size(body)
+    n_listed = len(body.get("site_changes") or [])
+    n_total = sum(r.get("total", 0) for r in (body.get("source_counts") or []))
     if real:
         if a.dry_run:
             print("DRY RUN - would POST:")
-            print(json.dumps(payload, indent=1, ensure_ascii=False))
+            print(json.dumps(body, indent=1, ensure_ascii=False))
             os.makedirs("out", exist_ok=True)
             fn = os.path.join("out", f"payload_{now:%Y%m%d_%H%M%S}.json")
-            json.dump(payload, open(fn, "w"), indent=1, ensure_ascii=False)
+            json.dump(body, open(fn, "w"), indent=1, ensure_ascii=False)
             print(f"(saved {fn})")
         else:
-            st = post(payload)   # raises -> state not saved -> retried next run
-            print(f"webhook POST ok (HTTP {st}): {len(site_changes)} site change(s), "
-                  f"{len(new_emails)} email(s), asm={'yes' if asm_diff else 'no'}, {len(alert_errors)} alert error(s)")
+            st = post(body)   # raises -> state not saved -> retried next run
+            print(f"webhook POST ok (HTTP {st}): {body.get('summary')}")
+        print(f"payload {n_bytes} bytes, {n_listed} of {n_total} site change(s) listed"
+              f"{', truncated' if body.get('truncated') else ''}")
     else:
         print(f"quiet: no real changes ({ok} source(s) ok, {len(errors)} transient error(s), noise {noise_tot})")
 
