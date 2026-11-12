@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T16:33:05.318410+00:00",
+"fetched_at": "2026-11-12T16:38:05.414940+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -533,7 +533,7 @@
 "10619730133265": {"available": false, "name": "TOP LOADER 200PT", "price": "4.63", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-200pt"},
 "10619730231569": {"available": true, "name": "BCW COMIC MAGAZINE DIVIDER", "price": "8.00", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-comic-magazine-divider"},
 "10619730362641": {"available": true, "name": "DISP PLAYMAT SQUARE CAP TUBE", "price": "3.66", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-playmat-square-cap-tube"},
-"10619730460945": {"available": false, "name": "PRO BINDER 12PKT VIVID ZIP RED", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-red"},
+"10619730460945": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP RED", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-red"},
 "10619730493713": {"available": true, "name": "20 PANINI MOSAIC BSK", "price": "400.00", "published": "2025-10-24", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/20-panini-mosaic-bsk"},
 "10619730592017": {"available": false, "name": "PRO BINDER 12PKT VIVID ZIP BLUE", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-blue"},
 "10619730624785": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP GREEN", "price": "19.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-green"},
