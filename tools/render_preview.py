@@ -12,11 +12,15 @@ from collections import defaultdict
 for fn in sys.argv[1:]:
     d = json.load(open(fn))
     print(f"=== {fn}  run {d.get('run_at_central')}")
+    if d.get("summary"):
+        print(d["summary"])
+        if d.get("truncated"):
+            print("(payload truncated; counts in source_counts are complete)")
     by = defaultdict(list)
     for c in d.get("site_changes", []):
-        if c["kind"] == "truncated":
+        if c.get("kind") == "truncated":
             by[c["distributor"]].append(f"  ... and {c['more']} more ({c['source']})"); continue
-        if c["kind"] == "changed":
+        if c.get("kind") == "changed":
             f = "; ".join(f"{k}: {o} -> {n}" for k, (o, n) in c["fields"].items())
             by[c["distributor"]].append(f"  * {c['name']}: {f}  <{c.get('url')}>")
         else:
@@ -27,12 +31,20 @@ for fn in sys.argv[1:]:
             f"  @ email {e['date']}: {e['subject']} ({e['from']})  <https://mail.google.com/mail/u/0/#all/{e['id']}>")
     a = d.get("asm_diff")
     if a:
-        for c, desc, o, n in a["increases"] + a["decreases"]:
+        inc, dec = a.get("increases") or [], a.get("decreases") or []
+        for c, desc, o, n in inc + dec:
             by["All Sports Marketing"].append(f"  * ASM {c} {desc}: ${o:g} -> ${n:g}")
-        for it in a["new"]:
+        for it in a.get("new") or []:
             by["All Sports Marketing"].append(f"  + ASM new {it['code']} {it['desc']} ${it['price']:g}")
-        for it in a["removed"]:
+        for it in a.get("removed") or []:
             by["All Sports Marketing"].append(f"  - ASM removed {it['code']} {it['desc']}")
+        om = a.get("omitted") or {}
+        counts = ", ".join(f"{a.get(f'n_{k}', '?')} {k}" for k in ("increases", "decreases", "new", "removed"))
+        by["All Sports Marketing"].append(f"  ASM totals: {counts}" + (f" (omitted {om})" if om else ""))
+    if d.get("source_counts"):
+        print("\n## source counts")
+        for r in d["source_counts"]:
+            print(f"  {r.get('distributor') or r.get('source')}: {r}")
     for dist in sorted(by):
         print(f"\n## {dist}")
         print("\n".join(by[dist]))
