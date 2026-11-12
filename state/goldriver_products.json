@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T18:17:21.208172+00:00",
+"fetched_at": "2026-11-12T18:22:21.757662+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -511,7 +511,7 @@
 "10619729051921": {"available": true, "name": "DECK P ECLIPSE MATTE DRK BLUE", "price": "6.75", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-matte-drk-blue"},
 "10619729084689": {"available": true, "name": "DECK P ECLIPSE MATTE RED", "price": "6.75", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-matte-red"},
 "10619729117457": {"available": true, "name": "DECK P ECLIPSE MATTE DRK GREEN", "price": "6.75", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-matte-drk-green"},
-"10619729182993": {"available": true, "name": "DENVER BRONCOS RIDDELL FLASH ALTERNATE MINI HELMET", "price": "25.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/flash-alt-helmet-mini-broncos"},
+"10619729182993": {"available": false, "name": "DENVER BRONCOS RIDDELL FLASH ALTERNATE MINI HELMET", "price": "25.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/flash-alt-helmet-mini-broncos"},
 "10619729215761": {"available": false, "name": "LAS VEGAS RAIDERS RIDDELL FLASH MINI HELMET", "price": "25.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/flash-alt-helmet-mini-lv-raiders"},
 "10619729281297": {"available": true, "name": "DENVER BRONCOS RIDDELL FLASH ALTERNATE REPLICA HELMET", "price": "135.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/flash-replica-helmet-bronces"},
 "10619729346833": {"available": true, "name": "DECK P ECLIPSE MATTE LIME GREEN", "price": "6.75", "published": "2025-10-16", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-matte-lime-green"},
