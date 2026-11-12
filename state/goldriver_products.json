@@ -1,6 +1,6 @@
 {
-"count": 1118,
-"fetched_at": "2026-11-12T23:40:13.722112+00:00",
+"count": 1119,
+"fetched_at": "2026-11-12T23:45:13.312888+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1120,6 +1120,7 @@
 "15509572878609": {"available": true, "name": "2026 WILD CARD HOLIDAY HITS", "price": "73.50", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/2026-wild-card-holiday-hits"},
 "15513429934353": {"available": true, "name": "25 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "65.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-basketball-blaster"},
 "15516205220113": {"available": true, "name": "26 TOPPS CHROME COSMIC BASEBALL", "price": "937.50", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-cosmic-bse"},
-"15516205252881": {"available": true, "name": "26 TOPPS FIVE STAR BASEBALL (SEALED 3 BOX CASES ONLY)", "price": "2200.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-five-star-baseball"}
+"15516205252881": {"available": true, "name": "26 TOPPS FIVE STAR BASEBALL (SEALED 3 BOX CASES ONLY)", "price": "2200.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-five-star-baseball"},
+"15519535726865": {"available": true, "name": "26 TOPPS FLAGSHIP NBA HOBBY", "price": "225.00", "published": "2026-11-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-hobby"}
 }
 }
