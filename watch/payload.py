@@ -11,6 +11,8 @@ escaping, and prompt chrome.
 A compact human `summary` is always the first key. Per-source counts
 (including removals) are always present, even when item lists are
 trimmed, so truncation never hides which sources changed or by how much.
+Removed, added, and changed items are listed whenever they fit under
+the byte cap; `truncated` is true only when something was dropped for size.
 """
 from collections import OrderedDict
 
@@ -28,10 +30,9 @@ ITEM_CAPS = (8, 5, 3, 2, 1, 0)
 EMAIL_CAPS = (8, 5, 3, 2, 1, 0)
 ASM_CAPS = (8, 5, 3, 2, 1, 0)
 
-# Removals are summarized as counts, not listed, unless every other
-# kind has already been included and there is leftover room at cap>0
-# — they stay last in the priority order and are dropped first.
-_LIST_REMOVALS = False
+# Removals are listed when they fit, but they stay last in the
+# priority order and are the first kind dropped when the JSON would
+# exceed PAYLOAD_MAX_BYTES.
 
 
 def payload_size(payload):
@@ -145,12 +146,6 @@ def slim_asm(asm, cap):
         rows = asm.get(key) or []
         out[f"n_{key}"] = len(rows)
         listed = [row_fn(r) for r in rows[:cap]]
-        # Removals: counts first; only list a few names when cap allows.
-        if key == "removed" and not _LIST_REMOVALS:
-            listed = []
-            cap_used = 0
-        else:
-            cap_used = cap
         out[key] = listed
         extra = max(0, len(rows) - len(listed))
         if extra:
@@ -205,8 +200,6 @@ def select_changes(changes, cap_per_source):
     out = []
     for src, items in by.items():
         ranked = sorted(items, key=_rank)
-        if not _LIST_REMOVALS:
-            ranked = [c for c in ranked if classify(c) != "removed"]
         out.extend(ranked[:cap_per_source])
     return out
 
@@ -289,10 +282,37 @@ def build(now_central, site_changes, new_emails, asm_diff, errors, noise_tot,
     errors_all = [slim_error(e) for e in (errors or [])]
     n_total = len(changes)
 
-    payload = None
+    def _max_per_source(items):
+        by = OrderedDict()
+        for c in items:
+            by.setdefault(c.get("source") or "", []).append(c)
+        return max((len(v) for v in by.values()), default=0)
+
+    def _asm_max(asm):
+        if not asm:
+            return 0
+        return max(len(asm.get(k) or []) for k in ("increases", "decreases", "new", "removed"))
+
+    # Try a complete listing first so items are only dropped when the
+    # JSON would exceed max_bytes; then step the caps down as before.
+    full_item = _max_per_source(changes)
+    full_email = len(emails_all)
+    full_asm = _asm_max(asm_diff)
+    cap_iters = [(full_item, full_email, full_asm)]
     for i, item_cap in enumerate(ITEM_CAPS):
-        email_cap = EMAIL_CAPS[min(i, len(EMAIL_CAPS) - 1)]
-        asm_cap = ASM_CAPS[min(i, len(ASM_CAPS) - 1)]
+        cap_iters.append((
+            min(item_cap, full_item),
+            min(EMAIL_CAPS[min(i, len(EMAIL_CAPS) - 1)], full_email),
+            min(ASM_CAPS[min(i, len(ASM_CAPS) - 1)], full_asm),
+        ))
+
+    payload = None
+    seen_caps = set()
+    for item_cap, email_cap, asm_cap in cap_iters:
+        cap_key = (item_cap, email_cap, asm_cap)
+        if cap_key in seen_caps:
+            continue
+        seen_caps.add(cap_key)
         listed = select_changes(changes, item_cap)
         emails = emails_all[:email_cap]
         asm = slim_asm(asm_diff, asm_cap)
