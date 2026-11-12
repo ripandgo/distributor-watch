@@ -1,6 +1,6 @@
 {
 "count": 7242,
-"fetched_at": "2026-11-12T17:02:47.988231+00:00",
+"fetched_at": "2026-11-12T17:07:47.606484+00:00",
 "pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
@@ -2285,7 +2285,7 @@
 "16952": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 2-Pocket Eclipse PRO-Binder Hot Pink", "preorder_status": "", "sku": "ULT15372", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2-Pocket-Eclipse-Hot-Pink-PRO-Binder"},
 "16953": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 2-Pocket Eclipse PRO-Binder Royal Purple", "preorder_status": "", "sku": "ULT15373", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/2-Pocket-Eclipse-Royal-Purple-PRO-Binder"},
 "16954": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 2-Pocket Eclipse PRO-Binder Smokey Grey", "preorder_status": "", "sku": "ULT15374", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/2-Pocket-Eclipse-Smokey-Grey-PRO-Binder"},
-"16956": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 4-Pocket Eclipse PRO-Binder Jet Black", "preorder_status": "", "sku": "ULT15376", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/4-Pocket-Eclipse-Jet-Black-PRO-Binder"},
+"16956": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 4-Pocket Eclipse PRO-Binder Jet Black", "preorder_status": "", "sku": "ULT15376", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/4-Pocket-Eclipse-Jet-Black-PRO-Binder"},
 "16957": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 4-Pocket Eclipse PRO-Binder Pacific Blue", "preorder_status": "", "sku": "ULT15377", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/4-Pocket-Eclipse-Pacific-Blue-PRO-Binder"},
 "16959": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 4-Pocket Eclipse PRO-Binder Apple Red", "preorder_status": "", "sku": "ULT15379", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/4-Pocket-Eclipse-Apple-Red-PRO-Binder"},
 "16965": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 4-Pocket Eclipse PRO-Binder Royal Purple", "preorder_status": "", "sku": "ULT15385", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/4-Pocket-Eclipse-Royal-Purple-PRO-Binder"},
@@ -5528,7 +5528,7 @@
 "40536": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D8 Blank Ivory 10ct Set", "preorder_status": "", "sku": "CHX29033", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-D6-Blank-Ivory-Asst._3"},
 "40537": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D12 Blank White 10ct Set", "preorder_status": "", "sku": "CHX29035", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-D6-Blank-White-Asst._4"},
 "40541": {"badge": "Pre-Order", "maker": "Konami", "name": "Yugioh Legendary Modern Decks 2026 Box Set", "preorder_status": "", "sku": "KON87096", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Yu-Gi-Oh-Legendary-Modern-Decks-2026-Box-Set"},
-"40542": {"badge": "&nbsp;", "maker": null, "name": "Craniacs Series 3 Trading Cards Hobby Box 24 Packs", "preorder_status": "", "sku": "CRANIACS3HB", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Craniacs-Series-3-Trading-Cards-Hobby-Box-24-Packs"},
+"40542": {"badge": "&nbsp;", "maker": null, "name": "Craniacs Series 3 Trading Cards Hobby Box 24 Packs", "preorder_status": "", "sku": "CRANIACS3HB", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Craniacs-Series-3-Trading-Cards-Hobby-Box-24-Packs"},
 "40543": {"badge": "&nbsp;", "maker": null, "name": "Craniacs Series 3 Trading Cards Blaster Box (7 Packs)", "preorder_status": "", "sku": "CRANIACS3B", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Craniacs-Series-3-Trading-Cards-Blaster-Box-7-Packs"},
 "40642": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Monopoly Jujutsu Kaisen", "preorder_status": "", "sku": "USAMN128-939", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Monopoly-Jujutsu-Kaisen"},
 "40744": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Day 2026 Collection", "preorder_status": "", "sku": "POK10394-108", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Pokmon-TCG-Pokmon-Day-2026-Colledction"},
