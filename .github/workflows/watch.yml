@@ -1,18 +1,29 @@
 name: distributor-watch
 
+# run-name distinguishes bridge hops from scanning runs so skip_if_other_run.sh
+# and should_bridge.sh can count them separately (see concurrency below).
+run-name: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.bridge == 'true' && 'distributor-watch-bridge' || 'distributor-watch' }}
+
 # GitHub cron is UTC-only and best-effort. It is not a reliable 5-minute
 # timer: a */5 schedule was throttled to ~20 minutes (23:36Z manual, then
 # 00:33Z, 00:53Z), and after the workflow was switched to */20 at 01:09Z
 # no scheduled run fired through at least 01:56Z (missed 01:20 and 01:40).
 # The workflow stayed active; the cron expressions were valid. Cadence
-# therefore cannot depend on cron.
+# therefore cannot depend on cron. The same slippage showed up as a ~54
+# minute late first morning start when the chain had to wait on cron.
 #
-# Primary cadence: each job loops every 5 minutes for ~55 minutes, commits
-# state after each pass, then triggers the next run with
+# Primary cadence: each scanning job loops every 5 minutes for ~55 minutes,
+# commits state after each pass, then triggers the next run with
 # `gh workflow run` (GITHUB_TOKEN is allowed to fire workflow_dispatch).
+# When the weekday window closes, that last scanning run dispatches a
+# bridge job (workflow_dispatch input bridge=true) instead of a loop.
+# A bridge does no scanning, webhook, or state commit. It sleeps until
+# the next weekday 4:00 AM America/Chicago (DST-aware; Friday/weekend
+# rolls to Monday), in hops of at most 5 hours 30 minutes so each job
+# stays under the 6-hour Actions limit, then starts a loop=true run
+# (or another bridge hop if the target is still further out).
 # Cron is only a backup restarter every 30 minutes in the window, including
-# 4:00 AM CT (5 AM ET). Outside the weekday 4 AM–10 PM CT window the chain stops;
-# the next in-window cron (4:00 AM CT the next weekday) restarts it.
+# 4:00 AM CT (5 AM ET).
 #
 # The two UTC cron lines cover BOTH Central offsets, with the in-code
 # window guard (watch.window.in_window) dropping the extra hour each side:
@@ -23,9 +34,12 @@ name: distributor-watch
 # 10:00 UTC Mon-Fri = 4:00 AM CST. DST changes need no edits here.
 #
 # Public repo = unlimited free Actions minutes. A weekday is ~17 hours of
-# nearly continuous work (~55 min loop + ~2-3 min setup, ~17 times) plus
-# a couple of skipped backup crons: about 1,050 minutes/weekday, ~5,250
-# minutes/week. Do not make this repo private; that would burn far past
+# nearly continuous scanning (~55 min loop + ~2-3 min setup, ~17 times)
+# plus a couple of skipped backup crons (~1,050 minutes/weekday, ~5,250
+# minutes/week of scanning) plus overnight bridge sleep: about 6 hours
+# Mon-Thu nights and ~54 hours Friday 10 PM CT to Monday 4 AM CT
+# (~4,700 minutes/week of sleeping runners). Still free only while the
+# repo is public. Do not make this repo private; that would burn far past
 # the 2,000 free private minutes/month.
 "on":
   schedule:
@@ -45,15 +59,21 @@ name: distributor-watch
         description: "Loop every 5 minutes for ~55 minutes (on by default for scheduled runs)"
         type: boolean
         default: false
+      bridge:
+        description: "Overnight wait until the next weekday 4 AM CT window; no scanning"
+        type: boolean
+        default: false
 
-# One run at a time. A backup cron that starts while a chain is running
-# waits (GitHub keeps at most one pending run; a follow-on dispatch then
-# replaces that pending cron). cancel-in-progress stays false so a backup
-# never kills a live loop. The "Skip if another run is already going" step
-# also exits immediately if another run is in_progress or queued, so a
-# queued backup cannot start a second chain.
+# Scanning runs and bridge hops use separate concurrency groups so a
+# long-sleeping bridge cannot queue, replace, or block a scanning run.
+# cancel-in-progress stays false so a backup cron never kills a live loop
+# and a second bridge never kills a sleeping one. GitHub keeps at most
+# one pending run per group; skip_if_other_run.sh also exits immediately
+# if another comparable run is in_progress or queued, so a 4:00 AM cron
+# and a bridge-dispatched loop cannot both become scanning chains, and
+# two bridges cannot both sleep.
 concurrency:
-  group: distributor-watch
+  group: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.bridge == 'true' && 'distributor-watch-bridge' || 'distributor-watch' }}
   cancel-in-progress: false
 
 permissions:
@@ -62,6 +82,7 @@ permissions:
 
 jobs:
   watch:
+    if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.bridge != 'true' }}
     runs-on: ubuntu-latest
     # 55-min loop + checkout/setup/dispatch buffer.
     timeout-minutes: 70
@@ -75,6 +96,7 @@ jobs:
         id: gate
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IS_BRIDGE: "false"
         run: bash tools/skip_if_other_run.sh
 
       - uses: actions/setup-python@v5
@@ -144,6 +166,34 @@ jobs:
             fi
             # GITHUB_TOKEN is allowed to trigger workflow_dispatch.
             gh workflow run watch.yml --ref main $ARGS
+          elif bash tools/should_bridge.sh; then
+            echo "Window closed; dispatching an overnight bridge to the next 4 AM CT start"
+            gh workflow run watch.yml --ref main -f bridge=true
           else
-            echo "Outside the watch window; chain stops until the next in-window cron"
+            echo "Not dispatching a follow-on run (outside the window and a bridge is already going, or the window check failed)"
           fi
+
+  bridge:
+    if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.bridge == 'true' }}
+    runs-on: ubuntu-latest
+    # 5h30m sleep + checkout/plan/dispatch buffer, and up to 2 minutes of
+    # early-wake slack, under the 6-hour (360 min) Actions job limit.
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Only tools/ and watch/window.py are needed; no state history.
+          fetch-depth: 1
+
+      - name: Skip if another bridge is already going
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IS_BRIDGE: "true"
+        run: bash tools/skip_if_other_run.sh
+
+      - name: Sleep until the next hop, then dispatch
+        if: steps.gate.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash tools/run_bridge.sh
