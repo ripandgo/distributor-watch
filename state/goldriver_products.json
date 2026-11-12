@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T18:37:37.669815+00:00",
+"fetched_at": "2026-11-12T18:42:37.726861+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1011,7 +1011,7 @@
 "11202807267601": {"available": true, "name": "26 TOPPS FLAGSHIP NFL HOBBY", "price": "180.00", "published": "2026-09-05", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-hobby"},
 "11205374607633": {"available": true, "name": "POKEMON MEGA GRENINJA EX BATTLE DECK ( SUBJECT TO ALLOCATION)", "price": "18.75", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-mega-greninja-ex-bt-dk"},
 "11205382799633": {"available": true, "name": "25 TOPPS CHROME BLACK BASKETBALL", "price": "465.00", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-chrome-black-bsk"},
-"11206392643857": {"available": true, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
+"11206392643857": {"available": false, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
 "11207045644561": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
 "11207076118801": {"available": true, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
 "11207092928785": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
@@ -1087,7 +1087,7 @@
 "15460999594257": {"available": false, "name": "26 TOPPS STADIUM CLUB WWE", "price": "170.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-stadium-club-wwe"},
 "15461016142097": {"available": true, "name": "26 TOPPS FORMULA 1 CHROME HOBBY", "price": "625.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-formula-1-chrome-hobby"},
 "15461021614353": {"available": false, "name": "26 TOPPS MARVEL NEON", "price": "265.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-marvel-neon"},
-"15461035049233": {"available": true, "name": "26 TOPPS CHROME TENNIS HOBBY", "price": "170.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-tennis-hobby"},
+"15461035049233": {"available": true, "name": "26 TOPPS CHROME TENNIS HOBBY", "price": "155.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-tennis-hobby"},
 "15461049073937": {"available": false, "name": "26 TOPPS FINEST EPL SOCCER", "price": "335.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-finest-epl-soccer"},
 "15461066637585": {"available": false, "name": "26 TOPPS MARVEL CHROME VAULT", "price": "2250.00", "published": "2026-10-26", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-marvel-chrome-vault"},
 "15461079548177": {"available": false, "name": "26 TOPPS CHROME EPL SAPPHIRE", "price": "750.00", "published": "2026-11-02", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-epl-sapphire"},
@@ -1119,7 +1119,7 @@
 "15509383938321": {"available": false, "name": "26 TOPPS MARVEL NEON BLASTER", "price": "30.00", "published": "2026-11-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-marvel-neon-blaster"},
 "15509572878609": {"available": true, "name": "2026 WILD CARD HOLIDAY HITS", "price": "73.50", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/2026-wild-card-holiday-hits"},
 "15513429934353": {"available": true, "name": "25 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "65.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-basketball-blaster"},
-"15516205220113": {"available": true, "name": "26 TOPPS CHROME COSMIC BASEBALL", "price": "945.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-cosmic-bse"},
+"15516205220113": {"available": true, "name": "26 TOPPS CHROME COSMIC BASEBALL", "price": "937.50", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-cosmic-bse"},
 "15516205252881": {"available": true, "name": "26 TOPPS FIVE STAR BASEBALL (SEALED 3 BOX CASES ONLY)", "price": "2200.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-five-star-baseball"}
 }
 }
