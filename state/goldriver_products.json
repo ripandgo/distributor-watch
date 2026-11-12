@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T21:39:58.283493+00:00",
+"fetched_at": "2026-11-12T21:45:44.008734+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -978,7 +978,7 @@
 "11168685949201": {"available": true, "name": "26 PANINI PRIZM WNBA HOBBY", "price": "255.00", "published": "2026-08-12", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-prizm-wnba"},
 "11168687030545": {"available": true, "name": "26 PANINI K LEAGUE OBSIDIAN SOCCER", "price": "90.00", "published": "2026-08-12", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-k-lea-obsidian-soc"},
 "11168695124241": {"available": true, "name": "25 TOPPS RESURGENCE FOOTBALL HOBBY", "price": "500.00", "published": "2026-08-10", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-resurgence-ftb-hobby"},
-"11168695681297": {"available": true, "name": "25 TOPPS RESUREGENCE FOOTBALL BLASTER", "price": "45.00", "published": "2026-08-10", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-resuregence-ftb"},
+"11168695681297": {"available": false, "name": "25 TOPPS RESUREGENCE FOOTBALL BLASTER", "price": "45.00", "published": "2026-08-10", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-resuregence-ftb"},
 "11169797603601": {"available": true, "name": "2026 PANINI TRACK KINGS RACING", "price": "85.00", "published": "2026-10-12", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-track-kings-racing"},
 "11172549656849": {"available": false, "name": "26 UPPER DECK MVP HOCKEY", "price": "45.00", "published": "2026-08-12", "type": "", "url": "https://goldriverdistributors.com/products/26-upper-deck-mvp-hockey"},
 "11173802082577": {"available": true, "name": "Yu-Gi-Oh! GLORIOUS VICTORS BOOSTER", "price": "60.00", "published": "2026-08-17", "type": "", "url": "https://goldriverdistributors.com/products/ygo-glorious-victors-bst"},
@@ -1058,7 +1058,7 @@
 "15427077800209": {"available": true, "name": "2026 LEAF METAL HAPPY HOLIDAYS UGLY SWEATER", "price": "344.00", "published": "2026-10-07", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-metal-happy-hol-ugly"},
 "15429943492881": {"available": true, "name": "26 TOPPS ALLEN & GINTER BASEBALL HOBBY", "price": "180.00", "published": "2026-10-08", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-allen-ginter-hobby"},
 "15435629822225": {"available": true, "name": "2026 PANINI MANGAVERSE FOOTBALL", "price": "128.75", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-mangaverse-ftb"},
-"15437144490257": {"available": true, "name": "26 TOPPS BOWMAN CHROME BASEBALL MEGA", "price": "77.50", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-chrome-bse-mega"},
+"15437144490257": {"available": false, "name": "26 TOPPS BOWMAN CHROME BASEBALL MEGA", "price": "77.50", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-chrome-bse-mega"},
 "15437151338769": {"available": true, "name": "26 TOPPS CHROME LOGOFRACTOR BASEBALL", "price": "215.00", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-logofractor"},
 "15443496272145": {"available": true, "name": "INDIANAPOLIS COLTS RIDDELL SPEED MINI HELMET", "price": "25.00", "published": "2026-10-13", "type": "", "url": "https://goldriverdistributors.com/products/helmet-colts-mini-replica"},
 "15443606896913": {"available": false, "name": "DENVER BRONCOS RIDDELL SLATE REPLICA HELMET", "price": "140.00", "published": "2026-10-12", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/denver-broncos-riddell-slate-replica-helmet"},
