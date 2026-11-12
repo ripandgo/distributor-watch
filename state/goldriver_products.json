@@ -1,6 +1,6 @@
 {
 "count": 1118,
-"fetched_at": "2026-11-12T18:02:21.450120+00:00",
+"fetched_at": "2026-11-12T18:07:21.328369+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1015,7 +1015,7 @@
 "11207045644561": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
 "11207076118801": {"available": true, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
 "11207092928785": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
-"11207106920721": {"available": true, "name": "POKEMON M.E. DELTA REIGN BOOSTER BUNDLE- Limit 1 cs", "price": "38.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-bst-bnd"},
+"11207106920721": {"available": false, "name": "POKEMON M.E. DELTA REIGN BOOSTER BUNDLE- Limit 1 cs", "price": "38.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-bst-bnd"},
 "11209275769105": {"available": true, "name": "2026 PANINI CROWN ROYALE WNBA", "price": "128.75", "published": "2026-09-04", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-crown-royale-wnba"},
 "11210283647249": {"available": true, "name": "26 TOPPS SERIES 2 BASEBALL BLASTER", "price": "28.50", "published": "2026-09-14", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-series-2-bse-blasters"},
 "11213410402577": {"available": true, "name": "25 UPPER DECK PARKHURST HOCKEY", "price": "130.00", "published": "2026-09-08", "type": "", "url": "https://goldriverdistributors.com/products/25-upper-deck-parkhurts-hky"},
@@ -1050,7 +1050,7 @@
 "15412624523537": {"available": true, "name": "2026 WILD CARD HAUNTED HITS JUMBO", "price": "73.50", "published": "2026-10-02", "type": "", "url": "https://goldriverdistributors.com/products/2026-wild-card-haunted-hits-jmb"},
 "15413116993809": {"available": true, "name": "BCW SLEEVE RESEAL GRADED", "price": "2.10", "published": "2026-10-02", "type": "", "url": "https://goldriverdistributors.com/products/bcw-sleeve-reseal-graded"},
 "15421961306385": {"available": true, "name": "2026 PANINI PRIZM BLACK NWSL", "price": "125.00", "published": "2026-10-05", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-prizm-black-nwsl"},
-"15422033625361": {"available": true, "name": "2026 PANINI OBSIDIAN FOOTBALL", "price": "205.00", "published": "2026-10-05", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-obsidian-ftb"},
+"15422033625361": {"available": true, "name": "2026 PANINI OBSIDIAN FOOTBALL", "price": "220.00", "published": "2026-10-05", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-obsidian-ftb"},
 "15422257365265": {"available": false, "name": "26 TOPPS FLAGSHIP FOOTBALL MEGA", "price": "60.00", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-ftb-mega"},
 "15422283317521": {"available": true, "name": "26 TOPPS BOWMAN FOOTBALL JUMBO", "price": "560.00", "published": "2026-10-05", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-ftb-jumbo"},
 "15422283579665": {"available": false, "name": "26 TOPPS X KAWS BASEBALL (10 box max limit)", "price": "700.00", "published": "2026-10-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-kaws-baseball"},
