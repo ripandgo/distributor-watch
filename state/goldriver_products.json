@@ -1,6 +1,6 @@
 {
 "count": 1119,
-"fetched_at": "2026-11-13T00:29:34.752147+00:00",
+"fetched_at": "2026-11-13T00:34:34.685009+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1108,7 +1108,7 @@
 "15473534992657": {"available": true, "name": "POKEMON MEGA RAYQUAZA EX PREM", "price": "50.00", "published": "2026-11-05", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-mega-rayquaza-ex-prem"},
 "15473596268817": {"available": true, "name": "POKEMON VALENTINE'S BOX", "price": "9.50", "published": "2026-11-05", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-valentines-box"},
 "15473608982801": {"available": true, "name": "2027 LEAF JAMES DEAN COLLECTION", "price": "185.00", "published": "2026-11-03", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-james-dean-collection"},
-"15477081374993": {"available": true, "name": "26 TOPPS CHROME BASEBALL BLASTER", "price": "48.00", "published": "2026-11-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-bse-blaster"},
+"15477081374993": {"available": false, "name": "26 TOPPS CHROME BASEBALL BLASTER", "price": "48.00", "published": "2026-11-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-bse-blaster"},
 "15477083799825": {"available": false, "name": "26 TOPPS CHROME JENNIE", "price": "160.00", "published": "2026-11-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-jennie"},
 "15478338289937": {"available": true, "name": "26 PANINI PRIZM WNBA HOBBY BLASTER", "price": "25.00", "published": "2026-11-05", "type": "", "url": "https://goldriverdistributors.com/products/26-panini-prizm-wnba-hobby-blast"},
 "15479181050129": {"available": true, "name": "2026 PANINI DONRUSS BASKETBALL", "price": "0.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-donruss-basketball"},
