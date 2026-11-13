@@ -1,7 +1,7 @@
 {
-"count": 2796,
-"fetched_at": "2026-11-13T15:21:16.297981+00:00",
-"pending": {},
+"count": 2795,
+"fetched_at": "2026-11-13T15:26:16.632089+00:00",
+"pending": {"82854": {"item": {"name": "Marvel Legends Series - X-Men: Multi-Pack 1", "order_due": "02/01/2027", "release_date": "04/01/2027", "sku": "HSBG3877", "url": "https://www.southernhobby.com/marvel-legends-series-x-men-multi-pack-1/p82854/"}, "since": "2026-11-13T15:26:16.632089+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -1988,7 +1988,6 @@
 "82851": {"name": "Marvel Legends Series - Spider-Man: 2027 Retro 6", "order_due": "12/14/2026", "release_date": "02/01/2027", "sku": "HSBG3957", "url": "https://www.southernhobby.com/marvel-legends-series-spider-man-2027-retro-6/p82851/"},
 "82852": {"name": "Marvel Legends Series - Spider-Man: Deluxe 1", "order_due": "01/04/2027", "release_date": "03/01/2027", "sku": "HSBG3872", "url": "https://www.southernhobby.com/marvel-legends-series-spider-man-deluxe-1/p82852/"},
 "82853": {"name": "Marvel Legends Series - X-Men: Deluxe 1", "order_due": "02/01/2027", "release_date": "04/01/2027", "sku": "HSBG3874", "url": "https://www.southernhobby.com/marvel-legends-series-x-men-deluxe-1/p82853/"},
-"82854": {"name": "Marvel Legends Series - X-Men: Multi-Pack 1", "order_due": "02/01/2027", "release_date": "04/01/2027", "sku": "HSBG3877", "url": "https://www.southernhobby.com/marvel-legends-series-x-men-multi-pack-1/p82854/"},
 "82855": {"name": "Marvel Legends Series - X-Men: Deluxe KING", "order_due": "03/01/2027", "release_date": "05/01/2027", "sku": "HSBG3871", "url": "https://www.southernhobby.com/marvel-legends-series-x-men-deluxe-king/p82855/"},
 "82856": {"name": "Marvel Legends Series - X-Men: Multi-Pack 1", "order_due": "02/01/2027", "release_date": "04/01/2027", "sku": "HSBG3878", "url": "https://www.southernhobby.com/marvel-legends-series-x-men-multi-pack-1/p82856/"},
 "82857": {"name": "Marvel Legends Series: Multi-Pack 1", "order_due": "03/01/2027", "release_date": "05/01/2027", "sku": "HSBG4003", "url": "https://www.southernhobby.com/marvel-legends-series-multi-pack-1/p82857/"},
