@@ -1,12 +1,11 @@
 {
 "count": 100,
-"fetched_at": "2026-11-13T21:07:23.977128+00:00",
-"pending": {},
+"fetched_at": "2026-11-13T21:12:23.245957+00:00",
+"pending": {"86800": {"item": {"modified": "2026-07-07T12:20:42", "name": "PSi August 5 Releases", "posted": "2026-07-07", "url": "https://www.phdgames.com/2026/07/07/psi-august-5-releases/"}, "since": "2026-11-13T21:12:23.245957+00:00"}},
 "items": {
 "86602": {"modified": "2026-07-15T17:54:38", "name": "Magic: The Gathering — Reality Fracture | Wizards of the Coast", "posted": "2026-07-15", "url": "https://www.phdgames.com/2026/07/15/magic-the-gathering-reality-fracture-wizards-of-the-coast/"},
 "86717": {"modified": "2026-08-19T12:33:16", "name": "Pokémon TCG: 30th Celebration", "posted": "2026-07-10", "url": "https://www.phdgames.com/2026/07/10/pokemon-tcg-30th-celebration/"},
 "86760": {"modified": "2026-09-28T11:09:41", "name": "Chaotic TCG: Dawn of Perim — Secrets Decoded | Panini", "posted": "2026-07-20", "url": "https://www.phdgames.com/2026/07/20/chaotic-tcg-dawn-of-perim-secrets-decoded-panini/"},
-"86800": {"modified": "2026-07-07T12:20:42", "name": "PSi August 5 Releases", "posted": "2026-07-07", "url": "https://www.phdgames.com/2026/07/07/psi-august-5-releases/"},
 "86832": {"modified": "2026-07-08T18:08:36", "name": "Vivid Zippered PRO Binders: 4-, 9-, and 12-Pocket — Ultra•PRO", "posted": "2026-07-08", "url": "https://www.phdgames.com/2026/07/08/vivid-zippered-pro-binders-4-9-and-12-pocket-ultrapro/"},
 "86856": {"modified": "2026-07-09T16:01:43", "name": "Dungeons & Dragons: Arcana Unleashed — Wizards of the Coast", "posted": "2026-07-09", "url": "https://www.phdgames.com/2026/07/09/dungeons-dragons-arcana-unleashed-wizards-of-the-coast/"},
 "86871": {"modified": "2026-07-10T10:32:14", "name": "Kingdom Come Deliverance: The Board Game — Czech Games Edition", "posted": "2026-07-09", "url": "https://www.phdgames.com/2026/07/09/kingdom-come-deliverance-the-board-game-czech-games-edition/"},
@@ -102,6 +101,7 @@
 "88842": {"modified": "2026-11-09T15:29:33", "name": "Flesh and Blood TCG: Outbreak — Legend Story Studios", "posted": "2026-11-09", "url": "https://www.phdgames.com/2026/11/09/flesh-and-blood-tcg-outbreak-legend-story-studios/"},
 "88854": {"modified": "2026-11-10T11:48:13", "name": "PSi December 9 Releases", "posted": "2026-11-10", "url": "https://www.phdgames.com/2026/11/10/psi-december-9-releases/"},
 "88868": {"modified": "2026-11-12T16:35:02", "name": "Ultimate Guard Store Display", "posted": "2026-11-12", "url": "https://www.phdgames.com/2026/11/12/ultimate-guard-store-display/"},
-"88882": {"modified": "2026-11-12T17:45:31", "name": "Hololive OCG: Volume Vortex — Bushiroad", "posted": "2026-11-12", "url": "https://www.phdgames.com/2026/11/12/hololive-ocg-volume-vortex-bushiroad/"}
+"88882": {"modified": "2026-11-12T17:45:31", "name": "Hololive OCG: Volume Vortex — Bushiroad", "posted": "2026-11-12", "url": "https://www.phdgames.com/2026/11/12/hololive-ocg-volume-vortex-bushiroad/"},
+"88892": {"modified": "2026-11-13T16:14:42", "name": "Magic: The Gathering | Nauctis The Sunken Realm — Wizards of the Coast", "posted": "2026-11-13", "url": "https://www.phdgames.com/2026/11/13/magic-the-gathering-nauctis-the-sunken-realm-wizards-of-the-coast/"}
 }
 }
