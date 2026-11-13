@@ -1,7 +1,7 @@
 {
-"count": 1120,
-"fetched_at": "2026-11-13T18:04:35.474986+00:00",
-"pending": {},
+"count": 1119,
+"fetched_at": "2026-11-13T18:09:35.069346+00:00",
+"pending": {"10939342553361": {"item": {"available": false, "name": "TOP LOADER FOIL POKEMON PIKACHU COMBO", "price": "3.95", "published": "2026-02-06", "type": "", "url": "https://goldriverdistributors.com/products/top-loader-foil-pkmn-pikachu"}, "since": "2026-11-13T18:09:35.069346+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -768,7 +768,6 @@
 "10819753017617": {"available": false, "name": "POKEMON M.E. PERFECT ORDER 3PK BLISTERS-Limit 1 cs (24units)", "price": "18.00", "published": "2026-05-19", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-perf-order-3pk-blis"},
 "10859597758737": {"available": true, "name": "25 PANINI SILHOUETTE FOOTBALL", "price": "350.00", "published": "2026-04-13", "type": "", "url": "https://goldriverdistributors.com/products/2025-panini-silhouette-ftb"},
 "10865761354001": {"available": true, "name": "25 TOPPS MIDNIGHT BASKETBALL", "price": "925.00", "published": "2026-01-29", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-midnight-bsk"},
-"10939342553361": {"available": false, "name": "TOP LOADER FOIL POKEMON PIKACHU COMBO", "price": "3.95", "published": "2026-02-06", "type": "", "url": "https://goldriverdistributors.com/products/top-loader-foil-pkmn-pikachu"},
 "10939904885009": {"available": true, "name": "25 PANINI DONRUSS BASKETBALL", "price": "290.00", "published": "2026-07-03", "type": "", "url": "https://goldriverdistributors.com/products/2025-panini-donruss-bsk"},
 "10943769149713": {"available": true, "name": "25 PANINI DONRUSS OPTIC HOBBY FOOTBALL BLASTER", "price": "65.00", "published": "2026-03-19", "type": "", "url": "https://goldriverdistributors.com/products/25-panini-don-optic-hby-ftb-blst"},
 "10946421260561": {"available": true, "name": "26 TOPPS SERIES 1 JUMBO", "price": "325.00", "published": "2026-02-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-series-1-jumbo"},
