@@ -1,7 +1,7 @@
 {
-"count": 7249,
-"fetched_at": "2026-11-13T21:41:47.364800+00:00",
-"pending": {},
+"count": 7248,
+"fetched_at": "2026-11-13T21:46:48.068613+00:00",
+"pending": {"29434": {"item": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Warhammer 40K Tyranid Alcove Flip", "preorder_status": "", "sku": "ULT16446", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Tyranid-Alcove-Flip-for-Warhammer-40K"}, "since": "2026-11-13T21:46:48.068613+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -4518,7 +4518,6 @@
 "29431": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album Warhammer 40K Tyranid Datasheet Folio", "preorder_status": "", "sku": "ULT16443", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Tyranid-Datasheet-Folio-for-Warhammer-40K"},
 "29432": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album Warhammer 40K Tyranid Codex Book Folio Debossed & Printed", "preorder_status": "", "sku": "ULT16444", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Tyranid-Codex-Book-Folio-Debossed-Printed-for-Warhammer-40K"},
 "29433": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Warhammer 40K Tyranid 105ct Apex Deck Protector", "preorder_status": "", "sku": "ULT16445", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Tyranid-105ct-Apex-Deck-Protector-sleeves-for-Warhammer-40K"},
-"29434": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Warhammer 40K Tyranid Alcove Flip", "preorder_status": "", "sku": "ULT16446", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Tyranid-Alcove-Flip-for-Warhammer-40K"},
 "29435": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Playmat Warhammer 40K Space Marines Adeptus Astartes Stitched", "preorder_status": "", "sku": "ULT16481", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Space-Marines-Adeptus-Astartes-Playmat-Stitched-for-Warhammer-40K"},
 "29436": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Playmat Warhammer 40K Tyranid Stitched", "preorder_status": "", "sku": "ULT16482", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Tyranid-Playmat-Stitched-for-Warhammer-40K"},
 "29437": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Magic Figurines from the Vault Legends Niv-Mizzet", "preorder_status": "", "sku": "ULT38220", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/29437"},
