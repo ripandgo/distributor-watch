@@ -1,6 +1,6 @@
 {
 "count": 1119,
-"fetched_at": "2026-11-13T10:00:40.651967+00:00",
+"fetched_at": "2026-11-13T10:05:39.217312+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1036,7 +1036,7 @@
 "11242044686609": {"available": true, "name": "25 PANINI SELECT WNBA NPP MEGA", "price": "28.00", "published": "2026-09-24", "type": "", "url": "https://goldriverdistributors.com/products/25-panini-select-wnba-npp-mega"},
 "11244414697745": {"available": true, "name": "26 UPPER DECK ARTIFACTS HOCKEY", "price": "140.00", "published": "2026-09-24", "type": "", "url": "https://goldriverdistributors.com/products/26-upper-deck-artifacts-hky"},
 "11246077739281": {"available": true, "name": "YU-GI-OH IMMORTAL PHOENIX BOOSTER", "price": "60.00", "published": "2026-09-23", "type": "", "url": "https://goldriverdistributors.com/products/ygo-immortal-phoenix-bstr"},
-"11246311473425": {"available": true, "name": "2026 LEAF METAL SPORTS ILLUSTRATED KIDS", "price": "238.00", "published": "2026-09-24", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-metal-sports-ill-kids"},
+"11246311473425": {"available": false, "name": "2026 LEAF METAL SPORTS ILLUSTRATED KIDS", "price": "238.00", "published": "2026-09-24", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-metal-sports-ill-kids"},
 "11247268069649": {"available": false, "name": "26 TOPPS WWE UNIVERSE BLASTER", "price": "20.00", "published": "2026-09-24", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-wwe-universe-blaster"},
 "15394232926481": {"available": true, "name": "25 TOPPS FINEST FOOTBALL BREAKERS DELIGHT", "price": "1075.00", "published": "2026-10-03", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-finest-ftb-delight"},
 "15399823278353": {"available": true, "name": "2026 LEAF SPECTACULAR BASEBALL", "price": "688.00", "published": "2026-09-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-spectacular-bse"},
@@ -1104,7 +1104,7 @@
 "15471579398417": {"available": true, "name": "2026 PANINI IMMACULATE FOOTBALL", "price": "0.00", "published": "2026-10-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-immaculate-ftb"},
 "15471584903441": {"available": true, "name": "2026 PANINI FLAWLESS RACING", "price": "0.00", "published": "2026-10-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-flawless-racing"},
 "15471711912209": {"available": true, "name": "2026 TRI-STAR AUTOGRAPHED BASKETBALLS", "price": "175.50", "published": "2026-11-03", "type": "", "url": "https://goldriverdistributors.com/products/2026-tri-star-auto-bsk"},
-"15473501962513": {"available": true, "name": "2026 LEAF ORIGINALS MULTI-SPORT BRICK BOX", "price": "265.00", "published": "2026-10-30", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-originals-ms-brick-bx"},
+"15473501962513": {"available": false, "name": "2026 LEAF ORIGINALS MULTI-SPORT BRICK BOX", "price": "265.00", "published": "2026-10-30", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-originals-ms-brick-bx"},
 "15473534992657": {"available": true, "name": "POKEMON MEGA RAYQUAZA EX PREM", "price": "50.00", "published": "2026-11-05", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-mega-rayquaza-ex-prem"},
 "15473596268817": {"available": true, "name": "POKEMON VALENTINE'S BOX", "price": "9.50", "published": "2026-11-05", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-valentines-box"},
 "15473608982801": {"available": true, "name": "2027 LEAF JAMES DEAN COLLECTION", "price": "185.00", "published": "2026-11-03", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-james-dean-collection"},
