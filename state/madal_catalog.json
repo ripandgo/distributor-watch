@@ -1,6 +1,6 @@
 {
-"count": 7251,
-"fetched_at": "2026-11-13T02:03:41.406625+00:00",
+"count": 7252,
+"fetched_at": "2026-11-13T02:08:23.727616+00:00",
 "pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
@@ -3899,6 +3899,7 @@
 "21637": {"badge": "&nbsp;", "maker": "Boston America Corp", "name": "Elf Pass The Syrup Maple Candy Tin 1.5oz 18ct", "preorder_status": "", "sku": "BOS17615", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/product/21637"},
 "21638": {"badge": "&nbsp;", "maker": "Boston America Corp", "name": "Scooby-Doo Scooby Snacks Slider Tin 1.2oz 12ct", "preorder_status": "", "sku": "BOS17661", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Scooby-Doo-Scooby-Snacks-Slider-Tin-1.2-Ounce-12-Count"},
 "21639": {"badge": "&nbsp;", "maker": "Boston America Corp", "name": "Scooby-Doo Mystery Machine Tin 1.2oz 12ct", "preorder_status": "", "sku": "BOS17662", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Scooby-Doo-Mystery-Machine-Tin-1.2-Ounce-12-Count"},
+"21651": {"badge": "&nbsp;", "maker": "Perfetti Van Melle USA Inc.", "name": "Melody Pops 0.53oz 30ct", "preorder_status": "", "sku": "PVM61376", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Melody-Pops-0.53-Ounce-30-Count"},
 "21838": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Pound of Assorted (80-100ct Bag)", "preorder_status": "", "sku": "CHX001d6", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-D6-Assorted-Pound-of-D6s"},
 "21839": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Pound of Assorted (80-100ct Bag)", "preorder_status": "", "sku": "CHX001LB", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-Assorted-Pound-of-Dice"},
 "21841": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Counters Translucent Clear Glass Stones 40ct Tube", "preorder_status": "", "sku": "CHX01121", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Gaming-Stones-4-Tube-of-23-27-Clear-Glass"},
@@ -5002,7 +5003,7 @@
 "33695": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Gemini Black-White/Pink 7ct Set", "preorder_status": "", "sku": "CHX26469", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Gemini-Polyhedral-Black-White-Pink-7-Die-Set"},
 "33696": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Gemini Plasma Green-Teal/Orange Luminary 7ct Set", "preorder_status": "", "sku": "CHX26470", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-Polyhedral-Plasma-Green-Teal-Orange-Luminary-7-Die-Set-A"},
 "33697": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Black-White/Pink 16mm 12ct Set", "preorder_status": "", "sku": "CHX26669", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-16mm-D6-Black-White-Pink-Dice-Block-12-Dice"},
-"33698": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Plasma Green-Teal/Orange Luminary 16mm 12ct Set", "preorder_status": "", "sku": "CHX26670", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-16mm-D6-Plasma-Green-Teal-Orange-Luminary-Dice-Block-12-Dice"},
+"33698": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Plasma Green-Teal/Orange Luminary 16mm 12ct Set", "preorder_status": "", "sku": "CHX26670", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Gemini-16mm-D6-Plasma-Green-Teal-Orange-Luminary-Dice-Block-12-Dice"},
 "33699": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Black-White/Pink 12mm 36ct Set", "preorder_status": "", "sku": "CHX26869", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-12mm-D6-Black-White-Pink-Dice-Block-36-Dice"},
 "33700": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Plasma Green-Teal/Orange Luminary 12mm 36ct Set", "preorder_status": "", "sku": "CHX26870", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Gemini-12mm-D6-Plasma-Green-Teal-Orange-Luminary-Dice-Block-36-Dice"},
 "33705": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Festive Symphony/White 7ct Set", "preorder_status": "", "sku": "CHX27543", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Festive-Polyhedral-Symphony-White-7-Die-Set"},
