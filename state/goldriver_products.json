@@ -1,6 +1,6 @@
 {
 "count": 1119,
-"fetched_at": "2026-11-13T19:43:01.638342+00:00",
+"fetched_at": "2026-11-13T19:48:01.400359+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1013,7 +1013,7 @@
 "11206392643857": {"available": false, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
 "11207045644561": {"available": false, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
 "11207076118801": {"available": true, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
-"11207092928785": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
+"11207092928785": {"available": false, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
 "11207106920721": {"available": false, "name": "POKEMON M.E. DELTA REIGN BOOSTER BUNDLE- Limit 1 cs", "price": "38.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-bst-bnd"},
 "11209275769105": {"available": true, "name": "2026 PANINI CROWN ROYALE WNBA", "price": "128.75", "published": "2026-09-04", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-crown-royale-wnba"},
 "11210283647249": {"available": true, "name": "26 TOPPS SERIES 2 BASEBALL BLASTER", "price": "28.50", "published": "2026-09-14", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-series-2-bse-blasters"},
