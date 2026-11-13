@@ -1,6 +1,6 @@
 {
 "count": 1119,
-"fetched_at": "2026-11-13T15:45:56.028411+00:00",
+"fetched_at": "2026-11-13T15:50:56.063296+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -939,7 +939,7 @@
 "11120350560529": {"available": false, "name": "2027 DECISION 250 TRADING CARDS", "price": "132.50", "published": "2026-07-23", "type": "", "url": "https://goldriverdistributors.com/products/2027-decision-250-trading-cards"},
 "11124091027729": {"available": true, "name": "2026 PANINI K LEAGUE REVOLUTION SOCCER", "price": "35.00", "published": "2026-07-20", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-k-league-rev-soccer"},
 "11125787066641": {"available": false, "name": "POKEMON 30TH CELEBRATION ETB-Limit 2 Cs", "price": "100.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celebration-etb"},
-"11126262923537": {"available": true, "name": "POKEMON 30TH CELEBRATION POSTER COL.-Limit 2 Cs", "price": "27.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celeb-poster-col"},
+"11126262923537": {"available": false, "name": "POKEMON 30TH CELEBRATION POSTER COL.-Limit 2 Cs", "price": "27.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celeb-poster-col"},
 "11126475358481": {"available": false, "name": "POKEMON 30TH CELEBRATION EX BOX", "price": "38.00", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celebration-ex-bx"},
 "11128507302161": {"available": true, "name": "26 PANINI PRIZM HOBBY BASEBALL", "price": "225.00", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-prizm-hobby-baseball"},
 "11133020471569": {"available": true, "name": "2026 PANINI TURN FOUR RACING", "price": "185.00", "published": "2026-08-07", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-turn-four-racing"},
@@ -952,7 +952,7 @@
 "11138634809617": {"available": false, "name": "2025 DONRUSS OPTIC NWSL", "price": "98.50", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/2025-donruss-optic-nwsl"},
 "11139719823633": {"available": true, "name": "2026 PANINI THREE & TWO BASEBALL", "price": "193.50", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-three-two-baseball"},
 "11139775856913": {"available": false, "name": "POKEMON 30TH CELEBRATION BOOSTER BUNDLE-LIMIT 10 UNITS", "price": "63.50", "published": "2026-07-16", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celeb-bst-bnd"},
-"11139810951441": {"available": true, "name": "POKEMON 30TH CELEBRATION MINI TIN-Limit 1 Display", "price": "180.00", "published": "2026-09-16", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celeb-mini-tin"},
+"11139810951441": {"available": false, "name": "POKEMON 30TH CELEBRATION MINI TIN-Limit 1 Display", "price": "180.00", "published": "2026-09-16", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celeb-mini-tin"},
 "11139835625745": {"available": true, "name": "POKEMON 30TH CELEBRATION BINDER", "price": "20.00", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-30th-celeb-binder"},
 "11140434166033": {"available": false, "name": "POKEMON CHINESE CHASING GLORY TOGETHER CSV10C JUMBO", "price": "50.50", "published": "2026-07-23", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-chinese-ch-glr-csv10-jum"},
 "11140623466769": {"available": true, "name": "26 TOPPS FINEST BASEBALL HOBBY", "price": "665.00", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-finest-bse-hobby"},
