@@ -1,6 +1,6 @@
 {
 "count": 1119,
-"fetched_at": "2026-11-13T20:27:24.040046+00:00",
+"fetched_at": "2026-11-13T20:32:23.596572+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1012,7 +1012,7 @@
 "11205382799633": {"available": true, "name": "25 TOPPS CHROME BLACK BASKETBALL", "price": "465.00", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-chrome-black-bsk"},
 "11206392643857": {"available": false, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
 "11207045644561": {"available": false, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
-"11207076118801": {"available": true, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
+"11207076118801": {"available": false, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
 "11207092928785": {"available": false, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
 "11207106920721": {"available": false, "name": "POKEMON M.E. DELTA REIGN BOOSTER BUNDLE- Limit 1 cs", "price": "38.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-bst-bnd"},
 "11209275769105": {"available": true, "name": "2026 PANINI CROWN ROYALE WNBA", "price": "128.75", "published": "2026-09-04", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-crown-royale-wnba"},
