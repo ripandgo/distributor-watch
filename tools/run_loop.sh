@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Run python -m watch every 5 minutes for up to LOOP_SECS (default 3300 = 55 min).
-# Commits public state after each successful pass. Stops when the in-code
-# weekday 5 AM-10 PM CT window ends, when the budget is used, or after a
-# single pass when LOOP=0 (manual workflow_dispatch default).
+# Commits public state after each successful pass. Stops when the legacy
+# weekday 4 AM-10 PM CT window ends (never, while ALWAYS_ON is set), when
+# the budget is used, or after a single pass when LOOP=0 (manual
+# workflow_dispatch default).
 set -uo pipefail
 ARGS=${WATCH_ARGS:-}
 LOOP=${LOOP:-0}

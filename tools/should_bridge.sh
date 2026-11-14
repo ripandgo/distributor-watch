@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-# Exit 0 if an overnight bridge should be dispatched: the weekday window is
+# Exit 0 if an overnight bridge should be dispatched: the watch window is
 # closed, and no other bridge run is already in_progress or queued.
 # Exit 1 otherwise (still inside the window, or a bridge is already going).
+# In 24/7 mode (watch.window.ALWAYS_ON) the window never closes, so this
+# exits 1 and the scanning chain does not hand off to a bridge.
 set -euo pipefail
 HERE=$(cd "$(dirname "$0")" && pwd)
 cd "$HERE/.."

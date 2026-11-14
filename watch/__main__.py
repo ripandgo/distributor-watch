@@ -108,7 +108,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(prog="python -m watch")
     ap.add_argument("--dry-run", action="store_true", help="print the payload instead of POSTing")
     ap.add_argument("--no-save", action="store_true", help="do not write state")
-    ap.add_argument("--force", action="store_true", help="ignore the 5 AM-10 PM weekday window")
+    ap.add_argument("--force", action="store_true", help="ignore the watch window (no effect in 24/7 mode)")
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--skip-sites", action="store_true")
     ap.add_argument("--asm-pdf", nargs="*", default=[], help="local ASM PDF(s) to process (testing)")

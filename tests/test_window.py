@@ -7,6 +7,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import watch.window as window_mod
 from watch.window import (
     TZ,
     WINDOW,
@@ -16,7 +17,35 @@ from watch.window import (
     should_chain,
     next_window_start,
     bridge_plan,
+    in_weekday_window,
 )
+
+WORKFLOW = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    ".github", "workflows", "watch.yml",
+)
+
+
+class legacy_window:
+    """Run a block with the legacy weekday window (ALWAYS_ON = False)."""
+
+    def __enter__(self):
+        self._prev = window_mod.ALWAYS_ON
+        window_mod.ALWAYS_ON = False
+
+    def __exit__(self, *exc):
+        window_mod.ALWAYS_ON = self._prev
+        return False
+
+
+def legacy(fn):
+    """Decorator: run a legacy-schedule test with ALWAYS_ON = False."""
+    def wrapper(*a, **k):
+        with legacy_window():
+            return fn(*a, **k)
+    wrapper.__name__ = fn.__name__
+    wrapper.__doc__ = fn.__doc__
+    return wrapper
 
 
 def at(year, month, day, hour, minute, label=None):
@@ -45,6 +74,7 @@ def check(ts, expect_in, expect_chain, name):
     assert got_ch == expect_chain, f"{name}: should_chain={got_ch}, expected {expect_chain}"
 
 
+@legacy
 def test_requested_timestamps():
     print("requested timestamps")
     # 3:59 AM CT weekday: still closed; do not chain (bridge / 4:00 AM cron restarts).
@@ -58,6 +88,7 @@ def test_requested_timestamps():
     check(at(*SAT_CST, 4, 0), False, False, "4:00 AM CT Saturday")
 
 
+@legacy
 def test_edges():
     print("window edges")
     check(at(*WED_CST, 4, 0), True, True, "4:00 AM CT Wednesday (open)")
@@ -84,7 +115,7 @@ def _cron_hits(minute, hour, dow, minute_star, hour_range, dow_range):
 
 
 def cron_fires(utc_dt):
-    """Whether either backup cron line would fire at this UTC datetime."""
+    """Whether either LEGACY weekday backup cron line would fire at this UTC datetime."""
     # GitHub: 0=Sun ... 6=Sat. Python weekday() is 0=Mon ... 6=Sun.
     dow = (utc_dt.weekday() + 1) % 7
     m, h = utc_dt.minute, utc_dt.hour
@@ -106,8 +137,9 @@ def first_in_window_fire(date_ct):
     return None
 
 
-def test_backup_cron_covers_5am_and_window():
-    print("backup cron coverage")
+@legacy
+def test_legacy_backup_cron_covers_5am_and_window():
+    print("legacy backup cron coverage")
     # A Monday in CST and a Monday in CDT must have a fire at 4:00 AM CT
     # (or no later than 4:30) so the chain can restart if the bridge misses.
     for label, ymd in (
@@ -142,7 +174,7 @@ def test_backup_cron_covers_5am_and_window():
         print(f"  ok: {label}: last cron at {hit.astimezone(TZ):%H:%M %Z}")
 
     # Cron expressions themselves: valid 5-field, */30 step, inclusive ranges.
-    # Must match .github/workflows/watch.yml (union of CST and CDT offsets).
+    # Legacy lines (union of CST and CDT offsets); the workflow now uses */30 * * * *.
     lines = ["*/30 9-23 * * 1-5", "*/30 0-3 * * 2-6"]
     for line in lines:
         parts = line.split()
@@ -174,6 +206,7 @@ def _assert_start(ts, want, name):
     assert got == want, f"{name}: next_window_start={got}, expected {want}"
 
 
+@legacy
 def test_next_window_start():
     print("next_window_start")
     # Wednesday 10:00 PM CST -> Thursday 4:00 AM CST.
@@ -255,6 +288,7 @@ def _assert_arrival(start, want, name, min_hops=1):
     return hops, arrival
 
 
+@legacy
 def test_bridge_plan_wed_cst_to_thu():
     print("bridge plan: Wed 10:00 PM CST -> Thu 4:00 AM CST")
     start = at(*WED_CST, 22, 0)
@@ -266,6 +300,7 @@ def test_bridge_plan_wed_cst_to_thu():
     assert arrival == want
 
 
+@legacy
 def test_bridge_plan_fri_to_mon():
     print("bridge plan: Fri 10:00 PM CST -> Mon 4:00 AM CST (multiple hops)")
     start = at(*FRI_CST, 22, 0)
@@ -279,6 +314,7 @@ def test_bridge_plan_fri_to_mon():
     assert arrival == want
 
 
+@legacy
 def test_bridge_plan_cdt():
     print("bridge plan: Wed 10:00 PM CDT -> Thu 4:00 AM CDT")
     start = at(*WED_CDT, 22, 0)
@@ -291,6 +327,7 @@ def test_bridge_plan_cdt():
     assert real_seconds(start, want) == 6 * 3600
 
 
+@legacy
 def test_bridge_plan_dst_transitions():
     print("bridge plan: DST transition nights")
     # Fall back, Sunday 2026-11-01: Friday 10 PM CDT -> Monday 4 AM CST.
@@ -314,6 +351,7 @@ def test_bridge_plan_dst_transitions():
     assert arrival == want
 
 
+@legacy
 def test_bridge_plan_woke_early():
     print("bridge plan: woke slightly early / already at or in the window")
     target = at(2026, 11, 12, 4, 0)  # Thursday 4:00 AM CST
@@ -348,6 +386,7 @@ def test_bridge_plan_woke_early():
     print("  ok: Wed 10:00 AM CST (in window) -> sleep 0s, action loop")
 
 
+@legacy
 def test_bridge_plan_sleep_cap():
     print("bridge plan: sleep cap")
     assert MAX_BRIDGE_SLEEP == 19800
@@ -358,11 +397,69 @@ def test_bridge_plan_sleep_cap():
     print("  ok: 6h remaining caps at 5h30m and continues as a bridge")
 
 
+def _workflow_crons():
+    crons = []
+    for line in open(WORKFLOW):
+        t = line.strip()
+        if t.startswith("- cron:"):
+            crons.append(t.split(":", 1)[1].strip().strip('"').strip("'"))
+    return crons
+
+
+def test_always_on_window():
+    print("24/7 window")
+    assert window_mod.ALWAYS_ON is True, "24/7 mode should be on"
+    stamps = [
+        ("Sat 10:00 AM CST", at(*SAT_CST, 10, 0)),
+        ("Sat 3:00 AM CST", at(*SAT_CST, 3, 0)),
+        ("Sun 11:30 PM CST", at(2026, 11, 15, 23, 30)),
+        ("Wed 10:00 PM CST", at(*WED_CST, 22, 0)),
+        ("Wed 3:59 AM CST", at(*WED_CST, 3, 59)),
+        ("Fri 10:00 PM CST", at(*FRI_CST, 22, 0)),
+        ("Wed 4:30 AM CDT", at(*WED_CDT, 4, 30)),
+        ("Sun 1:30 AM fall-back", at(2026, 11, 1, 1, 30)),
+    ]
+    for name, ts in stamps:
+        check(ts, True, True, name)
+    # Every 5 minutes for a full week: always in window, always chain.
+    t = at(2026, 11, 14, 0, 0)
+    for _ in range(7 * 24 * 12):
+        assert in_window(t) and should_chain(t), f"not in window at {t}"
+        t = _advance(t, 300)
+    print("  ok: every 5-minute slot for a week is in window and chains")
+    # The legacy check is still available and unchanged.
+    assert not in_weekday_window(at(*SAT_CST, 10, 0))
+    assert in_weekday_window(at(*WED_CST, 10, 0))
+    print("  ok: legacy in_weekday_window unchanged")
+
+
+def test_always_on_bridge_is_immediate_loop():
+    print("24/7 bridge plan")
+    for name, ts in (
+        ("Fri 10:00 PM CST", at(*FRI_CST, 22, 0)),
+        ("Sat 10:00 AM CST", at(*SAT_CST, 10, 0)),
+        ("Wed 11:00 PM CDT", at(*WED_CDT, 23, 0)),
+    ):
+        p = bridge_plan(ts)
+        assert p.action == "loop" and p.sleep_seconds == 0, f"{name}: {p}"
+        print(f"  ok: {name}: bridge would dispatch loop immediately")
+
+
+def test_workflow_cron_is_every_30_min_all_day():
+    print("24/7 backup cron")
+    crons = _workflow_crons()
+    assert crons == ["*/30 * * * *"], f"workflow crons are {crons}"
+    print(f"  ok: workflow cron {crons}")
+
+
 if __name__ == "__main__":
     test_window_constants()
+    test_always_on_window()
+    test_always_on_bridge_is_immediate_loop()
+    test_workflow_cron_is_every_30_min_all_day()
     test_requested_timestamps()
     test_edges()
-    test_backup_cron_covers_5am_and_window()
+    test_legacy_backup_cron_covers_5am_and_window()
     test_next_window_start()
     test_bridge_plan_wed_cst_to_thu()
     test_bridge_plan_fri_to_mon()
