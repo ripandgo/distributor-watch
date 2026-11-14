@@ -4,51 +4,38 @@ name: distributor-watch
 # and should_bridge.sh can count them separately (see concurrency below).
 run-name: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.bridge == 'true' && 'distributor-watch-bridge' || 'distributor-watch' }}
 
+# 24/7 MODE (since 2026-11-14): the watch scans every 5 minutes around the
+# clock, every day, with no off-hours window (watch.window.ALWAYS_ON = True).
+# Webhook/email still fire only when something actually changes.
+#
 # GitHub cron is UTC-only and best-effort. It is not a reliable 5-minute
-# timer: a */5 schedule was throttled to ~20 minutes (23:36Z manual, then
-# 00:33Z, 00:53Z), and after the workflow was switched to */20 at 01:09Z
-# no scheduled run fired through at least 01:56Z (missed 01:20 and 01:40).
-# The workflow stayed active; the cron expressions were valid. Cadence
-# therefore cannot depend on cron. The same slippage showed up as a ~54
-# minute late first morning start when the chain had to wait on cron.
+# timer (a */5 schedule was throttled to ~20 minutes, and a */20 schedule
+# missed slots entirely), so cadence cannot depend on cron.
 #
 # Primary cadence: each scanning job loops every 5 minutes for ~55 minutes,
 # commits state after each pass, then triggers the next run with
 # `gh workflow run` (GITHUB_TOKEN is allowed to fire workflow_dispatch).
-# When the weekday window closes, that last scanning run dispatches a
-# bridge job (workflow_dispatch input bridge=true) instead of a loop.
-# A bridge does no scanning, webhook, or state commit. It sleeps until
-# the next weekday 4:00 AM America/Chicago (DST-aware; Friday/weekend
-# rolls to Monday), in hops of at most 5 hours 30 minutes so each job
-# stays under the 6-hour Actions limit, then starts a loop=true run
-# (or another bridge hop if the target is still further out).
-# Cron is only a backup restarter every 30 minutes in the window, including
-# 4:00 AM CT (5 AM ET).
+# In 24/7 mode should_chain is always true, so the chain never stops and no
+# overnight/weekend bridge is dispatched. The bridge job (workflow_dispatch
+# input bridge=true) is kept only for the legacy weekday window; if one is
+# ever started now, bridge_plan returns an immediate loop=true dispatch
+# (and skip_if_other_run.sh drops it if a scanning chain is already going).
 #
-# The two UTC cron lines cover BOTH Central offsets, with the in-code
-# window guard (watch.window.in_window) dropping the extra hour each side:
-#   CDT (UTC-5, Mar-Nov): 4:00-21:59 CT = 09:00-02:59 UTC
-#   CST (UTC-6, Nov-Mar): 4:00-21:59 CT = 10:00-03:59 UTC
-# Union = 09:00-23:59 UTC Mon-Fri, plus 00:00-03:59 UTC Tue-Sat
-# (= Mon-Fri evening CT). 09:00 UTC Mon-Fri = 4:00 AM CDT;
-# 10:00 UTC Mon-Fri = 4:00 AM CST. DST changes need no edits here.
+# Cron is only a backup restarter: every 30 minutes, every hour, every day
+# (UTC; no DST edits needed). A backup cron that lands while the chain is
+# running exits immediately via skip_if_other_run.sh.
 #
-# Public repo = unlimited free Actions minutes. A weekday is ~17 hours of
-# nearly continuous scanning (~55 min loop + ~2-3 min setup, ~17 times)
-# plus a couple of skipped backup crons (~1,050 minutes/weekday, ~5,250
-# minutes/week of scanning) plus overnight bridge sleep: about 6 hours
-# Mon-Thu nights and ~54 hours Friday 10 PM CT to Monday 4 AM CT
-# (~4,700 minutes/week of sleeping runners). Still free only while the
-# repo is public. Do not make this repo private; that would burn far past
-# the 2,000 free private minutes/month.
+# Public repo = unlimited free Actions minutes. 24/7 scanning is ~1,440
+# runner-minutes/day (~10,000/week), free only while the repo is public.
+# Do not make this repo private; that would burn far past the 2,000 free
+# private minutes/month.
 "on":
   schedule:
-    - cron: "*/30 9-23 * * 1-5"
-    - cron: "*/30 0-3 * * 2-6"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       force:
-        description: "Run even outside the 4 AM-10 PM weekday window"
+        description: "Run even outside the watch window (no effect in 24/7 mode)"
         type: boolean
         default: false
       dry_run:
@@ -60,7 +47,7 @@ run-name: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.br
         type: boolean
         default: false
       bridge:
-        description: "Overnight wait until the next weekday 4 AM CT window; no scanning"
+        description: "Legacy overnight wait for the weekday window; in 24/7 mode it dispatches a loop immediately"
         type: boolean
         default: false
 
@@ -159,7 +146,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if bash tools/should_chain.sh; then
-            echo "Still inside the CT weekday window; dispatching the next run"
+            echo "Inside the watch window (24/7); dispatching the next run"
             ARGS="-f loop=true"
             if [ "${{ inputs.dry_run }}" = "true" ]; then
               ARGS="$ARGS -f dry_run=true"

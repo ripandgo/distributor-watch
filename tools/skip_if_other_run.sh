@@ -8,8 +8,8 @@
 #   - a loop started by a bridge is not skipped just because the bridge is
 #     still finishing its dispatch step
 #   - a second bridge exits if one is already sleeping or queued
-#   - a backup cron at 4:00 AM CT exits if a scanning chain is already going
-#     (the morning overlap of cron + bridge-dispatched loop)
+#   - a backup cron exits if a scanning chain is already going
+#     (every */30 slot in 24/7 mode; previously the 4:00 AM CT overlap)
 #
 # Set IS_BRIDGE=true in the environment when this run is a bridge hop.
 set -euo pipefail

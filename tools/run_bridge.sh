@@ -4,6 +4,10 @@
 # dispatch either another bridge hop or a looping scan. No scanning, no
 # webhook, and no state commit.
 #
+# In 24/7 mode bridge_plan returns sleep 0 and action "loop", so this job
+# dispatches a scanning run immediately and does not sleep. skip_if_other_run.sh
+# on that run drops it when a scanning chain is already going.
+#
 # After the sleep, the plan is recomputed so a DST shift or an early wake is
 # handled. A remaining wait of at most 2 minutes is finished in this job so
 # the loop starts inside the window; a longer remainder becomes another hop

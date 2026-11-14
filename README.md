@@ -14,26 +14,31 @@ watch/gmail_imap.py  read-only IMAP check of All Mail + Trash for distributor se
 watch/asm.py         ASM Inventory PDF -> pdftotext -layout -> price/new/removed diff
 watch/state.py       per-source JSON state in state/ (one item per line, small git deltas);
                      ASM prices + Gmail ids go to state/private/ (gitignored, Actions cache)
-watch/window.py      weekday 4 AM-10 PM CT window (DST-aware), chain decision,
-                     and overnight bridge planning (next_window_start, bridge_plan)
+watch/window.py      24/7 scan gate (ALWAYS_ON); legacy weekday 4 AM-10 PM CT
+                     window and bridge planner kept for ALWAYS_ON = False
 watch/__main__.py    runner: window guard, scan, filter, compact payload, POST or exit quietly, save state
 watch/payload.py      cap the webhook JSON under 6 KB; summary + per-source counts first
-.github/workflows/watch.yml   self-chaining 55-min scanning jobs (5-min inner loop),
-                             overnight bridge hops to the next weekday 4 AM CT
-                             (5 AM ET), plus a */30 backup cron (UTC, covers
-                             CST+CDT); concurrency split so a sleeping bridge
-                             cannot block a scan; commits state/ after each pass
+.github/workflows/watch.yml   self-chaining 55-min scanning jobs (5-min inner loop)
+                             around the clock, plus a */30 backup cron all day;
+                             legacy bridge job remains but does not sleep while
+                             ALWAYS_ON is set; one scanning chain via the
+                             duplicate-run guard; commits state/ after each pass
 tools/run_loop.sh             5-minute inner loop for a scanning run
-tools/run_bridge.sh           sleep one hop (up to 5h30m), then dispatch loop or another bridge
-tools/should_chain.sh         exit 0 if still inside the weekday window
-tools/should_bridge.sh        exit 0 if the window is closed and no bridge is already going
+tools/run_bridge.sh           legacy hop (up to 5h30m); in 24/7 mode dispatches a loop immediately
+tools/should_chain.sh         exit 0 when a follow-on loop should start (always, in 24/7 mode)
+tools/should_bridge.sh        exit 0 only if the legacy window is closed and no bridge is going
 tools/skip_if_other_run.sh    skip a second scanning chain or a second bridge (counts them separately)
 tools/render_preview.py       payload -> plain-text coverage checklist (for TEST_PLAN.md)
 tests/               noise unit tests, window/bridge plan tests, ASM fixture PDFs (11/09, 11/10) + expected diff
 ```
 
-Cadence: a scanning run loops every 5 minutes for about 55 minutes, then
-starts the next scanning run itself. When the weekday window closes (10 PM CT),
+Cadence (24/7 since 2026-11-14): a scanning run loops every 5 minutes for about
+55 minutes, then starts the next scanning run itself, around the clock, every
+day (`watch.window.ALWAYS_ON = True`). The backup cron is `*/30 * * * *`
+(every 30 minutes, every day). Set `ALWAYS_ON = False` and restore the two weekday cron lines to
+go back to the legacy schedule described next.
+
+Legacy schedule: when the weekday window closes (10 PM CT),
 that last run dispatches a *bridge* job instead. A bridge does no scanning and
 no webhook; it sleeps until the next weekday 4:00 AM CT (5 AM ET; Friday night
 and the weekend roll to Monday), in hops of at most 5 hours 30 minutes so each
@@ -45,8 +50,8 @@ still runs the 55-minute loop.
 Run locally:
 ```
 python3 -m watch --seed-from /workspace/distro-monitor/state.json   # one-time baseline import
-python3 -m watch --dry-run            # print payload instead of POSTing (inside window)
-python3 -m watch --dry-run --force    # ignore the weekday 4 AM-10 PM CT window
+python3 -m watch --dry-run            # print payload instead of POSTing
+python3 -m watch --dry-run --force    # ignore the watch window (no effect in 24/7 mode)
 python3 -m watch --skip-sites --asm-pdf old.pdf new.pdf --no-save --dry-run --force
 python3 tests/test_noise.py
 python3 tests/test_window.py

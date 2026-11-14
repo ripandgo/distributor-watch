@@ -1,13 +1,23 @@
-"""Weekday 4:00-21:59 America/Chicago (4 AM CT = 5 AM ET) window, DST-aware via ZoneInfo.
+"""Watch window, DST-aware via ZoneInfo.
 
-When the window closes, a bridge job sleeps (in hops of at most MAX_BRIDGE_SLEEP)
-until the next weekday 04:00, then starts a looping scan. Cron is only a backup.
+24/7 MODE (ALWAYS_ON = True, set 2026-11-14 at Martin's request): the watch
+scans every 5 minutes around the clock, every day. in_window() is always
+True, so should_chain() always chains and the overnight/weekend bridge never
+fires (bridge_plan() returns an immediate "loop" if a bridge is ever started).
+
+The legacy weekday 4:00-21:59 America/Chicago window and the bridge planner
+are kept below (used when ALWAYS_ON is False) so the old schedule can be
+restored by flipping one flag.
 """
 import datetime as dt
 from dataclasses import dataclass
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/Chicago")
+
+# Scan 24/7 with no off-hours window. Set to False to restore the legacy
+# weekday 4 AM-10 PM CT window with overnight/weekend bridges.
+ALWAYS_ON = True
 WINDOW = (4 * 60, 21 * 60 + 59)  # 04:00-21:59 Central (5 AM Eastern), Mon-Fri
 
 # Stay well under GitHub Actions' 6-hour (360 min) job limit.
@@ -22,22 +32,36 @@ def _aware(now):
     return now.astimezone(TZ) if now.tzinfo else now.replace(tzinfo=TZ)
 
 
-def in_window(now):
+def in_weekday_window(now):
     """True if `now` is Mon-Fri 04:00-21:59 America/Chicago (DST-aware)."""
     loc = _aware(now)
     m = loc.hour * 60 + loc.minute
     return loc.weekday() < 5 and WINDOW[0] <= m <= WINDOW[1]
 
 
+def in_window(now):
+    """True if the watch should scan at `now`.
+
+    Always True in 24/7 mode (ALWAYS_ON); otherwise the legacy weekday
+    04:00-21:59 America/Chicago window.
+    """
+    if ALWAYS_ON:
+        return True
+    return in_weekday_window(now)
+
+
 def should_chain(now):
     """True if a follow-on looping workflow_dispatch should be triggered.
 
-    Only when *now* is still inside the window. We do not chain just because
-    the next 5-minute slot would be in-window: a delayed pre-window cron
-    landing at 3:59 AM CT would otherwise dispatch immediately, and a fast
-    follow-on could tight-loop skipped jobs until 4:00. When the window has
-    closed, the overnight bridge (see bridge_plan) restarts the chain at the
-    next weekday 4:00 AM CT; the in-window backup cron is the fallback.
+    In 24/7 mode (ALWAYS_ON) this is always true, so the chain never stops
+    for the clock and no overnight bridge is started. Under the legacy
+    weekday window it is true only when *now* is still inside the window.
+    We do not chain just because the next 5-minute slot would be in-window:
+    a delayed pre-window cron landing at 3:59 AM CT would otherwise dispatch
+    immediately, and a fast follow-on could tight-loop skipped jobs until
+    4:00. When that legacy window has closed, the overnight bridge (see
+    bridge_plan) restarts the chain at the next weekday 4:00 AM CT; the
+    in-window backup cron is the fallback.
     """
     return in_window(now)
 
