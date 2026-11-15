@@ -1,10 +1,9 @@
 {
 "count": 200,
-"fetched_at": "2026-11-15T05:54:26.022236+00:00",
-"pending": {},
+"fetched_at": "2026-11-15T05:59:25.421827+00:00",
+"pending": {"78323": {"item": {"name": "Abomination Vaults: A Pathfinder Novel", "order_due": "09/28/2026", "release_date": "11/04/2026", "sku": "PZO18006-HC", "url": "https://www.southernhobby.com/abomination-vaults-a-pathfinder-novel/p78323/"}, "since": "2026-11-15T05:59:25.421827+00:00"}, "80966": {"item": {"name": "2025/26 Panini WNBA Impeccable Basketball", "order_due": "08/04/2026", "release_date": "11/04/2026", "sku": "PO26BKWNBAIMP", "url": "https://www.southernhobby.com/2025-26-panini-wnba-impeccable-basketball/p80966/"}, "since": "2026-11-15T05:59:25.421827+00:00"}, "82488": {"item": {"name": "NFL Jumbo Squeezy Surprise!: 2027 - Blind Box CDU/18", "order_due": "09/30/2026", "release_date": "11/04/2026", "sku": "PTAJSGNF6", "url": "https://www.southernhobby.com/nfl-jumbo-squeezy-surprise-2027-blind-box-cdu-18/p82488/"}, "since": "2026-11-15T05:59:25.421827+00:00"}},
 "items": {
 "77673": {"name": "Upper Deck Minutes to Midnight Board Game", "order_due": "04/12/2026", "release_date": "11/11/2026", "sku": "UDE24299", "url": "https://www.southernhobby.com/upper-deck-minutes-to-midnight-board-game/p77673/"},
-"78323": {"name": "Abomination Vaults: A Pathfinder Novel", "order_due": "09/28/2026", "release_date": "11/04/2026", "sku": "PZO18006-HC", "url": "https://www.southernhobby.com/abomination-vaults-a-pathfinder-novel/p78323/"},
 "78653": {"name": "Boss Monster Junior", "order_due": "05/26/2026", "release_date": "11/11/2026", "sku": "BGM9407", "url": "https://www.southernhobby.com/boss-monster-junior/p78653/"},
 "78655": {"name": "Super Boss Monster 2: The Die is Cast", "order_due": "05/26/2026", "release_date": "11/11/2026", "sku": "BGM9391", "url": "https://www.southernhobby.com/super-boss-monster-2-the-die-is-cast/p78655/"},
 "78843": {"name": "Dragon Shield Dragon Lock System: Deck Box 80+ - Green Sand", "order_due": "06/01/2026", "release_date": "11/13/2026", "sku": "AT-40811", "url": "https://www.southernhobby.com/dragon-shield-lock-system-deck-box-80-green-sand/p78843/"},
@@ -67,7 +66,6 @@
 "80781": {"name": "Cardfight!! Vanguard Divinez: TB03 - Future Card Buddyfight - Disaster Force SP Kit", "order_due": "07/28/2026", "release_date": "11/13/2026", "sku": "BRIVGEDZTB03SP", "url": "https://www.southernhobby.com/cardfight-vanguard-divinez-tb03-future-card-buddyfight-disaster-force-sp-kit/p80781/"},
 "80840": {"name": "2025/26 Upper Deck Tableau Hockey", "order_due": "08/07/2026", "release_date": "11/11/2026", "sku": "UD26HKTAB", "url": "https://www.southernhobby.com/2025-26-upper-deck-tableau-hockey/p80840/"},
 "80922": {"name": "Cardfight!! Vanguard Divinez: BT17 - Parallactic Fate SP Kit", "order_due": "08/04/2026", "release_date": "11/13/2026", "sku": "BRIVGEDZBT17SP", "url": "https://www.southernhobby.com/cardfight-vanguard-divinez-bt17-parallactic-fate-sp-kit/p80922/"},
-"80966": {"name": "2025/26 Panini WNBA Impeccable Basketball", "order_due": "08/04/2026", "release_date": "11/04/2026", "sku": "PO26BKWNBAIMP", "url": "https://www.southernhobby.com/2025-26-panini-wnba-impeccable-basketball/p80966/"},
 "81056": {"name": "Shadowverse: Evolve Combined Set BP21-22 - Academy Royale & Dusk of Calamity Preview Trials Kit", "order_due": "08/11/2026", "release_date": "11/13/2026", "sku": "BRISVEEBP2122PTK", "url": "https://www.southernhobby.com/shadowverse-evolve-combined-set-bp21-22-academy-royale-dusk-of-calamity-preview-trials-kit/p81056/"},
 "81131": {"name": "Ultimate Guard Omnihive 1000+ Xenoskin Magic: The Gathering - \"Star Trek\" - Spaceship #3", "order_due": "09/30/2026", "release_date": "11/06/2026", "sku": "UGD012031", "url": "https://www.southernhobby.com/ultimate-guard-omnihive-1000-xenoskin-magic-the-gathering-star-trek-spaceship-3/p81131/"},
 "81132": {"name": "Ultimate Guard Omnihive 1000+ Xenoskin Magic: The Gathering - \"Star Trek\" - Mythic White", "order_due": "09/30/2026", "release_date": "11/06/2026", "sku": "UGD012032", "url": "https://www.southernhobby.com/ultimate-guard-omnihive-1000-xenoskin-magic-the-gathering-star-trek-mythic-white/p81132/"},
@@ -159,7 +157,6 @@
 "82401": {"name": "2026 Leaf Originals Multi-Sport", "order_due": "10/05/2026", "release_date": "11/06/2026", "sku": "LEA26MSORG", "url": "https://www.southernhobby.com/2026-leaf-originals-multi-sport/p82401/"},
 "82409": {"name": "2026/27 TRISTAR Hidden Treasures Autographed Basketball Jerseys Case", "order_due": "09/27/2026", "release_date": "11/13/2026", "sku": "TS2627BKHTJER", "url": "https://www.southernhobby.com/2026-27-tristar-hidden-treasures-autographed-basketball-jerseys-case/p82409/"},
 "82474": {"name": "2026 Leaf Sports Illustrated for Kids Multi-Sport", "order_due": "10/11/2026", "release_date": "11/13/2026", "sku": "LEA26MSSIK", "url": "https://www.southernhobby.com/2026-leaf-sports-illustrated-for-kids-multi-sport/p82474/"},
-"82488": {"name": "NFL Jumbo Squeezy Surprise!: 2027 - Blind Box CDU/18", "order_due": "09/30/2026", "release_date": "11/04/2026", "sku": "PTAJSGNF6", "url": "https://www.southernhobby.com/nfl-jumbo-squeezy-surprise-2027-blind-box-cdu-18/p82488/"},
 "82550": {"name": "Peanuts: Keshi Wave 03 (Snoopies) - Blind Box Display/24", "order_due": "10/14/2026", "release_date": "11/06/2026", "sku": "S7KE-PNUT-13500", "url": "https://www.southernhobby.com/peanuts-keshi-wave-03-snoopies-blind-box-display-24/p82550/"},
 "82551": {"name": "Peanuts: Keshi Wave 04 (Puffy Coat) - Blind Box Display/24", "order_due": "10/14/2026", "release_date": "11/06/2026", "sku": "S7KE-PNUT-13583", "url": "https://www.southernhobby.com/peanuts-keshi-wave-04-puffy-coat-blind-box-display-24/p82551/"},
 "82552": {"name": "SHREK: FUN! FUN! MINI WAVE 01 - Blind box Display/9", "order_due": "10/14/2026", "release_date": "11/06/2026", "sku": "S7FM-SHRK-12955", "url": "https://www.southernhobby.com/shrek-fun-mini-wave-01-blind-box-display-9/p82552/"},
@@ -202,6 +199,9 @@
 "83523": {"name": "StarCraft TMG: Protoss Wave 3 Bundle", "order_due": "10/21/2026", "release_date": "11/13/2026", "sku": "ARCSCMG0047", "url": "https://www.southernhobby.com/starcraft-tmg-protoss-wave-3-bundle/p83523/"},
 "83524": {"name": "StarCraft TMG: Terrain Bundle - Lost Temple", "order_due": "10/21/2026", "release_date": "11/13/2026", "sku": "ARCSCMG0048", "url": "https://www.southernhobby.com/starcraft-tmg-terrain-bundle-lost-temple/p83524/"},
 "83602": {"name": "2026 Onyx Vintage Extended Baseball", "order_due": "10/27/2026", "release_date": "11/09/2026", "sku": "OA26BBVEXT", "url": "https://www.southernhobby.com/2026-onyx-vintage-extended-baseball/p83602/"},
-"83603": {"name": "2026 Onyx Vintage Extended Baseball Mega Box", "order_due": "10/27/2026", "release_date": "11/09/2026", "sku": "OA26BBVEXTMB", "url": "https://www.southernhobby.com/2026-onyx-vintage-extended-baseball-mega-box/p83603/"}
+"83603": {"name": "2026 Onyx Vintage Extended Baseball Mega Box", "order_due": "10/27/2026", "release_date": "11/09/2026", "sku": "OA26BBVEXTMB", "url": "https://www.southernhobby.com/2026-onyx-vintage-extended-baseball-mega-box/p83603/"},
+"83789": {"name": "Jersey Fusion Black Pack - All Sports Edition Wave 2", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "SPT26JERFUSHMSBP2", "url": "https://www.southernhobby.com/jersey-fusion-black-pack-all-sports-edition-wave-2/p83789/"},
+"83790": {"name": "Cardsmiths - Rocky 50th Anniversary Trading Card Collector Box - 2-pack", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "CSC635176C", "url": "https://www.southernhobby.com/cardsmiths-rocky-50th-anniversary-trading-card-collector-box-2-pack/p83790/"},
+"84114": {"name": "2026 Leaf Originals Brick Box Multi-Sport", "order_due": "11/01/2026", "release_date": "11/15/2026", "sku": "LEA26MSORGBB", "url": "https://www.southernhobby.com/2026-leaf-originals-brick-box-multi-sport/p84114/"}
 }
 }

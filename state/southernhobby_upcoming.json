@@ -1,7 +1,7 @@
 {
-"count": 2793,
-"fetched_at": "2026-11-15T05:54:26.022236+00:00",
-"pending": {},
+"count": 2790,
+"fetched_at": "2026-11-15T05:59:25.421827+00:00",
+"pending": {"83789": {"item": {"name": "Jersey Fusion Black Pack - All Sports Edition Wave 2", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "SPT26JERFUSHMSBP2", "url": "https://www.southernhobby.com/jersey-fusion-black-pack-all-sports-edition-wave-2/p83789/"}, "since": "2026-11-15T05:59:25.421827+00:00"}, "83790": {"item": {"name": "Cardsmiths - Rocky 50th Anniversary Trading Card Collector Box - 2-pack", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "CSC635176C", "url": "https://www.southernhobby.com/cardsmiths-rocky-50th-anniversary-trading-card-collector-box-2-pack/p83790/"}, "since": "2026-11-15T05:59:25.421827+00:00"}, "84114": {"item": {"name": "2026 Leaf Originals Brick Box Multi-Sport", "order_due": "11/01/2026", "release_date": "11/15/2026", "sku": "LEA26MSORGBB", "url": "https://www.southernhobby.com/2026-leaf-originals-brick-box-multi-sport/p84114/"}, "since": "2026-11-15T05:59:25.421827+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -2440,8 +2440,6 @@
 "83781": {"name": "Lorcana TCG: Into the Inkdark Collector Booster Display (PRE-ALLOCATED)", "order_due": "12/14/2026", "release_date": "02/05/2027", "sku": "RAVS1505116", "url": "https://www.southernhobby.com/lorcana-tcg-into-the-inkdark-collector-booster-display-pre-allocated-/p83781/"},
 "83782": {"name": "Lorcana TCG: Into the Inkdark Playmat - Jack-Jack Parr, Incredible Potential", "order_due": "12/14/2026", "release_date": "02/12/2027", "sku": "RAVS1505126", "url": "https://www.southernhobby.com/lorcana-tcg-into-the-inkdark-playmat-jack-parr-incredible-potential/p83782/"},
 "83783": {"name": "Lorcana TCG: Into the Inkdark Playmat - Snow White, Merry as the Morning", "order_due": "12/14/2026", "release_date": "02/12/2027", "sku": "RAVS1505127", "url": "https://www.southernhobby.com/lorcana-tcg-into-the-inkdark-playmat-snow-white-merry-as-morning/p83783/"},
-"83789": {"name": "Jersey Fusion Black Pack - All Sports Edition Wave 2", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "SPT26JERFUSHMSBP2", "url": "https://www.southernhobby.com/jersey-fusion-black-pack-all-sports-edition-wave-2/p83789/"},
-"83790": {"name": "Cardsmiths - Rocky 50th Anniversary Trading Card Collector Box - 2-pack", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "CSC635176C", "url": "https://www.southernhobby.com/cardsmiths-rocky-50th-anniversary-trading-card-collector-box-2-pack/p83790/"},
 "83791": {"name": "Cardsmiths - Rocky 50th Anniversary Trading Card Mega Box", "order_due": "10/14/2026", "release_date": "12/15/2026", "sku": "CSC637774C", "url": "https://www.southernhobby.com/cardsmiths-rocky-50th-anniversary-trading-card-mega-box/p83791/"},
 "83793": {"name": "2026 TRISTAR Hidden Treasures Autographed Full-Sized Basketballs Case", "order_due": "11/02/2026", "release_date": "12/16/2026", "sku": "TS26BKHTFSBSR11", "url": "https://www.southernhobby.com/2026-tristar-hidden-treasures-autographed-full-sized-basketballs-case/p83793/"},
 "83795": {"name": "Bandai - Union Arena: Arknights Special Booster Box (UE31BT)", "order_due": "11/02/2026", "release_date": "06/18/2027", "sku": "BANTCGUAUE31BT", "url": "https://www.southernhobby.com/bandai-union-arena-arknights-special-booster-box-ue31bt-/p83795/"},
@@ -2524,7 +2522,6 @@
 "84111": {"name": "Megahouse Life Size Doll: Chainsaw Man - Pochita Doll", "order_due": "10/31/2026", "release_date": "03/30/2027", "sku": "MGH85125", "url": "https://www.southernhobby.com/megahouse-life-size-doll-chainsaw-man-pochita-doll/p84111/"},
 "84112": {"name": "Megami Device: PUNI- MOFU SHIRO MAO - Model Kit", "order_due": "11/11/2026", "release_date": "05/01/2027", "sku": "KBYKP912", "url": "https://www.southernhobby.com/megami-device-puni-mofu-shiro-mao-model-kit/p84112/"},
 "84113": {"name": "2027 Keepsake Bruce Lee Premiere Breaker Box", "order_due": "12/07/2026", "release_date": "03/19/2027", "sku": "KS27TCBLPBB", "url": "https://www.southernhobby.com/2027-keepsake-bruce-lee-premiere-breaker-box/p84113/"},
-"84114": {"name": "2026 Leaf Originals Brick Box Multi-Sport", "order_due": "11/01/2026", "release_date": "11/15/2026", "sku": "LEA26MSORGBB", "url": "https://www.southernhobby.com/2026-leaf-originals-brick-box-multi-sport/p84114/"},
 "84115": {"name": "13 Omens Core Rulebook", "order_due": "04/26/2027", "release_date": "06/02/2027", "sku": "PZO62001-HC", "url": "https://www.southernhobby.com/13-omens-core-rulebook/p84115/"},
 "84116": {"name": "13 Omens Core Rulebook - Special Edition", "order_due": "04/26/2027", "release_date": "06/02/2027", "sku": "PZO62001-SE", "url": "https://www.southernhobby.com/13-omens-core-rulebook-special-edition/p84116/"},
 "84117": {"name": "13 Omens: Dice Set", "order_due": "04/26/2027", "release_date": "06/02/2027", "sku": "PZO60001-MC", "url": "https://www.southernhobby.com/13-omens-dice-set/p84117/"},
