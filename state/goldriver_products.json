@@ -1,6 +1,6 @@
 {
-"count": 1123,
-"fetched_at": "2026-11-16T19:29:39.406378+00:00",
+"count": 1124,
+"fetched_at": "2026-11-16T19:34:39.946431+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -946,7 +946,7 @@
 "11137932034321": {"available": true, "name": "26 PANINI DONRUSS BASEBALL HOBBY BLASTER", "price": "17.50", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/26-panini-donruss-bse-blaster"},
 "11137933345041": {"available": true, "name": "25 PANINI DONRUSS BASKETBALL HOBBY BLASTER", "price": "23.50", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/25-panini-donruss-bsk-blaster"},
 "11137934000401": {"available": true, "name": "25 PANINI DONRUSS BASKETBALL HOBBY MEGA", "price": "45.00", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/25-panini-donruss-bsk-mega"},
-"11138633236753": {"available": true, "name": "2026 PANINI IMPECCABLE WNBA", "price": "585.00", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-impeccable-wnba"},
+"11138633236753": {"available": true, "name": "2026 PANINI IMPECCABLE WNBA", "price": "595.00", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-impeccable-wnba"},
 "11138633728273": {"available": true, "name": "26 PANINI PRIZM FIFA 24 COUNT RETAIL", "price": "40.00", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/26-panini-prizm-fifa-24-ct-ret"},
 "11138634809617": {"available": false, "name": "2025 DONRUSS OPTIC NWSL", "price": "98.50", "published": "2026-07-22", "type": "", "url": "https://goldriverdistributors.com/products/2025-donruss-optic-nwsl"},
 "11139719823633": {"available": true, "name": "2026 PANINI THREE & TWO BASEBALL", "price": "193.50", "published": "2026-09-01", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-three-two-baseball"},
@@ -1011,7 +1011,7 @@
 "11205374607633": {"available": true, "name": "POKEMON MEGA GRENINJA EX BATTLE DECK ( SUBJECT TO ALLOCATION)", "price": "18.75", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-mega-greninja-ex-bt-dk"},
 "11205382799633": {"available": true, "name": "25 TOPPS CHROME BLACK BASKETBALL", "price": "465.00", "published": "2026-08-31", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-chrome-black-bsk"},
 "11206392643857": {"available": false, "name": "26 TOPPS FLAGSHIP NFL BLASTER", "price": "29.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-blaster"},
-"11207045644561": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
+"11207045644561": {"available": false, "name": "POKEMON MEGA EVOLUTION DELTA REIGN BOOSTER-Limit 2 cs", "price": "175.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-booster"},
 "11207076118801": {"available": true, "name": "POKEMON M.E. DELTA REIGN ETB ( LIMIT 3 CASES)", "price": "72.50", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-etb"},
 "11207092928785": {"available": true, "name": "POKEMON MEGA EVOLUTION DELTA REIGN 3PACK BLISTER", "price": "19.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-3pk-bls"},
 "11207106920721": {"available": false, "name": "POKEMON M.E. DELTA REIGN BOOSTER BUNDLE- Limit 1 cs", "price": "38.00", "published": "2026-09-03", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-m-e-delta-reign-bst-bnd"},
@@ -1123,6 +1123,7 @@
 "15519535726865": {"available": true, "name": "26 TOPPS FLAGSHIP NBA HOBBY", "price": "225.00", "published": "2026-11-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-hobby"},
 "15521697956113": {"available": true, "name": "YU-GI-OH HERO FORCE STRUCTURE DECK", "price": "86.00", "published": "2026-11-13", "type": "", "url": "https://goldriverdistributors.com/products/ygo-hero-force-structure-dk"},
 "15521829880081": {"available": true, "name": "26 UPPER DECK SERIES 1 HOCKEY", "price": "85.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-upper-deck-series-1-hky"},
+"15521852227857": {"available": false, "name": "26 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "33.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-blaster"},
 "15521852293393": {"available": false, "name": "26 TOPPS MUSEUM COLLECTION BASEBALL", "price": "545.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-museum-collection-bse"},
 "15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"},
 "15524876583185": {"available": false, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "375.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"}

@@ -1,7 +1,7 @@
 {
-"count": 7252,
-"fetched_at": "2026-11-16T19:29:39.406378+00:00",
-"pending": {},
+"count": 7251,
+"fetched_at": "2026-11-16T19:34:39.946431+00:00",
+"pending": {"16922": {"item": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Toploaders 3x4 130pt Super Thick 50ct w/Sleeves", "preorder_status": "", "sku": "ULT15285", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Super-Thick-3x4-130pt-Toploader-with-Thick-Card-Sleeves-50ct"}, "since": "2026-11-16T19:34:39.946431+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -2266,7 +2266,6 @@
 "16919": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Comic Preservers Silver 10ct Pack (7-1/4\" x 10-1/2\") (Bag/Board Combo)", "preorder_status": "", "sku": "ULT15279", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Silver-Comic-Preserver-7-1-4-X-10-1-2-10ct"},
 "16920": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Toploaders Super Thick (3x4 130pt) w/Thick Sleeves 10 ct", "preorder_status": "", "sku": "ULT15281", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/3in-X-4in-Super-Thick-130PT-Toploader-with-Thick-Card-Sleeves-10ct"},
 "16921": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Toploaders 3x4 35pt 25ct Rookie w/Sleeves", "preorder_status": "", "sku": "ULT15282", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/3in-x-4in-Rookie-35-PT-Toploader-with-Card-Sleeves-25ct"},
-"16922": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Toploaders 3x4 130pt Super Thick 50ct w/Sleeves", "preorder_status": "", "sku": "ULT15285", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Super-Thick-3x4-130pt-Toploader-with-Thick-Card-Sleeves-50ct"},
 "16923": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Toploaders 3x4 200pt 10ct Super Thick", "preorder_status": "", "sku": "ULT15286", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Super-Thick-200pt-Toploader-10ct-3x4"},
 "16924": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Comic One-Touch Silver UV Magnetic Holder (Single) (7-1/4\" x 10-1/2\")", "preorder_status": "", "sku": "ULT15289", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Silver-Size-Comic-UV-ONE-TOUCH-Magnetic-Holder"},
 "16925": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album Character Folio Pathfinder 2nd Edition Red Dragon", "preorder_status": "", "sku": "ULT15292", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/SALE-Pathfinder-2nd-Edition-Playtest-Folio"},
