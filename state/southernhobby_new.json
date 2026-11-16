@@ -1,7 +1,7 @@
 {
 "count": 200,
-"fetched_at": "2026-11-16T05:53:55.696479+00:00",
-"pending": {},
+"fetched_at": "2026-11-16T05:58:55.839222+00:00",
+"pending": {"79590": {"item": {"name": "Weiss Schwarz: Umamusume Pretty Derby - Beginning of a New Era Booster Display", "order_due": "06/23/2026", "release_date": "11/06/2026", "sku": "BRIWSUMA2BP", "url": "https://www.southernhobby.com/weiss-schwarz-umamusume-pretty-derby-beginning-of-a-new-era-booster-display/p79590/"}, "since": "2026-11-16T05:58:55.839222+00:00"}, "81817": {"item": {"name": "UniVersus: FAIRY TAIL All Fired Up! - Natsu Playmat", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT106PM", "url": "https://www.southernhobby.com/universus-fairy-tail-all-fired-up-natsu-playmat/p81817/"}, "since": "2026-11-16T05:58:55.839222+00:00"}},
 "items": {
 "77673": {"name": "Upper Deck Minutes to Midnight Board Game", "order_due": "04/12/2026", "release_date": "11/11/2026", "sku": "UDE24299", "url": "https://www.southernhobby.com/upper-deck-minutes-to-midnight-board-game/p77673/"},
 "78653": {"name": "Boss Monster Junior", "order_due": "05/26/2026", "release_date": "11/11/2026", "sku": "BGM9407", "url": "https://www.southernhobby.com/boss-monster-junior/p78653/"},
@@ -42,7 +42,6 @@
 "79334": {"name": "AEW Dice Knock Out: Set 04 - Kazuchika Okada vs Kenny Omega", "order_due": "05/29/2026", "release_date": "11/13/2026", "sku": "SCUDKOAEW04", "url": "https://www.southernhobby.com/aew-dice-knock-out-set-04-kazuchika-okada-vs-kenny-omega/p79334/"},
 "79473": {"name": "DC HeroClix 400: Gotham Knights", "order_due": "05/26/2026", "release_date": "11/11/2026", "sku": "WZK84200", "url": "https://www.southernhobby.com/dc-heroclix-400-gotham-knights/p79473/"},
 "79560": {"name": "2026 Upper Deck Feline Collection Trading Cards", "order_due": "07/05/2026", "release_date": "11/11/2026", "sku": "UD26TCFC", "url": "https://www.southernhobby.com/2026-upper-deck-feline-collection-trading-cards/p79560/"},
-"79590": {"name": "Weiss Schwarz: Umamusume Pretty Derby - Beginning of a New Era Booster Display", "order_due": "06/23/2026", "release_date": "11/06/2026", "sku": "BRIWSUMA2BP", "url": "https://www.southernhobby.com/weiss-schwarz-umamusume-pretty-derby-beginning-of-a-new-era-booster-display/p79590/"},
 "79669": {"name": "Demon Slayer: Kimetsu no Yaiba Infinity Castle Daybreak Collectible Cards - Breath Edition Blister Display", "order_due": "06/29/2026", "release_date": "11/06/2026", "sku": "KAYDSCDBE01", "url": "https://www.southernhobby.com/demon-slayer-kimetsu-no-yaiba-infinity-castle-daybreak-collectible-cards-breath-edition-blister-display/p79669/"},
 "80585": {"name": "KPop Demon Hunters Collectible Cards: Series 2 - Classic Edition Collector Display", "order_due": "07/22/2026", "release_date": "11/06/2026", "sku": "KAYKPDHCCLCB10HORZ002A", "url": "https://www.southernhobby.com/kpop-demon-hunters-collectible-cards-series-2-classic-edition-collector-display/p80585/"},
 "80586": {"name": "KPop Demon Hunters Collectible Cards: Series 2 - Classic Edition Collector Box Vert. Booster Display", "order_due": "07/22/2026", "release_date": "11/06/2026", "sku": "KAYKPDHCCLCB10VERT002B", "url": "https://www.southernhobby.com/kpop-demon-hunters-collectible-cards-series-2-classic-edition-collector-box-vert-booster-display/p80586/"},
@@ -133,7 +132,6 @@
 "81814": {"name": "UniVersus CCG: FAIRY TAIL All Fired Up! Booster Display", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT101BD", "url": "https://www.southernhobby.com/universus-ccg-fairy-tail-all-fired-up-booster-display/p81814/"},
 "81815": {"name": "UniVersus CCG: FAIRY TAIL All Fired Up! Starter Deck Display", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT105AD", "url": "https://www.southernhobby.com/universus-ccg-fairy-tail-all-fired-up-starter-deck-display/p81815/"},
 "81816": {"name": "UniVersus CCG: FAIRY TAIL All Fired Up! Prerelease Event Kit", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT101RK", "url": "https://www.southernhobby.com/universus-ccg-fairy-tail-all-fired-up-prerelease-event-kit/p81816/"},
-"81817": {"name": "UniVersus: FAIRY TAIL All Fired Up! - Natsu Playmat", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT106PM", "url": "https://www.southernhobby.com/universus-fairy-tail-all-fired-up-natsu-playmat/p81817/"},
 "81818": {"name": "UniVersus: FAIRY TAIL All Fired Up! - Ezra Playmat", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT107PM", "url": "https://www.southernhobby.com/universus-fairy-tail-all-fired-up-ezra-playmat/p81818/"},
 "81819": {"name": "UniVersus: FAIRY TAIL All Fired Up! - Gray Playmat", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT108PM", "url": "https://www.southernhobby.com/universus-fairy-tail-all-fired-up-gray-playmat/p81819/"},
 "81820": {"name": "UniVersus: FAIRY TAIL All Fired Up! - Lucy Playmat", "order_due": "09/19/2026", "release_date": "11/06/2026", "sku": "UVSFT109PM", "url": "https://www.southernhobby.com/universus-fairy-tail-all-fired-up-lucy-playmat/p81820/"},
@@ -202,6 +200,8 @@
 "83603": {"name": "2026 Onyx Vintage Extended Baseball Mega Box", "order_due": "10/27/2026", "release_date": "11/09/2026", "sku": "OA26BBVEXTMB", "url": "https://www.southernhobby.com/2026-onyx-vintage-extended-baseball-mega-box/p83603/"},
 "83789": {"name": "Jersey Fusion Black Pack - All Sports Edition Wave 2", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "SPT26JERFUSHMSBP2", "url": "https://www.southernhobby.com/jersey-fusion-black-pack-all-sports-edition-wave-2/p83789/"},
 "83790": {"name": "Cardsmiths - Rocky 50th Anniversary Trading Card Collector Box - 2-pack", "order_due": "10/14/2026", "release_date": "11/15/2026", "sku": "CSC635176C", "url": "https://www.southernhobby.com/cardsmiths-rocky-50th-anniversary-trading-card-collector-box-2-pack/p83790/"},
-"84114": {"name": "2026 Leaf Originals Brick Box Multi-Sport", "order_due": "11/01/2026", "release_date": "11/15/2026", "sku": "LEA26MSORGBB", "url": "https://www.southernhobby.com/2026-leaf-originals-brick-box-multi-sport/p84114/"}
+"84114": {"name": "2026 Leaf Originals Brick Box Multi-Sport", "order_due": "11/01/2026", "release_date": "11/15/2026", "sku": "LEA26MSORGBB", "url": "https://www.southernhobby.com/2026-leaf-originals-brick-box-multi-sport/p84114/"},
+"84265": {"name": "SAGE Collectibles: 2027 Low Series Football Hobby", "order_due": "11/08/2026", "release_date": "11/16/2026", "sku": "SG27FBLSH", "url": "https://www.southernhobby.com/sage-collectibles-2027-low-series-football-hobby/p84265/"},
+"84266": {"name": "SAGE Collectibles: 2027 Low Series Football Blasters", "order_due": "11/08/2026", "release_date": "11/16/2026", "sku": "SG27FBLSBL", "url": "https://www.southernhobby.com/sage-collectibles-2027-low-series-football-blasters/p84266/"}
 }
 }

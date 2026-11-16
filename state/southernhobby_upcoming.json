@@ -1,7 +1,7 @@
 {
-"count": 2790,
-"fetched_at": "2026-11-16T05:53:55.696479+00:00",
-"pending": {},
+"count": 2788,
+"fetched_at": "2026-11-16T05:58:55.839222+00:00",
+"pending": {"84265": {"item": {"name": "SAGE Collectibles: 2027 Low Series Football Hobby", "order_due": "11/08/2026", "release_date": "11/16/2026", "sku": "SG27FBLSH", "url": "https://www.southernhobby.com/sage-collectibles-2027-low-series-football-hobby/p84265/"}, "since": "2026-11-16T05:58:55.839222+00:00"}, "84266": {"item": {"name": "SAGE Collectibles: 2027 Low Series Football Blasters", "order_due": "11/08/2026", "release_date": "11/16/2026", "sku": "SG27FBLSBL", "url": "https://www.southernhobby.com/sage-collectibles-2027-low-series-football-blasters/p84266/"}, "since": "2026-11-16T05:58:55.839222+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -2666,8 +2666,6 @@
 "84262": {"name": "Takara Tomy Transfomers: Missing Link C-16 Arcee Rebirth", "order_due": "11/16/2026", "release_date": "07/26/2027", "sku": "HSBG7599", "url": "https://www.southernhobby.com/takara-tomy-transfomers-missing-link-c-16-arcee-rebirth-/p84262/"},
 "84263": {"name": "Takara Tomy Transfomers: Go Prime & Vector Sigma", "order_due": "11/16/2026", "release_date": "05/24/2027", "sku": "HSBG7600", "url": "https://www.southernhobby.com/takara-tomy-transfomers-go-prime-vector-sigma/p84263/"},
 "84264": {"name": "Takara Tomy Transfomers: OG-02EX Grindor", "order_due": "11/16/2026", "release_date": "08/30/2027", "sku": "HSBG7601", "url": "https://www.southernhobby.com/takara-tomy-transfomers-og-02ex-grindor/p84264/"},
-"84265": {"name": "SAGE Collectibles: 2027 Low Series Football Hobby", "order_due": "11/08/2026", "release_date": "11/16/2026", "sku": "SG27FBLSH", "url": "https://www.southernhobby.com/sage-collectibles-2027-low-series-football-hobby/p84265/"},
-"84266": {"name": "SAGE Collectibles: 2027 Low Series Football Blasters", "order_due": "11/08/2026", "release_date": "11/16/2026", "sku": "SG27FBLSBL", "url": "https://www.southernhobby.com/sage-collectibles-2027-low-series-football-blasters/p84266/"},
 "84267": {"name": "Bandai Lifestyle Tokimelz BOX!: Sanrio - Hello Kitty & Friends Mushroom Fairies Blind Box/8", "order_due": "11/17/2026", "release_date": "08/30/2027", "sku": "BASBANL14444", "url": "https://www.southernhobby.com/bandai-lifestyle-tokimelz-box-sanrio-hello-kitty-friends-mushroom-fairies-blind-8/p84267/"},
 "84268": {"name": "Bandai - One Piece Card Game: Double Pack Set 15 (DP-15)", "order_due": "11/18/2026", "release_date": "06/04/2027", "sku": "BANTCGOPDP15", "url": "https://www.southernhobby.com/bandai-one-piece-card-game-double-pack-set-15-dp-/p84268/"},
 "84270": {"name": "Shadowverse: Evolve: Court of the Six Flowers Booster Display", "order_due": "11/30/2026", "release_date": "03/26/2027", "sku": "BRISVEEBP23", "url": "https://www.southernhobby.com/shadowverse-evolve-court-of-the-six-flowers-booster-display/p84270/"},
