@@ -1,7 +1,7 @@
 {
-"count": 7251,
-"fetched_at": "2026-11-16T19:04:59.139789+00:00",
-"pending": {"12236": {"item": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Marble Ivory/Black 7ct Set", "preorder_status": "", "sku": "CHX27402", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-Marble-Ivory-Black-7-Dice-Set"}, "since": "2026-11-16T19:04:59.139789+00:00"}},
+"count": 7252,
+"fetched_at": "2026-11-16T19:09:59.872292+00:00",
+"pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -593,6 +593,7 @@
 "12225": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D10 Borealis Maple Green/Yellow 10ct Set", "preorder_status": "", "sku": "CHX27365", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Borealis-Maple-Green-Yellow-D10-Dice-10ct-Set"},
 "12226": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D10 Luminary Sky/Silver 10ct Set", "preorder_status": "", "sku": "CHX27366", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Luminary-Sky-Silver-D10-Dice-10ct-Set"},
 "12235": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Frosted Clear/Black 7ct Set", "preorder_status": "", "sku": "CHX27401", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-Frosted-White-7-Dice-Set"},
+"12236": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Marble Ivory/Black 7ct Set", "preorder_status": "", "sku": "CHX27402", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-Marble-Ivory-Black-7-Dice-Set"},
 "12237": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Marble Oxi-Copper/White 7ct Set", "preorder_status": "", "sku": "CHX27403", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Marble-Oxi-Copper-7ct-Dice-Set"},
 "12238": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Frosted Teal/White 7ct Set", "preorder_status": "", "sku": "CHX27405", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-Frosted-Teal-White-7-Dice-Set"},
 "12239": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Frosted Blue/White 7ct Set", "preorder_status": "", "sku": "CHX27406", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-Frosted-Blue-white-7-Die-Set"},

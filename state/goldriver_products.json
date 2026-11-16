@@ -1,6 +1,6 @@
 {
-"count": 1119,
-"fetched_at": "2026-11-16T19:04:59.139789+00:00",
+"count": 1120,
+"fetched_at": "2026-11-16T19:09:59.872292+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -695,7 +695,7 @@
 "10619755364625": {"available": true, "name": "24 PANINI SELECT BASKETBALL HOBBY", "price": "385.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/24-panini-select-hby-bsk"},
 "10619755987217": {"available": true, "name": "24 PANINI MOSAIC FAST BREAK BASKETBALL", "price": "178.50", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/24-panini-mosaic-bsk-fast-brk"},
 "10619756019985": {"available": true, "name": "24 PANINI MOSAIC HOBBY BASKETBALL", "price": "500.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/24-panini-mosaic-bsk-hobby"},
-"10619756085521": {"available": true, "name": "24 PANINI N.T. FOOTBALL HOBBY", "price": "2350.00", "published": "2025-10-06", "type": "FOOTBALL WAX", "url": "https://goldriverdistributors.com/products/24-panini-n-t-hobby-ftb"},
+"10619756085521": {"available": true, "name": "24 PANINI N.T. FOOTBALL HOBBY", "price": "2250.00", "published": "2025-10-06", "type": "FOOTBALL WAX", "url": "https://goldriverdistributors.com/products/24-panini-n-t-hobby-ftb"},
 "10619756183825": {"available": true, "name": "25 PANINI CERTIFIED FOOTBALL", "price": "350.00", "published": "2025-10-24", "type": "", "url": "https://goldriverdistributors.com/products/2025-panini-certified-ftb"},
 "10619756216593": {"available": false, "name": "PRO BINDER 4PKT TOP LOADER ZIP", "price": "14.25", "published": "2026-08-16", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-4pkt-top-loader-zip"},
 "10619757592849": {"available": true, "name": "CARDBOARD BOX 500 CT", "price": "0.84", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/cardboard-box-500-ct"},
@@ -1121,6 +1121,7 @@
 "15516205220113": {"available": true, "name": "26 TOPPS CHROME COSMIC BASEBALL", "price": "937.50", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-cosmic-bse"},
 "15516205252881": {"available": true, "name": "26 TOPPS FIVE STAR BASEBALL (SEALED 3 BOX CASES ONLY)", "price": "2100.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-five-star-baseball"},
 "15519535726865": {"available": true, "name": "26 TOPPS FLAGSHIP NBA HOBBY", "price": "225.00", "published": "2026-11-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-hobby"},
-"15521697956113": {"available": true, "name": "YU-GI-OH HERO FORCE STRUCTURE DECK", "price": "86.00", "published": "2026-11-13", "type": "", "url": "https://goldriverdistributors.com/products/ygo-hero-force-structure-dk"}
+"15521697956113": {"available": true, "name": "YU-GI-OH HERO FORCE STRUCTURE DECK", "price": "86.00", "published": "2026-11-13", "type": "", "url": "https://goldriverdistributors.com/products/ygo-hero-force-structure-dk"},
+"15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"}
 }
 }
