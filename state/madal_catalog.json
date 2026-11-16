@@ -1,7 +1,7 @@
 {
 "count": 7253,
-"fetched_at": "2026-11-16T13:05:35.543710+00:00",
-"pending": {},
+"fetched_at": "2026-11-16T13:48:15.264723+00:00",
+"pending": {"19357": {"item": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Super Mario Mayhem (1000 Pcs)", "preorder_status": "", "sku": "USAPZ005-827", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19357"}, "since": "2026-11-16T13:48:15.264723+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -3522,7 +3522,6 @@
 "19352": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Zelda (Classic) Hyrule Map (1000 Pcs)", "preorder_status": "", "sku": "USAPZ005-690", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/The-Legend-of-Zelda-Hyrule-Map-1000pc-Puzzle"},
 "19354": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Mario Kart Rainbow Road (1000 Pcs)", "preorder_status": "", "sku": "USAPZ005-734", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Mario-Kart-Rainbow-Road-1000pc-Puzzle"},
 "19355": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Super Mario Mushroom Kingdom (1000 Pcs)", "preorder_status": "", "sku": "USAPZ005-735", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Super-Mario-Mushroom-Kingdom-1000pc-Puzzle"},
-"19357": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Super Mario Mayhem (1000 Pcs)", "preorder_status": "", "sku": "USAPZ005-827", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19357"},
 "19358": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Zelda Tears of The Kingdom (1000 Pcs)", "preorder_status": "", "sku": "USAPZ005-838", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/The-Legend-of-Zelda-Tears-of-the-Kingdom-1000pc-Puzzle"},
 "19359": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Bob's Burgers Wonder Wharf (1000 Pcs)", "preorder_status": "", "sku": "USAPZ006-695", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/19359"},
 "19367": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Puzzle Harry Potter Dobby (1000 Pcs)", "preorder_status": "", "sku": "USAPZ010-629", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19367"},
@@ -4158,6 +4157,7 @@
 "25411": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 2E Pawns Monster Core Box", "preorder_status": "", "sku": "PZO10002-MC", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-2nd-Edition-Pawns-Monster-Core-Collection"},
 "25506": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album Pokemon Tournament Folios Psyduck, Eevee & Dragonite 3ct Pack", "preorder_status": "", "sku": "ULT16403", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/3-Pack-Tournament-Folio-Series-2-for-Pokemon"},
 "25715": {"badge": "&nbsp;", "maker": "Elestrals LLC", "name": "Elestrals Base Set 1st Edition Booster 36ct Display", "preorder_status": "", "sku": "ELSFEBS01", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/product/25715"},
+"25717": {"badge": "&nbsp;", "maker": "Elestrals LLC", "name": "Elestrals Base Set 1st Edition Starter Deck Trifernal", "preorder_status": "", "sku": "ELSFESD02", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/25717"},
 "25719": {"badge": "&nbsp;", "maker": "Elestrals LLC", "name": "Elestrals Base Set 1st Edition Starter Deck Ohmperial", "preorder_status": "", "sku": "ELSFESD04", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/25719"},
 "25823": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album Pokemon 4-Pocket Premium Snap Binder Blue", "preorder_status": "", "sku": "ULT16375", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pokemon-Blue-4-Pocket-Premium-Snap-Binder"},
 "25925": {"badge": "&nbsp;", "maker": "BCW Diversified, Inc.", "name": "Ball Display Acrylic Gold Glove Baseball", "preorder_status": "", "sku": "BCW1-AD13", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/25925"},
