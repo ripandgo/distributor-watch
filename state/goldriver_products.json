@@ -1,6 +1,6 @@
 {
 "count": 1122,
-"fetched_at": "2026-11-17T17:00:43.098049+00:00",
+"fetched_at": "2026-11-17T17:05:43.298511+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -981,7 +981,7 @@
 "11173802082577": {"available": true, "name": "Yu-Gi-Oh! GLORIOUS VICTORS BOOSTER", "price": "60.00", "published": "2026-08-17", "type": "", "url": "https://goldriverdistributors.com/products/ygo-glorious-victors-bst"},
 "11174082150673": {"available": true, "name": "BCW SLEEVE THICK", "price": "0.62", "published": "2026-08-20", "type": "", "url": "https://goldriverdistributors.com/products/bcw-sleeve-thick"},
 "11174093127953": {"available": true, "name": "BCW Z-FOLIO 9PKT TOPLOADER BLK", "price": "17.25", "published": "2026-08-20", "type": "", "url": "https://goldriverdistributors.com/products/bcw-z-folio-9pkt-toploader-blk"},
-"11179154899217": {"available": true, "name": "26 TOPPS BOWMAN CHROME HOBBY (1 cs - 12 Box max limit)", "price": "595.00", "published": "2026-09-14", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-chrome-hobby"},
+"11179154899217": {"available": true, "name": "26 TOPPS BOWMAN CHROME HOBBY (1 cs - 12 Box max limit)", "price": "545.00", "published": "2026-09-14", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-chrome-hobby"},
 "11179154931985": {"available": true, "name": "26 TOPPS WWE UNIVERSE", "price": "205.00", "published": "2026-09-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-wwe-universe"},
 "11179157422353": {"available": true, "name": "25 TOPPS CHROME UPDATE BASKETBALL", "price": "1325.00", "published": "2026-08-17", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-chrome-update-bsk"},
 "11179162960145": {"available": true, "name": "26 TOPPS PRISTINE BASEBALL", "price": "800.00", "published": "2026-08-17", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-pristine-bse"},
@@ -1124,6 +1124,6 @@
 "15521852227857": {"available": false, "name": "26 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "33.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-blaster"},
 "15521852293393": {"available": false, "name": "26 TOPPS MUSEUM COLLECTION BASEBALL", "price": "545.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-museum-collection-bse"},
 "15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"},
-"15524876583185": {"available": true, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "375.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"}
+"15524876583185": {"available": true, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "350.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"}
 }
 }
