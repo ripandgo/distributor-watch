@@ -1,7 +1,7 @@
 {
-"count": 7244,
-"fetched_at": "2026-11-17T20:00:03.979071+00:00",
-"pending": {},
+"count": 7242,
+"fetched_at": "2026-11-17T20:05:03.194064+00:00",
+"pending": {"12322": {"item": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Frosted Pink/White 16mm 12ct Set", "preorder_status": "", "sku": "CHX27664", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Frosted-Pink-White-16mm-D6-Dice-Block"}, "since": "2026-11-17T20:05:03.194064+00:00"}, "30064": {"item": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Blue-Orange/White 50mm Single", "preorder_status": "", "sku": "CHXDG5052", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Blue-Orange-w-White-D6"}, "since": "2026-11-17T20:05:03.194064+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -668,7 +668,6 @@
 "12319": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive 16mm 12ct Set", "preorder_status": "", "sku": "CHX27650", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Festive-Mosaic-with-Yellow-16mm-D6-Dice-Block"},
 "12320": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Sunburst/Red 16mm 12ct Set", "preorder_status": "", "sku": "CHX27653", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Sunburst-Red-12ct-Set-16mm-D6-Dice"},
 "12321": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Violet/White 16mm 12ct Set", "preorder_status": "", "sku": "CHX27657", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Festive-Violet-w-White-16mm-D6-Dice-Block"},
-"12322": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Frosted Pink/White 16mm 12ct Set", "preorder_status": "", "sku": "CHX27664", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Frosted-Pink-White-16mm-D6-Dice-Block"},
 "12323": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Cirrus Aqua/Silver 16mm 12ct Set", "preorder_status": "", "sku": "CHX27665", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Aqua-w-silver-Cirrus-16mm-D6-Dice-Block"},
 "12324": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Nebula Dark Blue/White 16mm 12ct Set", "preorder_status": "", "sku": "CHX27666", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Nebula-Dark-Blue-White-16mm-D6-Dice-Block"},
 "12326": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Velvet Black/Red 16mm 12ct Set", "preorder_status": "", "sku": "CHX27678", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Dice-12-Black-w-red-Velvet-16mm-D6-Dice-Block"},
@@ -4650,7 +4649,6 @@
 "30061": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Black-Shell/White 50mm Single", "preorder_status": "", "sku": "CHXDG5046", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Black-Shell-w-White-D6"},
 "30062": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Purple-Teal/Gold 50mm Single", "preorder_status": "", "sku": "CHXDG5049", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Purple-Teal-w-Gold-D6"},
 "30063": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Red-Yellow/Silver 50mm Single", "preorder_status": "", "sku": "CHXDG5050", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Red-Yellow-w-Silver-D6"},
-"30064": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Blue-Orange/White 50mm Single", "preorder_status": "", "sku": "CHXDG5052", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Blue-Orange-w-White-D6"},
 "30065": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Green-Yellow/Silver 50mm Single", "preorder_status": "", "sku": "CHXDG5054", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Green-Yellow-w-Silver-D6"},
 "30066": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Steel-Teal/White 50mm Single", "preorder_status": "", "sku": "CHXDG5056", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Steel-Teal-w-White-D6"},
 "30067": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Gemini Astral Blue-White/Red 50mm Single", "preorder_status": "", "sku": "CHXDG5057", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Gemini-50mm-w-Pips-Astral-Blue-White-w-Red-D6"},

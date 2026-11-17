@@ -1,6 +1,6 @@
 {
 "count": 1121,
-"fetched_at": "2026-11-17T20:00:03.979071+00:00",
+"fetched_at": "2026-11-17T20:05:03.194064+00:00",
 "pending": {"15401035792657": {"item": {"available": false, "name": "2026 PANINI CROWN ROYALE NWSL", "price": "80.00", "published": "2026-09-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-crown-royale-nwsl"}, "since": "2026-11-17T20:00:03.979071+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -54,8 +54,8 @@
 "10619709391121": {"available": true, "name": "TOP LOADER 36X24 POSTER / ONLY CASE BUYS FOR SHIIPPING THIS ITEM", "price": "9.34", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-36x24-poster"},
 "10619709423889": {"available": true, "name": "DISP BSE/CARD WOOD LIGT", "price": "7.95", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-bse-card-wood-ligt"},
 "10619709587729": {"available": true, "name": "SLEEVES POSTCARD", "price": "1.02", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-postcard"},
-"10619709620497": {"available": true, "name": "3\" BASEBALL TRADING CARD ALBUM NAVY", "price": "7.12", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-baseball-navy-81394"},
-"10619709653265": {"available": true, "name": "3\" BASEBALL TRADING CARD ALBUM BLACK", "price": "7.12", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-baseball-black"},
+"10619709620497": {"available": true, "name": "3\" BASEBALL TRADING CARD ALBUM NAVY", "price": "6.50", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-baseball-navy-81394"},
+"10619709653265": {"available": true, "name": "3\" BASEBALL TRADING CARD ALBUM BLACK", "price": "6.50", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-baseball-black"},
 "10619709686033": {"available": true, "name": "3\" FOOTBALL TRADING CARD ALBUM NAVY", "price": "7.12", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-ftb-navy"},
 "10619709718801": {"available": true, "name": "3\" FOOTBALL TRADING CARD ALBUM BLACK", "price": "7.12", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-ftb-black"},
 "10619709751569": {"available": true, "name": "3\" COLLECTORS TRADING CARD ALBUM NAVY", "price": "6.95", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/alb-3-collector-navy"},
