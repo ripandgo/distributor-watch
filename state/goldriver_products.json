@@ -1,7 +1,7 @@
 {
-"count": 1122,
-"fetched_at": "2026-11-17T19:55:03.232325+00:00",
-"pending": {},
+"count": 1121,
+"fetched_at": "2026-11-17T20:00:03.979071+00:00",
+"pending": {"15401035792657": {"item": {"available": false, "name": "2026 PANINI CROWN ROYALE NWSL", "price": "80.00", "published": "2026-09-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-crown-royale-nwsl"}, "since": "2026-11-17T20:00:03.979071+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -1038,7 +1038,6 @@
 "15394232926481": {"available": true, "name": "25 TOPPS FINEST FOOTBALL BREAKERS DELIGHT", "price": "1075.00", "published": "2026-10-03", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-finest-ftb-delight"},
 "15399823278353": {"available": true, "name": "2026 LEAF SPECTACULAR BASEBALL", "price": "688.00", "published": "2026-09-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-spectacular-bse"},
 "15400994111761": {"available": true, "name": "BCW MANGA DIGEST BAGS 6X7 5/8", "price": "2.75", "published": "2026-10-02", "type": "", "url": "https://goldriverdistributors.com/products/bcw-manga-digest-bags-6x7-5-8"},
-"15401035792657": {"available": false, "name": "2026 PANINI CROWN ROYALE NWSL", "price": "80.00", "published": "2026-09-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-crown-royale-nwsl"},
 "15401227452689": {"available": true, "name": "26 PANINI DONRUSS WNBA HOBBY BLASTER", "price": "20.00", "published": "2026-10-02", "type": "", "url": "https://goldriverdistributors.com/products/26-panini-donruss-wnba-hob-blast"},
 "15410848530705": {"available": false, "name": "26 TOPPS FLAGSHIP NFL MEGA", "price": "60.00", "published": "2026-10-07", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-nfl-mega"},
 "15410855051537": {"available": true, "name": "26 TOPPS BOWMAN FOOTBALL HOBBY", "price": "290.00", "published": "2026-10-03", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-ftb-hobby"},
