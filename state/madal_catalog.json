@@ -1,7 +1,7 @@
 {
-"count": 7251,
-"fetched_at": "2026-11-17T23:33:20.838261+00:00",
-"pending": {},
+"count": 7250,
+"fetched_at": "2026-11-17T23:38:20.648471+00:00",
+"pending": {"19830": {"item": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Pandemic Legacy Season 2 Black Edition", "preorder_status": "", "sku": "ZMG7172", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19830"}, "since": "2026-11-17T23:38:20.648471+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -3633,7 +3633,6 @@
 "19825": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Pandemic Hot Zone Europe", "preorder_status": "", "sku": "ZMG7142", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19825"},
 "19826": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Pandemic the Cure Expansion", "preorder_status": "", "sku": "ZMG7150", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pandemic-The-Cure"},
 "19827": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Pandemic the Cure Experimental Meds", "preorder_status": "", "sku": "ZMG7151", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pandemic-The-Cure-Experimental-Meds"},
-"19830": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Pandemic Legacy Season 2 Black Edition", "preorder_status": "", "sku": "ZMG7172", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19830"},
 "19832": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Pandemic Legacy Season 0", "preorder_status": "", "sku": "ZMG7174", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19832"},
 "19835": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Carcassonne", "preorder_status": "", "sku": "ZMG7810", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/19835"},
 "19837": {"badge": "&nbsp;", "maker": "Z-Man Games", "name": "Carcassonne #2 Traders & Builders Expansion", "preorder_status": "", "sku": "ZMG7812", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Carcassonne-Expansion-Traders-Builders"},
