@@ -1,7 +1,7 @@
 {
-"count": 7251,
-"fetched_at": "2026-11-17T02:22:37.292571+00:00",
-"pending": {},
+"count": 7250,
+"fetched_at": "2026-11-17T02:27:37.539229+00:00",
+"pending": {"30004": {"item": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Waterlily/White 30mm Single", "preorder_status": "", "sku": "CHXDF3066", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Festive-30mm-w-Pips-Waterlily-w-White-D6"}, "since": "2026-11-17T02:27:37.539229+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -4629,7 +4629,6 @@
 "30001": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Violet/White 30mm Single", "preorder_status": "", "sku": "CHXDF3057", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Festive-30mm-w-Pips-Violet-w-White-D6"},
 "30002": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Circus/Black 30mm Single", "preorder_status": "", "sku": "CHXDF3062", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Festive-30mm-w-Pips-Circus-w-Black-D6"},
 "30003": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Pop Art/Blue 30mm Single", "preorder_status": "", "sku": "CHXDF3064", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Festive-30mm-w-Pips-Pop-Art-w-Blue-D6"},
-"30004": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Waterlily/White 30mm Single", "preorder_status": "", "sku": "CHXDF3066", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Festive-30mm-w-Pips-Waterlily-w-White-D6"},
 "30005": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Mosaic/Yellow 50mm Single", "preorder_status": "", "sku": "CHXDF5050", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Festive-50mm-w-Pips-Mosaic-w-Yellow-D6"},
 "30006": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Carousel/White 50mm Single", "preorder_status": "", "sku": "CHXDF5060", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Festive-50mm-w-Pips-Carousel-w-White-D6"},
 "30007": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Festive Vibrant/Brown 50mm Single", "preorder_status": "", "sku": "CHXDF5061", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Festive-50mm-w-Pips-Vibrant-w-Brown-D6"},
