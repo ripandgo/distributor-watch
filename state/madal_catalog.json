@@ -1,7 +1,7 @@
 {
-"count": 7250,
-"fetched_at": "2026-11-17T16:55:44.337301+00:00",
-"pending": {},
+"count": 7249,
+"fetched_at": "2026-11-17T17:00:43.098049+00:00",
+"pending": {"17174": {"item": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Blue", "preorder_status": "", "sku": "ULT15900", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Blue"}, "since": "2026-11-17T17:00:43.098049+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -2389,7 +2389,6 @@
 "17160": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Satin Cube Glitter Black", "preorder_status": "", "sku": "ULT15886", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Satin-Cube-Glitter-Black"},
 "17161": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Satin Cube Glitter Pink", "preorder_status": "", "sku": "ULT15887", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Satin-Cube-Glitter-Pink"},
 "17163": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Satin Tower Glitter Black", "preorder_status": "", "sku": "ULT15889", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Satin-Tower-Glitter-Black"},
-"17174": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Blue", "preorder_status": "", "sku": "ULT15900", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Blue"},
 "17176": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Purple", "preorder_status": "", "sku": "ULT15902", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Purple"},
 "17179": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Yellow", "preorder_status": "", "sku": "ULT15905", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Yellow"},
 "17181": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Black", "preorder_status": "", "sku": "ULT15907", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Black"},
