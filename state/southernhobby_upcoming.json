@@ -1,7 +1,7 @@
 {
-"count": 2805,
-"fetched_at": "2026-11-17T05:56:07.050273+00:00",
-"pending": {},
+"count": 2804,
+"fetched_at": "2026-11-17T06:01:06.580043+00:00",
+"pending": {"81347": {"item": {"name": "Dungeons & Dragons: World of Warcraft", "order_due": "10/10/2026", "release_date": "11/17/2026", "sku": "WCDD1WOW", "url": "https://www.southernhobby.com/dungeons-dragons-world-of-warcraft/p81347/"}, "since": "2026-11-17T06:01:06.580043+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -1049,7 +1049,6 @@
 "81339": {"name": "TAMASHII NATIONS S.H.Figuarts: Marvel Avengers Doomsday - Doctor Doom Figure", "order_due": "08/11/2026", "release_date": "12/30/2026", "sku": "BAS72271", "url": "https://www.southernhobby.com/tamashii-nations-s-h-figuarts-marvel-avengers-doomsday-doctor-doom-figure/p81339/"},
 "81340": {"name": "TAMASHII NATIONS S.H.Figuarts: Marvel Avengers Doomsday - Thor Figure", "order_due": "08/11/2026", "release_date": "01/30/2027", "sku": "BAS72226", "url": "https://www.southernhobby.com/tamashii-nations-s-h-figuarts-marvel-avengers-doomsday-thor-figure/p81340/"},
 "81341": {"name": "TAMASHII NATIONS S.H.Figuarts: Marvel Avengers Doomsday - Captain America Figure", "order_due": "08/11/2026", "release_date": "01/30/2027", "sku": "BAS72262", "url": "https://www.southernhobby.com/tamashii-nations-s-h-figuarts-marvel-avengers-doomsday-captain-america-figure/p81341/"},
-"81347": {"name": "Dungeons & Dragons: World of Warcraft", "order_due": "10/10/2026", "release_date": "11/17/2026", "sku": "WCDD1WOW", "url": "https://www.southernhobby.com/dungeons-dragons-world-of-warcraft/p81347/"},
 "81354": {"name": "Megami Device: PUNI- MOFU MAO - Statue", "order_due": "09/16/2026", "release_date": "04/30/2027", "sku": "KBYPV374", "url": "https://www.southernhobby.com/megami-device-puni-mofu-mao-statue/p81354/"},
 "81355": {"name": "Dungeons & Dragons Icons of the Realms: 10 ct. Booster Brick (Set 43)", "order_due": "09/23/2026", "release_date": "03/30/2027", "sku": "WZK96424", "url": "https://www.southernhobby.com/dungeons-dragons-icons-of-the-realms-10-ct-booster-brick-set-43-/p81355/"},
 "81356": {"name": "Dungeons & Dragons Icons of the Realms: Gargantuan Boxed Miniature (Set 43)", "order_due": "09/23/2026", "release_date": "03/30/2027", "sku": "WZK96426", "url": "https://www.southernhobby.com/dungeons-dragons-icons-of-the-realms-gargantuan-boxed-miniature-set-43-/p81356/"},
