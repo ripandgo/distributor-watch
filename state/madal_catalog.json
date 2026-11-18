@@ -1,7 +1,7 @@
 {
-"count": 7250,
-"fetched_at": "2026-11-17T23:58:20.376705+00:00",
-"pending": {},
+"count": 7249,
+"fetched_at": "2026-11-18T00:03:20.701575+00:00",
+"pending": {"21538": {"item": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Magic Modern Horizons 3 Black 100ct", "preorder_status": "", "sku": "ULT38406", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100ct-Deck-Protector-Sleeves-Black-for-Magic-The-Gathering"}, "since": "2026-11-18T00:03:20.701575+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -3870,7 +3870,6 @@
 "21533": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Magic Modern Horizons 3 B 100ct", "preorder_status": "", "sku": "ULT38401", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100ct-Deck-Protector-Sleeves-B-for-Magic-The-Gathering"},
 "21534": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Magic Modern Horizons 3 C 100ct", "preorder_status": "", "sku": "ULT38402", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100ct-Deck-Protector-Sleeves-C-for-Magic-The-Gathering"},
 "21536": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Magic Modern Horizons 3 White 100ct", "preorder_status": "", "sku": "ULT38404", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100ct-Deck-Protector-Sleeves-White-for-Magic-The-Gathering"},
-"21538": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Magic Modern Horizons 3 Black 100ct", "preorder_status": "", "sku": "ULT38406", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100ct-Deck-Protector-Sleeves-Black-for-Magic-The-Gathering"},
 "21542": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Magic Modern Horizons 3 B 100+", "preorder_status": "", "sku": "ULT38410", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100-Deck-Box-B-for-Magic-The-Gathering"},
 "21543": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Magic Modern Horizons 3 C 100+", "preorder_status": "", "sku": "ULT38411", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100-Deck-Box-C-for-Magic-The-Gathering"},
 "21545": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Magic Modern Horizons 3 White 100+", "preorder_status": "", "sku": "ULT38413", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Modern-Horizons-3-100-Deck-Box-White-for-Magic-The-Gathering"},
