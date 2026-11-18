@@ -1,10 +1,5 @@
 {
- "error_streak": {
-  "southernhobby_new": 12,
-  "southernhobby_rss": 12,
-  "southernhobby_solicitations": 12,
-  "southernhobby_upcoming": 12
- },
- "last_post": "2026-11-18T19:34:55.445035+00:00",
- "last_run": "2026-11-18T20:02:27.631849+00:00"
+ "error_streak": {},
+ "last_post": "2026-11-18T20:05:38.730445+00:00",
+ "last_run": "2026-11-18T20:05:38.730445+00:00"
 }
