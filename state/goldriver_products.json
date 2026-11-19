@@ -1,7 +1,7 @@
 {
 "count": 1127,
-"fetched_at": "2026-11-19T20:56:45.827155+00:00",
-"pending": {"15446648652049": {"item": {"available": false, "name": "26 TOPPS UPDATE BASEBALL HOBBY", "price": "135.00", "published": "2026-11-02", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-update-bse-hobby"}, "since": "2026-11-19T20:51:45.635424+00:00"}},
+"fetched_at": "2026-11-19T21:01:45.668783+00:00",
+"pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -844,8 +844,8 @@
 "11058610209041": {"available": false, "name": "2026 PULSE STRATOS HOBBY BASKETBALL", "price": "99.50", "published": "2026-05-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-pulse-stratos-hby-bsk"},
 "11058622038289": {"available": false, "name": "2026 PULSE STRATOS HEAT SEEKER BASKETBALL", "price": "18.75", "published": "2026-05-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-pulse-strat-heat-seeker-bsk"},
 "11058653364497": {"available": true, "name": "YU-GI-OH MAGNIFICENT MONSTERS DISPLAY BOX", "price": "190.00", "published": "2026-05-20", "type": "", "url": "https://goldriverdistributors.com/products/ygo-magnificent-monsters"},
-"11058697371921": {"available": true, "name": "26 PANINI EUROLEAGUE ORIGINS BASKETBALL", "price": "81.00", "published": "2026-06-22", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-euro-origins-bsk"},
-"11058698977553": {"available": true, "name": "26 PANINI EUROLEAGUE ORIGINS H2 BASKETBALL", "price": "35.00", "published": "2026-06-05", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-euro-origins-h2-bsk"},
+"11058697371921": {"available": true, "name": "26 PANINI EUROLEAGUE ORIGINS BASKETBALL", "price": "65.00", "published": "2026-06-22", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-euro-origins-bsk"},
+"11058698977553": {"available": true, "name": "26 PANINI EUROLEAGUE ORIGINS H2 BASKETBALL", "price": "25.00", "published": "2026-06-05", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-euro-origins-h2-bsk"},
 "11059814269201": {"available": false, "name": "2026 PULSE STRATOS HEAT SEEKER BASEBALL", "price": "18.75", "published": "2026-05-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-pulse-stratos-ht-seeker-bse"},
 "11059994263825": {"available": true, "name": "26 TOPPS BOWMAN BASEBALL HOBBY", "price": "387.50", "published": "2026-05-21", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-bse-hobby"},
 "11059996000529": {"available": true, "name": "26 TOPPS BOWMAN BASEBALL JUMBO", "price": "725.00", "published": "2026-05-21", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-bse-jumbo"},
