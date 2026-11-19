@@ -1,7 +1,7 @@
 {
-"count": 1127,
-"fetched_at": "2026-11-19T22:06:25.706257+00:00",
-"pending": {},
+"count": 1126,
+"fetched_at": "2026-11-19T22:11:25.741201+00:00",
+"pending": {"10619737538833": {"item": {"available": false, "name": "BCW CARD DIVIDER TALL", "price": "0.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-card-divider-tall"}, "since": "2026-11-19T22:11:25.741201+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -622,7 +622,6 @@
 "10619737014545": {"available": true, "name": "S.F. 49ER RIDDELL SLATE REPLICA HELMET", "price": "135.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/replica-slate-helmet-s-f-49er"},
 "10619737047313": {"available": true, "name": "S.F. 49ER RIDDELL SLATE AUTHENTIC HELMET", "price": "295.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/authentic-slate-helmet-s-f-49er"},
 "10619737506065": {"available": true, "name": "BCW PLAYMAT BLACK", "price": "6.00", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-playmat-black"},
-"10619737538833": {"available": false, "name": "BCW CARD DIVIDER TALL", "price": "0.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-card-divider-tall"},
 "10619737932049": {"available": false, "name": "23 PANINI PRIZM BASKETBALL HOBBY", "price": "1250.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/23-panini-prizm-bsk-hobby"},
 "10619738980625": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP WHITE", "price": "19.80", "published": "2025-10-13", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-white"},
 "10619739111697": {"available": true, "name": "D BOX SATIN TOWER MARBLE LIME GR", "price": "8.00", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/d-box-satin-tower-marble-lime-gr"},
