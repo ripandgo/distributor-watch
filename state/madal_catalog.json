@@ -1,7 +1,7 @@
 {
-"count": 7254,
-"fetched_at": "2026-11-19T19:31:37.761638+00:00",
-"pending": {},
+"count": 7253,
+"fetched_at": "2026-11-19T19:36:37.429245+00:00",
+"pending": {"31603": {"item": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Mega-hedral Festive Mosaic/Yellow 7ct Set", "preorder_status": "", "sku": "CHX22450", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Festive-Mosaic-Yellow-Mega-hedral-7-Die-Set"}, "since": "2026-11-19T19:36:37.429245+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -4837,7 +4837,6 @@
 "31508": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Opaque Black/Pink 12mm 36ct Set", "preorder_status": "", "sku": "CHX25848", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Opaque-12mm-D6-Black-Pink-Dice-Block-36-Dice"},
 "31509": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D6 Opaque Black/Green 12mm 36ct Set", "preorder_status": "", "sku": "CHX25858", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Opaque-12mm-D6-Black-Green-Dice-Block-36-Dice"},
 "31602": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Mega-hedral Scarab Jade/Gold 7ct Set", "preorder_status": "", "sku": "CHX22415", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Scarab-Jade-Gold-Mega-hedral-7-Die-Set"},
-"31603": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Mega-hedral Festive Mosaic/Yellow 7ct Set", "preorder_status": "", "sku": "CHX22450", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Festive-Mosaic-Yellow-Mega-hedral-7-Die-Set"},
 "31604": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice Poly Mega-hedral Nebula Nocturnal/Blue Luminary 7ct Set", "preorder_status": "", "sku": "CHX22547", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Nebula-Nocturnal-Blue-Luminary-Mega-hedral-7-Die-Set"},
 "31704": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Tower D&D Masterworks Series Erol Otus", "preorder_status": "", "sku": "MDG10955", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/D-D-Masterworks-Series-Dice-Tower-Erol-Otus"},
 "31705": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Tower D&D Masterworks Series Jeff Easley", "preorder_status": "", "sku": "MDG10956", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/D-D-Masterworks-Series-Dice-Tower-Jeff-Easley"},
