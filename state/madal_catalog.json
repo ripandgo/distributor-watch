@@ -1,6 +1,6 @@
 {
-"count": 7244,
-"fetched_at": "2026-11-19T15:05:51.878795+00:00",
+"count": 7252,
+"fetched_at": "2026-11-19T15:12:43.077317+00:00",
 "pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
@@ -2391,6 +2391,7 @@
 "17160": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Satin Cube Glitter Black", "preorder_status": "", "sku": "ULT15886", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Satin-Cube-Glitter-Black"},
 "17161": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Satin Cube Glitter Pink", "preorder_status": "", "sku": "ULT15887", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Satin-Cube-Glitter-Pink"},
 "17163": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Deck Box Satin Tower Glitter Black", "preorder_status": "", "sku": "ULT15889", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Satin-Tower-Glitter-Black"},
+"17165": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 12-Pocket PRO-Binder Vivid Zippered Black", "preorder_status": "", "sku": "ULT15891", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Vivid-12-Pocket-Zippered-PRO-Binder-Black"},
 "17174": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Blue", "preorder_status": "", "sku": "ULT15900", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Blue"},
 "17176": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Purple", "preorder_status": "", "sku": "ULT15902", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Purple"},
 "17179": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Album 9-Pocket PRO-Binder Vivid Zippered Yellow", "preorder_status": "", "sku": "ULT15905", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Vivid-9-Pocket-Zippered-PRO-Binder-Yellow"},
@@ -7244,6 +7245,13 @@
 "48233": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Sleeves Warhammer 40K APEX Deck Protector Chaos Marines 105ct", "preorder_status": "", "sku": "ULT32137", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-105ct-APEX-Deck-Protector-Sleeves-Chaos-Marines"},
 "48234": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Playmat Warhammer 40K Stitched Edge Imperium", "preorder_status": "", "sku": "ULT32136", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-Stitched-Edge-Playmat-Imperium"},
 "48235": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Playmat Warhammer 40K Stitched Edge Chaos Marines", "preorder_status": "", "sku": "ULT32138", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Warhammer-40K-Faction-Accessories-Stitched-Edge-Playmat-Chaos-Marines"},
+"48327": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Lemon Yellow 60ct", "preorder_status": "", "sku": "ULT16717", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Lemon-Yellow_2"},
+"48328": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Forest Green 60ct", "preorder_status": "", "sku": "ULT16715", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Forest-Green-60ct._2"},
+"48329": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Apple Red 60ct", "preorder_status": "", "sku": "ULT16694", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Apple-Red-60ct_3"},
+"48330": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Smoke Grey 60ct", "preorder_status": "", "sku": "ULT16719", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Smoke-Grey_2"},
+"48331": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Hot Pink 60ct", "preorder_status": "", "sku": "ULT16718", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Hot-Pink_2"},
+"48332": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Pacific Blue 60ct", "preorder_status": "", "sku": "ULT16712", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Pacific-Blue_2"},
+"48333": {"badge": "&nbsp;", "maker": "Ultra PRO International", "name": "Sleeves Eclipse Gloss Small Royal Purple 60ct", "preorder_status": "", "sku": "ULT16716", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Eclipse-Gloss-Small-Sleeves-Royal-Purple_2"},
 "48334": {"badge": "Pre-Order", "maker": "Oh YAAS", "name": "PRE-ORDER 2026 Oh YAAS ROOT BKFC Hobby Box", "preorder_status": "", "sku": "OY-RT-26-BKFC-001-HY", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-2026-Oh-YAAS-ROOT-BKFC-Hobby-Box"},
 "48335": {"badge": "Pre-Order", "maker": "Oh YAAS", "name": "PRE-ORDER 2026 Oh YAAS ROOT BKFC Blaster Box", "preorder_status": "", "sku": "OY-RT-26-BKFC-001-BL", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-2026-Oh-YAAS-ROOT-BKFC-Blaster-Box"},
 "48336": {"badge": "Pre-Order", "maker": "Oh YAAS", "name": "PRE-ORDER 2026 Oh YAAS ROOT BKFC Hanger Box", "preorder_status": "", "sku": "OY-RT-26-BKFC-001-HG", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-2026-Oh-YAAS-ROOT-BKFC-Hanger-Box"}
