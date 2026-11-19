@@ -1,6 +1,6 @@
 {
 "count": 1127,
-"fetched_at": "2026-11-19T21:26:45.542479+00:00",
+"fetched_at": "2026-11-19T21:31:45.990448+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1127,7 +1127,7 @@
 "15521852227857": {"available": false, "name": "26 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "33.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-blaster"},
 "15521852293393": {"available": true, "name": "26 TOPPS MUSEUM COLLECTION BASEBALL", "price": "575.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-museum-collection-bse"},
 "15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"},
-"15524876583185": {"available": false, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "350.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"},
+"15524876583185": {"available": true, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "350.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"},
 "15527268942097": {"available": false, "name": "26 TOPPS MIDNIGHT FOOTBALL", "price": "595.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-midnight-ftb"},
 "15528816214289": {"available": false, "name": "26 TOPPS PRO DEBUT BASEBALL", "price": "175.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-pro-debut-bse"}
 }
