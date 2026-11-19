@@ -1,6 +1,6 @@
 {
-"count": 7252,
-"fetched_at": "2026-11-19T17:47:03.297933+00:00",
+"count": 7254,
+"fetched_at": "2026-11-19T17:52:03.372955+00:00",
 "pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
@@ -1320,6 +1320,7 @@
 "14562": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Mystic Mines Gemstone Blue Sandstone 7ct Set", "preorder_status": "", "sku": "MDG103", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/16mm-Stone-Poly-Dice-Set-Blue-Sandstone"},
 "14566": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Acrylic Marble w/ Gold 7ct Set", "preorder_status": "", "sku": "MDG1038", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Acrylic-Polyhedral-Dice-Set-Marble-w-Gold-Numbers"},
 "14567": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Mystic Mines Gemstone Picture Jasper 7ct Set", "preorder_status": "", "sku": "MDG104", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/16mm-Stone-Poly-Dice-Set-Picture-Jasper"},
+"14568": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Mystic Mines Gemstone Engraved Cat's Eye Aquamarine 7ct Set", "preorder_status": "", "sku": "MDG105", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/16mm-Stone-Poly-Dice-Set-Engraved-Cats-Eye-Aquamarine"},
 "14569": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Red/White w/Black 16mm (Combo Attack)", "preorder_status": "", "sku": "MDG110", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/SALE-Dice-Acrylic-Red-White-w-Black-16mm-Polyhedral-Combo-Attack"},
 "14577": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Acrylic Pink/Black w/ Gold 7ct Set", "preorder_status": "", "sku": "MDG173", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Acrylic-Polyhedral-Dice-Set-Pink-Black-w-Gold-Numbers"},
 "14578": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Acrylic Stardust Supervolcano 7ct Set", "preorder_status": "", "sku": "MDG174", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Acrylic-Polyhedral-Dice-Set-Stardust-Supervolcano"},
@@ -4803,6 +4804,7 @@
 "31297": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Acrylic Glow Blue 7ct Set", "preorder_status": "", "sku": "MDG302", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Acrylic-Polyhedral-Dice-Set-Glow-Blue"},
 "31298": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Acrylic Glow Purple 7ct Set", "preorder_status": "", "sku": "MDG307", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Acrylic-Polyhedral-Dice-Set-Glow-Purple"},
 "31299": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Acrylic Glow Clear 7ct Set", "preorder_status": "", "sku": "MDG310", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Acrylic-Polyhedral-Dice-Set-Glow-Clear"},
+"31300": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Tray Blacklight w/ UV Reactive D20", "preorder_status": "", "sku": "MDG530", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Blacklight-Dice-Tray-with-UV-Reactive-D20"},
 "31301": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Resin Recycled Rainbow 7ct Set", "preorder_status": "", "sku": "MDG601", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Resin-Polyhedral-Dice-Set-Recycled-Rainbow"},
 "31302": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Resin Recycled w/ Purple 7ct Set", "preorder_status": "", "sku": "MDG602", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Resin-Polyhedral-Dice-Set-Recycled-Dice-w-Purple-Numbers"},
 "31303": {"badge": "&nbsp;", "maker": "FanRoll by Metallic Dice Games", "name": "Dice Poly Resin Rainbow Foil 7ct Set", "preorder_status": "", "sku": "MDG622", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/16mm-Resin-Polyhedral-Dice-Set-Rainbow-Foil"},
