@@ -1,7 +1,7 @@
 {
 "count": 1123,
-"fetched_at": "2026-11-19T23:25:50.376986+00:00",
-"pending": {"11246311473425": {"item": {"available": false, "name": "2026 LEAF METAL SPORTS ILLUSTRATED KIDS", "price": "238.00", "published": "2026-09-24", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-metal-sports-ill-kids"}, "since": "2026-11-19T23:20:59.771181+00:00"}, "15446672670993": {"item": {"available": true, "name": "2026 LEAF RED CARPET", "price": "7900.00", "published": "2026-10-15", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-red-carpet"}, "since": "2026-11-19T23:20:59.771181+00:00"}, "15473501962513": {"item": {"available": false, "name": "2026 LEAF ORIGINALS MULTI-SPORT BRICK BOX", "price": "265.00", "published": "2026-10-30", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-originals-ms-brick-bx"}, "since": "2026-11-19T23:20:59.771181+00:00"}},
+"fetched_at": "2026-11-19T23:30:51.073886+00:00",
+"pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
