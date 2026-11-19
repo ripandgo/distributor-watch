@@ -1,6 +1,6 @@
 {
-"count": 1125,
-"fetched_at": "2026-11-19T17:02:05.205376+00:00",
+"count": 1126,
+"fetched_at": "2026-11-19T17:07:03.087230+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1054,6 +1054,7 @@
 "15427077800209": {"available": true, "name": "2026 LEAF METAL HAPPY HOLIDAYS UGLY SWEATER", "price": "344.00", "published": "2026-10-07", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-metal-happy-hol-ugly"},
 "15429943492881": {"available": true, "name": "26 TOPPS ALLEN & GINTER BASEBALL HOBBY", "price": "175.00", "published": "2026-10-08", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-allen-ginter-hobby"},
 "15435629822225": {"available": true, "name": "2026 PANINI MANGAVERSE FOOTBALL", "price": "128.75", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-mangaverse-ftb"},
+"15436742557969": {"available": true, "name": "PLAYMAT PKMN DIE CUT ESP & UMB", "price": "13.33", "published": "2026-11-19", "type": "", "url": "https://goldriverdistributors.com/products/playmat-pkmn-die-cut-esp-umb"},
 "15436742721809": {"available": true, "name": "PLAYMAT PKMN FOIL ESPEON", "price": "21.33", "published": "2026-11-19", "type": "", "url": "https://goldriverdistributors.com/products/playmat-pkmn-foil-espeon"},
 "15436749013265": {"available": true, "name": "PLAYMAT PKMN FOIL UMBREON", "price": "21.33", "published": "2026-11-19", "type": "", "url": "https://goldriverdistributors.com/products/playmat-pkmn-foil-umbreon"},
 "15437144490257": {"available": false, "name": "26 TOPPS BOWMAN CHROME BASEBALL MEGA", "price": "77.50", "published": "2026-10-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-bowman-chrome-bse-mega"},
