@@ -1,7 +1,7 @@
 {
-"count": 7252,
-"fetched_at": "2026-11-20T18:58:33.771198+00:00",
-"pending": {},
+"count": 7251,
+"fetched_at": "2026-11-20T19:03:33.447568+00:00",
+"pending": {"14518": {"item": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Numenera Ninth World Guidebook", "preorder_status": "", "sku": "MCG006", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/14518"}, "since": "2026-11-20T19:03:33.447568+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -1279,7 +1279,6 @@
 "14510": {"badge": "&nbsp;", "maker": "Bandai Namco Toys & Collectibles America, Inc.", "name": "Deck Box Naruto the Fourth Hokage", "preorder_status": "", "sku": "MAX14453", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Naruto-the-Fourth-Hokage-Deck-Box"},
 "14516": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Numenera Player's Guide 1st Edition", "preorder_status": "", "sku": "MCG002", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/14516"},
 "14517": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Numenera the Devils Spine", "preorder_status": "", "sku": "MCG003", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Numenera-RPG-The-Devils-Spine"},
-"14518": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Numenera Ninth World Guidebook", "preorder_status": "", "sku": "MCG006", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/14518"},
 "14519": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Strange Corebook (The)", "preorder_status": "", "sku": "MCG028", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/14519"},
 "14522": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Numenera Character Sheets", "preorder_status": "", "sku": "MCG054", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/14522"},
 "14523": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Cypher System Core Rulebook", "preorder_status": "", "sku": "MCG072", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/14523"},
