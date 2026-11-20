@@ -1,6 +1,6 @@
 {
 "count": 1124,
-"fetched_at": "2026-11-20T21:48:23.554494+00:00",
+"fetched_at": "2026-11-20T21:53:23.514990+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -632,7 +632,7 @@
 "10619739308305": {"available": true, "name": "D BOX SATIN CUBE MARBLE LT BLUE", "price": "6.69", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/d-box-satin-cube-marble-lt-blue"},
 "10619739373841": {"available": true, "name": "23 PANINI NOIR BSK", "price": "2950.00", "published": "2025-10-24", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/23-panini-noir-bsk"},
 "10619739472145": {"available": true, "name": "24 TOPPS BOWMAN HOBBY BASEBALL", "price": "315.00", "published": "2025-10-06", "type": "BASEBALL WAX", "url": "https://goldriverdistributors.com/products/24-topps-bowman-hby-bse"},
-"10619740061969": {"available": true, "name": "23 PANINI SELECT H2 FOOTBALL", "price": "195.00", "published": "2025-10-06", "type": "FOOTBALL WAX", "url": "https://goldriverdistributors.com/products/23-panini-select-h2-ftb"},
+"10619740061969": {"available": false, "name": "23 PANINI SELECT H2 FOOTBALL", "price": "195.00", "published": "2025-10-06", "type": "FOOTBALL WAX", "url": "https://goldriverdistributors.com/products/23-panini-select-h2-ftb"},
 "10619740160273": {"available": true, "name": "BCW COMIC BAG LIFE MAG", "price": "8.35", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-comic-bag-life-mag"},
 "10619740193041": {"available": true, "name": "BCW 9 PKT PAGES LASERWELD", "price": "12.90", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-9-pkt-pages-laserweld"},
 "10619740225809": {"available": true, "name": "CARDBOARD TOPLOADER 5 INCH", "price": "20.96", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/cardboard-toploader-5-inch"},
