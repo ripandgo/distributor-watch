@@ -1,7 +1,7 @@
 {
-"count": 7254,
-"fetched_at": "2026-11-20T19:08:33.765641+00:00",
-"pending": {"14518": {"item": {"badge": "&nbsp;", "maker": "Monte Cook Games", "name": "Numenera Ninth World Guidebook", "preorder_status": "", "sku": "MCG006", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/14518"}, "since": "2026-11-20T19:03:33.447568+00:00"}},
+"count": 7253,
+"fetched_at": "2026-11-20T19:13:33.133543+00:00",
+"pending": {"14283": {"item": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Eldritch Lairs", "preorder_status": "", "sku": "KOBELPF", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/14283"}, "since": "2026-11-20T19:13:33.133543+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -1227,7 +1227,6 @@
 "14264": {"badge": "&nbsp;", "maker": "Japanime Games", "name": "Krosmaster Arena Accessory Not Mines Tile Pack", "preorder_status": "", "sku": "JPG214", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Krosmaster-Arena-Not-Mines"},
 "14266": {"badge": "&nbsp;", "maker": "Kenzer & Company", "name": "Fairy Meat Clockwork Stomp Miniatures Game Book", "preorder_status": "", "sku": "KEN404", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/14266"},
 "14282": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "D&D 5E Creature Codex Pawns", "preorder_status": "", "sku": "KOBCCPAWN", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/5th-Edition-RPG-Creature-Codex-Pawns"},
-"14283": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Eldritch Lairs", "preorder_status": "", "sku": "KOBELPF", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/14283"},
 "14284": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Kobold Guide to GameMastering", "preorder_status": "", "sku": "KOBKGGM", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/14284"},
 "14305": {"badge": "&nbsp;", "maker": "Konami", "name": "Yugioh 2021 Tin of Ancient Battles 12ct Case", "preorder_status": "", "sku": "KON85421", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Yugioh-TCG-2021-Tin-of-Ancient-Battles-12ct"},
 "14307": {"badge": "&nbsp;", "maker": "Konami", "name": "Yugioh Speed Duel GX Duel Academy Box", "preorder_status": "", "sku": "KON85450", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Speed-Duel-GX-Duel-Academy-Box"},
