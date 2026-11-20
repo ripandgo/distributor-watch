@@ -1,6 +1,6 @@
 {
-"count": 1123,
-"fetched_at": "2026-11-20T15:43:47.416279+00:00",
+"count": 1124,
+"fetched_at": "2026-11-20T15:48:47.773088+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1125,6 +1125,7 @@
 "15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"},
 "15524876583185": {"available": false, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "350.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"},
 "15527268942097": {"available": true, "name": "26 TOPPS MIDNIGHT FOOTBALL", "price": "595.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-midnight-ftb"},
-"15528816214289": {"available": false, "name": "26 TOPPS PRO DEBUT BASEBALL", "price": "175.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-pro-debut-bse"}
+"15528816214289": {"available": false, "name": "26 TOPPS PRO DEBUT BASEBALL", "price": "175.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-pro-debut-bse"},
+"15534237155601": {"available": false, "name": "26 TOPPS ALLEN & GINTER X", "price": "280.00", "published": "2026-11-20", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-allen-ginter-x"}
 }
 }
