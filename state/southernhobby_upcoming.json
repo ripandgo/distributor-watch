@@ -1,7 +1,7 @@
 {
-"count": 2900,
-"fetched_at": "2026-11-20T20:58:30.670606+00:00",
-"pending": {"81760": {"item": {"name": "Evangelion: New Theatrical Edition - Vertical Take-off and Landing Aircraft YAGR-N101 Model Kit", "order_due": "09/30/2026", "release_date": "05/01/2027", "sku": "KBYKP182R", "url": "https://www.southernhobby.com/evangelion-new-theatrical-edition-vertical-take-off-and-landing-aircraft-yagr-n101-model-kit/p81760/"}, "since": "2026-11-20T20:58:30.670606+00:00"}, "84249": {"item": {"name": "DEATH STRANDING 2: ON THE BEACH: DHV MAGELLAN FINAL BATTLE Ver. - Model kit", "order_due": "11/16/2026", "release_date": "05/01/2027", "sku": "KBYKP843", "url": "https://www.southernhobby.com/death-stranding-2-on-the-beach-dhv-magellan-final-battle-ver-model-kit/p84249/"}, "since": "2026-11-20T20:58:30.670606+00:00"}},
+"count": 2902,
+"fetched_at": "2026-11-20T21:03:30.900143+00:00",
+"pending": {},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -1279,6 +1279,7 @@
 "81756": {"name": "Takara Tomy: Transformers - MPG-26 Destron Rhinox", "order_due": "09/01/2026", "release_date": "04/27/2027", "sku": "HSBG4393", "url": "https://www.southernhobby.com/takara-tomy-transformers-mpg-26-destron-rhinox/p81756/"},
 "81757": {"name": "Takara Tomy: Transformers - AM-T02EX Magna Regulus", "order_due": "09/01/2026", "release_date": "04/27/2027", "sku": "HSBG4394", "url": "https://www.southernhobby.com/takara-tomy-transformers-am-t02ex-magna-regulus/p81757/"},
 "81759": {"name": "The Legend of Heroes: Van Arkride - Statue", "order_due": "09/16/2026", "release_date": "04/01/2027", "sku": "KBYPV428", "url": "https://www.southernhobby.com/the-legend-of-heroes-van-arkride-statue/p81759/"},
+"81760": {"name": "Evangelion: New Theatrical Edition - Vertical Take-off and Landing Aircraft YAGR-N101 Model Kit", "order_due": "09/30/2026", "release_date": "05/01/2027", "sku": "KBYKP182R", "url": "https://www.southernhobby.com/evangelion-new-theatrical-edition-vertical-take-off-and-landing-aircraft-yagr-n101-model-kit/p81760/"},
 "81761": {"name": "Dragon Shield Playmat: Fuka and The Empress", "order_due": "09/21/2026", "release_date": "12/18/2026", "sku": "AT-20540", "url": "https://www.southernhobby.com/dragon-shield-playmat-fuka-and-the-empress/p81761/"},
 "81762": {"name": "Dragon Shield Sleeves: Standard Matte Dual Art - Fuka and The Empress 100CT", "order_due": "09/21/2026", "release_date": "12/18/2026", "sku": "AT-12188", "url": "https://www.southernhobby.com/dragon-shield-sleeves-standard-matte-dual-art-fuka-and-the-empress-100ct/p81762/"},
 "81772": {"name": "Transformers Toys War for Cybertron: Earthrise Deluxe WFC-E41 Decepticon Runabout 5.5-inch", "order_due": "08/31/2026", "release_date": "10/01/2027", "sku": "HSBF0125", "url": "https://www.southernhobby.com/transformers-toys-war-for-cybertron-earthrise-deluxe-wfc-e41-decepticon-runabout-5-inch/p81772/"},
@@ -2617,6 +2618,7 @@
 "84246": {"name": "Heaven's Lost Property: Forte - Nymph Pre-painted PVC Statue", "order_due": "11/16/2026", "release_date": "07/01/2027", "sku": "KBYPV518", "url": "https://www.southernhobby.com/heaven-s-lost-property-forte-nymph-pre-painted-pvc-statue/p84246/"},
 "84247": {"name": "Back to the Future: QV-10 Q VILLAGE Back to the Future TIME MACHINE (Part3)", "order_due": "11/16/2026", "release_date": "07/01/2027", "sku": "KBYGN372", "url": "https://www.southernhobby.com/back-to-the-future-qv-10-q-village-time-machine-part3-/p84247/"},
 "84248": {"name": "ZOIDS: RMZ-028 BLADE LIGER AB BANG SPECIAL - Model Kit", "order_due": "11/16/2026", "release_date": "07/01/2027", "sku": "KBYGN371", "url": "https://www.southernhobby.com/zoids-rmz-028-blade-liger-ab-bang-special-model-kit/p84248/"},
+"84249": {"name": "DEATH STRANDING 2: ON THE BEACH: DHV MAGELLAN FINAL BATTLE Ver. - Model kit", "order_due": "11/16/2026", "release_date": "05/01/2027", "sku": "KBYKP843", "url": "https://www.southernhobby.com/death-stranding-2-on-the-beach-dhv-magellan-final-battle-ver-model-kit/p84249/"},
 "84250": {"name": "SOUSAISHOJOTEIEN: AFTER SCHOOL KUON'S ACTOR PROP SET - Model Kit", "order_due": "11/16/2026", "release_date": "07/01/2027", "sku": "KBYMV020", "url": "https://www.southernhobby.com/sousaishojoteien-after-school-kuon-s-actor-prop-set-model-kit/p84250/"},
 "84251": {"name": "FRAME ARMS GIRL: FRAME ARMS GIRL HRESVELGR=CORNIX PHOENIX - Model Kit", "order_due": "11/16/2026", "release_date": "06/01/2027", "sku": "KBYFG203", "url": "https://www.southernhobby.com/frame-arms-girl-hresvelgr-cornix-phoenix-model-kit/p84251/"},
 "84253": {"name": "Ultra Pro Apex Sleeves: Standard Warhammer 40,000 - Imperium 105CT", "order_due": "11/30/2026", "release_date": "12/31/2026", "sku": "ULPDPRA32135", "url": "https://www.southernhobby.com/ultra-pro-apex-sleeves-standard-warhammer-40-000-imperium-105ct/p84253/"},
