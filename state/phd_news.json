@@ -1,10 +1,9 @@
 {
 "count": 100,
-"fetched_at": "2026-11-20T21:03:30.900143+00:00",
-"pending": {},
+"fetched_at": "2026-11-20T21:08:24.499871+00:00",
+"pending": {"86717": {"item": {"modified": "2026-08-19T12:33:16", "name": "Pokémon TCG: 30th Celebration", "posted": "2026-07-10", "url": "https://www.phdgames.com/2026/07/10/pokemon-tcg-30th-celebration/"}, "since": "2026-11-20T21:08:24.499871+00:00"}},
 "items": {
 "86602": {"modified": "2026-07-15T17:54:38", "name": "Magic: The Gathering — Reality Fracture | Wizards of the Coast", "posted": "2026-07-15", "url": "https://www.phdgames.com/2026/07/15/magic-the-gathering-reality-fracture-wizards-of-the-coast/"},
-"86717": {"modified": "2026-08-19T12:33:16", "name": "Pokémon TCG: 30th Celebration", "posted": "2026-07-10", "url": "https://www.phdgames.com/2026/07/10/pokemon-tcg-30th-celebration/"},
 "86760": {"modified": "2026-09-28T11:09:41", "name": "Chaotic TCG: Dawn of Perim — Secrets Decoded | Panini", "posted": "2026-07-20", "url": "https://www.phdgames.com/2026/07/20/chaotic-tcg-dawn-of-perim-secrets-decoded-panini/"},
 "86917": {"modified": "2026-07-17T12:53:02", "name": "Flesh and Blood TCG: Usurp the Shadow Throne — Legend Story Studios", "posted": "2026-07-16", "url": "https://www.phdgames.com/2026/07/16/flesh-and-blood-tcg-usurp-the-shadow-throne-legend-story-studios/"},
 "86944": {"modified": "2026-08-31T13:13:48", "name": "Magic: The Gathering — Star Trek | Wizards of the Coast", "posted": "2026-08-31", "url": "https://www.phdgames.com/2026/08/31/magic-the-gathering-star-trek-wizards-of-the-coast/"},
@@ -102,6 +101,7 @@
 "88922": {"modified": "2026-11-16T15:19:00", "name": "Disney Lorcana: Into the Inkdark — Ravensburger", "posted": "2026-11-16", "url": "https://www.phdgames.com/2026/11/16/disney-lorcana-into-the-inkdark-ravensburger/"},
 "88945": {"modified": "2026-11-17T17:31:06", "name": "Gundam Assemble Updated Release Dates, Friendly Battles, Challenger Cup, & More!", "posted": "2026-11-17", "url": "https://www.phdgames.com/2026/11/17/gundam-assemble-updated-release-dates-friendly-battles-challenger-cup-more/"},
 "88958": {"modified": "2026-11-19T13:30:24", "name": "Shadowverse Evolve: Court of the Six Flowers — Bushiroad", "posted": "2026-11-19", "url": "https://www.phdgames.com/2026/11/19/shadowverse-evolve-court-of-the-six-flowers-bushiroad/"},
-"88971": {"modified": "2026-11-19T17:26:29", "name": "Pokémon TCG: Mega Evolution—Flowing Fists", "posted": "2026-11-19", "url": "https://www.phdgames.com/2026/11/19/pokemon-tcg-mega-evolution-flowing-fists/"}
+"88971": {"modified": "2026-11-19T17:26:29", "name": "Pokémon TCG: Mega Evolution—Flowing Fists", "posted": "2026-11-19", "url": "https://www.phdgames.com/2026/11/19/pokemon-tcg-mega-evolution-flowing-fists/"},
+"88990": {"modified": "2026-11-20T16:10:19", "name": "Tamashii Nations: Luffy’s One Piece Figure with Card Game DON!! — Bandai Hobby", "posted": "2026-11-20", "url": "https://www.phdgames.com/2026/11/20/tamashii-nations-luffys-one-piece-figure-with-card-game-don-bandai-hobby/"}
 }
 }
