@@ -1,6 +1,6 @@
 {
 "count": 1124,
-"fetched_at": "2026-11-20T18:19:05.398075+00:00",
+"fetched_at": "2026-11-20T18:23:34.570682+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -165,7 +165,7 @@
 "10619713913105": {"available": true, "name": "PRO-MOLD 53-55 SCREWDOWN-20", "price": "0.80", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-mold-53-55-screwdown-20"},
 "10619713945873": {"available": true, "name": "CARDBOARD BOX 3200 FULL LID", "price": "3.56", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/cardboard-box-3200-full-lid"},
 "10619713978641": {"available": false, "name": "DECK PRO 100CT BLACK", "price": "3.56", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-100ct-black"},
-"10619714011409": {"available": true, "name": "DECK PRO 100CT WHITE", "price": "3.83", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-100ct-white"},
+"10619714011409": {"available": false, "name": "DECK PRO 100CT WHITE", "price": "3.83", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-100ct-white"},
 "10619714044177": {"available": true, "name": "DECK PRO 100CT GREEN", "price": "3.58", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-100ct-green"},
 "10619714076945": {"available": true, "name": "DECK PRO 100CT BLUE", "price": "3.83", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-100ct-blue"},
 "10619714142481": {"available": false, "name": "DECK PRO 100CT RED", "price": "3.83", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-100ct-red"},
