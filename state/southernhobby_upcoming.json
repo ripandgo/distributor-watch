@@ -1,7 +1,7 @@
 {
-"count": 2902,
-"fetched_at": "2026-11-21T04:50:20.284253+00:00",
-"pending": {},
+"count": 2901,
+"fetched_at": "2026-11-21T06:16:12.469992+00:00",
+"pending": {"77653": {"item": {"name": "2025 Panini Prizm No Huddle Football", "order_due": "10/12/2025", "release_date": "11/21/2026", "sku": "DYNPO25FBPRZNH", "url": "https://www.southernhobby.com/2025-panini-prizm-no-huddle-football/p77653/"}, "since": "2026-11-21T06:16:12.469992+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -82,7 +82,6 @@
 "77312": {"name": "Ys VIII: Lacrimosa of DANA - Dana Iclucia Figure", "order_due": "05/04/2026", "release_date": "11/30/2026", "sku": "KBYPV474", "url": "https://www.southernhobby.com/ys-viii-lacrimosa-of-dana-iclucia-figure/p77312/"},
 "77588": {"name": "Trigun Stargaze: Artfx J Millions Knives - Trigun Stempede Version Statue", "order_due": "05/25/2026", "release_date": "12/30/2026", "sku": "KBYPV397", "url": "https://www.southernhobby.com/trigun-stargaze-artfx-j-millions-knives-stempede-version-statue/p77588/"},
 "77601": {"name": "Sirius Dice: D&D - Sticky Notes - Loot, Stats and Sessions", "order_due": "04/18/2026", "release_date": "01/31/2027", "sku": "SDZ2404-01", "url": "https://www.southernhobby.com/sirius-dice-d-sticky-notes-loot-stats-and-sessions/p77601/"},
-"77653": {"name": "2025 Panini Prizm No Huddle Football", "order_due": "10/12/2025", "release_date": "11/21/2026", "sku": "DYNPO25FBPRZNH", "url": "https://www.southernhobby.com/2025-panini-prizm-no-huddle-football/p77653/"},
 "77702": {"name": "Mobile Suit Gundam Unicorn: KSHATRIYA - Model Kit", "order_due": "---", "release_date": "11/30/2026", "sku": "BAS2861704", "url": "https://www.southernhobby.com/mobile-suit-gundam-unicorn-kshatriya-model-kit/p77702/"},
 "77707": {"name": "30 Minute Fantasy: Yoroi-Shinden Samurai Troopers Yamato of the Wilderness", "order_due": "---", "release_date": "11/30/2026", "sku": "BAS2863764", "url": "https://www.southernhobby.com/30-minute-fantasy-yoroi-shinden-samurai-troopers-yamato-of-the-wilderness/p77707/"},
 "77708": {"name": "Pokemon: Model Kit QUICK!! 29 CHIMCHAR - Model Kit", "order_due": "---", "release_date": "11/30/2026", "sku": "BAS2869723", "url": "https://www.southernhobby.com/pokemon-model-kit-quick-29-chimchar-kit/p77708/"},
