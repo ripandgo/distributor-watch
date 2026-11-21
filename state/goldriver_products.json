@@ -1,6 +1,6 @@
 {
 "count": 1124,
-"fetched_at": "2026-11-21T05:05:20.211529+00:00",
+"fetched_at": "2026-11-21T05:10:21.015637+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1117,7 +1117,7 @@
 "15516205220113": {"available": true, "name": "26 TOPPS CHROME COSMIC BASEBALL", "price": "950.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-cosmic-bse"},
 "15516205252881": {"available": true, "name": "26 TOPPS FIVE STAR BASEBALL (SEALED 3 BOX CASES ONLY)", "price": "2100.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-five-star-baseball"},
 "15519241634065": {"available": true, "name": "PLAYMAT FALLOUT", "price": "11.28", "published": "2026-11-19", "type": "", "url": "https://goldriverdistributors.com/products/fallout-playmat"},
-"15519535726865": {"available": true, "name": "26 TOPPS FLAGSHIP NBA HOBBY", "price": "225.00", "published": "2026-11-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-hobby"},
+"15519535726865": {"available": false, "name": "26 TOPPS FLAGSHIP NBA HOBBY", "price": "225.00", "published": "2026-11-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-hobby"},
 "15521697956113": {"available": true, "name": "YU-GI-OH HERO FORCE STRUCTURE DECK", "price": "86.00", "published": "2026-11-13", "type": "", "url": "https://goldriverdistributors.com/products/ygo-hero-force-structure-dk"},
 "15521829880081": {"available": false, "name": "26 UPPER DECK SERIES 1 HOCKEY", "price": "88.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-upper-deck-series-1-hky"},
 "15521852227857": {"available": false, "name": "26 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "33.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-blaster"},
