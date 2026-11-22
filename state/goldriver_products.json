@@ -1,6 +1,6 @@
 {
 "count": 1124,
-"fetched_at": "2026-11-22T22:34:07.091867+00:00",
+"fetched_at": "2026-11-22T22:38:52.631961+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -687,7 +687,7 @@
 "10619751661841": {"available": true, "name": "24 PANINI NT BSK (SEALED CASES ONLY)", "price": "3250.00", "published": "2026-10-18", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/24-panini-nt-bsk"},
 "10619753201937": {"available": true, "name": "25 PANINI SCORE FOOTBALL", "price": "315.00", "published": "2025-10-06", "type": "FOOTBALL WAX", "url": "https://goldriverdistributors.com/products/25-panini-score-ftb"},
 "10619754152209": {"available": true, "name": "2025 PANINI NFL 50CT STICKERS", "price": "45.00", "published": "2025-10-24", "type": "MISCELLANEOUS", "url": "https://goldriverdistributors.com/products/2025-panini-nfl-50ct-stickers"},
-"10619754676497": {"available": true, "name": "POKEMON UNOVA POSTER COLLECTION-Limit 4 Cs", "price": "33.50", "published": "2026-11-10", "type": "GAMING", "url": "https://goldriverdistributors.com/products/pokemon-unova-poster-coll"},
+"10619754676497": {"available": false, "name": "POKEMON UNOVA POSTER COLLECTION-Limit 4 Cs", "price": "33.50", "published": "2026-11-10", "type": "GAMING", "url": "https://goldriverdistributors.com/products/pokemon-unova-poster-coll"},
 "10619754709265": {"available": false, "name": "POKEMON S&V BLACK BOLT ETB- 1 cs limit", "price": "125.00", "published": "2026-09-04", "type": "GAMING", "url": "https://goldriverdistributors.com/products/pokemon-s-v-black-bolt-etb"},
 "10619754971409": {"available": true, "name": "PRO BINDER 9PKT POKEMON PIKACHU", "price": "14.75", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-9pkt-pokemon-pikachu"},
 "10619755102481": {"available": false, "name": "D BOX POKEMON PIKACHU", "price": "1.64", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/d-box-pokemon-pikachu"},
