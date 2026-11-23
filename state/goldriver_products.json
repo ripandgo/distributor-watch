@@ -1,6 +1,6 @@
 {
 "count": 1125,
-"fetched_at": "2026-11-23T20:26:43.416011+00:00",
+"fetched_at": "2026-11-23T20:31:43.184264+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -185,7 +185,7 @@
 "10619714666769": {"available": true, "name": "BCW TOP LOADER 138 PT 10CT", "price": "2.55", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-top-loader-138-pt-10ct"},
 "10619714699537": {"available": true, "name": "BCW TOP LOADER 197 PT 10CT", "price": "2.79", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-top-loader-197-point-10ct"},
 "10619714732305": {"available": true, "name": "BCW TOP LOADER 240 PT 10CT", "price": "3.25", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-top-loader-240-pt-10ct"},
-"10619714765073": {"available": false, "name": "DISP BSK SQUARE UV 82203", "price": "20.30", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-bsk-square-uv-82203"},
+"10619714765073": {"available": false, "name": "DISP BSK SQUARE UV", "price": "20.30", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-bsk-square-uv-82203"},
 "10619714797841": {"available": true, "name": "DECK BOX PINK", "price": "1.27", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-pink"},
 "10619714830609": {"available": true, "name": "DECK BOX PURPLE", "price": "1.27", "published": "2025-10-14", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-purple"},
 "10619714863377": {"available": true, "name": "DECK BOX YELLOW", "price": "1.27", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-yellow"},
