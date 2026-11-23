@@ -1,6 +1,6 @@
 {
 "count": 1125,
-"fetched_at": "2026-11-23T22:18:57.658707+00:00",
+"fetched_at": "2026-11-23T22:23:57.874299+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1075,7 +1075,7 @@
 "15449252659473": {"available": true, "name": "2026 PANINI COMBAT ANTHOLOGY", "price": "130.00", "published": "2026-10-19", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-combat-anthology"},
 "15453574234385": {"available": true, "name": "26 PANINI PRIZM BASEBALL NPP MEGA", "price": "32.50", "published": "2026-10-21", "type": "", "url": "https://goldriverdistributors.com/products/26-panini-prizm-bse-npp-mega"},
 "15455419826449": {"available": true, "name": "DECK PRO BLACK MATTE 200CT", "price": "8.00", "published": "2026-10-22", "type": "", "url": "https://goldriverdistributors.com/products/deck-pro-black-matte-200ct"},
-"15456920797457": {"available": false, "name": "26 TOPPS MARS ATTACKS CHRISTMAS", "price": "60.00", "published": "2026-10-22", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-mars-attacks-christmas"},
+"15456920797457": {"available": true, "name": "26 TOPPS MARS ATTACKS CHRISTMAS", "price": "58.50", "published": "2026-10-22", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-mars-attacks-christmas"},
 "15458800926993": {"available": true, "name": "2026 LEAF ORIGINALS BASEBALL HOBBY", "price": "132.00", "published": "2026-10-23", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-originals-bse-hobby"},
 "15458801975569": {"available": true, "name": "2026 LEAF ORIGINALS BASEBALL JUMBO", "price": "212.00", "published": "2026-10-23", "type": "", "url": "https://goldriverdistributors.com/products/2026-leaf-originals-bse-jumbo"},
 "15460835754257": {"available": true, "name": "26 TOPPS HERITAGE FOOTBALL HOBBY", "price": "110.00", "published": "2026-10-28", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-heritage-ftb-hobby"},
@@ -1093,7 +1093,7 @@
 "15467108663569": {"available": false, "name": "26 TOPPS HOLIDAY BASEBALL ADVENT CALENDAR", "price": "65.00", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-bse-advent"},
 "15467117904145": {"available": false, "name": "26 TOPPS HOLIDAY BASEBALL MEGA", "price": "35.00", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-bse-mega"},
 "15467120886033": {"available": false, "name": "26 TOPPS HOLIDAY BASEBALL TINS", "price": "40.00", "published": "2026-10-27", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-holiday-bse-tins"},
-"15470399193361": {"available": true, "name": "26 TOPPS HERITAGE FOOTBALL BLASTER", "price": "22.50", "published": "2026-10-28", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-heritage-ftb-blaster"},
+"15470399193361": {"available": true, "name": "26 TOPPS HERITAGE FOOTBALL BLASTER", "price": "20.00", "published": "2026-10-28", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-heritage-ftb-blaster"},
 "15470403256593": {"available": true, "name": "2026 RITTENHOUSE A KNIGHT OF 7 KINGDOMS SEASON 1", "price": "146.50", "published": "2026-10-28", "type": "", "url": "https://goldriverdistributors.com/products/2026-rh-a-knight-of-7-kingdoms-1"},
 "15470556283153": {"available": true, "name": "2026 TRI-STAR HIDDEN TREASURES END ZONE FOOTBALL MEMORABILIA", "price": "550.00", "published": "2026-10-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-tri-star-ht-end-zn-ftb-mem"},
 "15471579398417": {"available": true, "name": "2026 PANINI IMMACULATE FOOTBALL", "price": "0.00", "published": "2026-10-29", "type": "", "url": "https://goldriverdistributors.com/products/2026-panini-immaculate-ftb"},
