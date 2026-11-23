@@ -1,6 +1,6 @@
 {
 "count": 1124,
-"fetched_at": "2026-11-23T16:43:14.179839+00:00",
+"fetched_at": "2026-11-23T16:48:14.500447+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -585,7 +585,7 @@
 "10619733115153": {"available": true, "name": "D BOX SATIN TOWERGLITTER BLACK", "price": "10.40", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/d-box-satin-towerglitter-black"},
 "10619733377297": {"available": true, "name": "BCW TOP LOADER TICKET 3X7", "price": "6.77", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-top-loader-ticket-3x7"},
 "10619733475601": {"available": true, "name": "BCW COMIC DIVIDERS WHITE", "price": "10.24", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-comic-dividers-white"},
-"10619733508369": {"available": true, "name": "22 WILD CARD DRAFT PICK MEGA BOX BASKETBALL", "price": "25.00", "published": "2025-10-08", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/22-wild-card-drf-pk-bsk-mega-bx"},
+"10619733508369": {"available": false, "name": "22 WILD CARD DRAFT PICK MEGA BOX BASKETBALL", "price": "25.00", "published": "2025-10-08", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/22-wild-card-drf-pk-bsk-mega-bx"},
 "10619733573905": {"available": true, "name": "DECK P ECLIPSE SMALL MATTE WHITE", "price": "3.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-small-matte-white"},
 "10619733606673": {"available": true, "name": "DECK P ECLIPSE SMALL MATTE BLK", "price": "3.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-small-matte-blk"},
 "10619733639441": {"available": true, "name": "PAGES TOPLOADER", "price": "17.12", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pages-toploader"},
