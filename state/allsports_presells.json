@@ -1,6 +1,6 @@
 {
-"count": 157,
-"fetched_at": "2026-11-23T17:26:19.647852+00:00",
+"count": 158,
+"fetched_at": "2026-11-23T17:31:19.795848+00:00",
 "pending": {},
 "items": {
 "2023-24 crown royale euroleague basketball": {"name": "2023-24 Crown Royale Euroleague Basketball", "sell_sheet": "https://images.allsportsmarketing.net/23-24_EuroCrownBK_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
@@ -150,6 +150,7 @@
 "2026 par three liv golf": {"name": "2026 Par Three LIV Golf", "sell_sheet": "https://images.allsportsmarketing.net/26ParThreeLIV_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
 "2026 prizm baseball": {"name": "2026 Prizm Baseball", "sell_sheet": "https://images.allsportsmarketing.net/26PrizmBB_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
 "2026 prizm black nwsl": {"name": "2026 Prizm Black NWSL", "sell_sheet": "https://images.allsportsmarketing.net/26PrizmBlackNWSL_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
+"2026 prizm football": {"name": "2026 Prizm Football", "sell_sheet": "https://images.allsportsmarketing.net/26PrizmFB_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
 "2026 prizm wnba": {"name": "2026 Prizm WNBA", "sell_sheet": "https://images.allsportsmarketing.net/26PrizmWNBA_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
 "2026 prizm world cup soccer": {"name": "2026 Prizm World Cup Soccer", "sell_sheet": "https://images.allsportsmarketing.net/26PrizmWorldCup_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
 "2026 ring royalty major league wrestling": {"name": "2026 Ring Royalty Major League Wrestling", "sell_sheet": "https://images.allsportsmarketing.net/26RingRoyaltyMLW_PIS_Hobby.pdf", "url": "https://www.allsportsmarketing.net/presells"},
