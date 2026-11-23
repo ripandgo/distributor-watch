@@ -1,6 +1,6 @@
 {
 "count": 1126,
-"fetched_at": "2026-11-23T22:53:57.221630+00:00",
+"fetched_at": "2026-11-23T22:58:57.296207+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -425,7 +425,7 @@
 "10619724693777": {"available": false, "name": "PRO BINDER ECLIPSE PUMPKIN ORANG", "price": "11.05", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-eclipse-pumpkin-orang"},
 "10619724726545": {"available": true, "name": "PRO BINDER ECLIPSE ROYAL PURPLE", "price": "11.05", "published": "2025-10-14", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-eclipse-royal-purple"},
 "10619724759313": {"available": true, "name": "PRO BINDER ECLIPSE SKY BLUE", "price": "11.05", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-eclipse-sky-blue"},
-"10619724857617": {"available": true, "name": "19 PANINI DONRUSS BSK", "price": "450.00", "published": "2025-10-24", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/19-panini-donruss-bsk"},
+"10619724857617": {"available": true, "name": "19 PANINI DONRUSS BSK", "price": "350.00", "published": "2025-10-24", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/19-panini-donruss-bsk"},
 "10619724890385": {"available": true, "name": "PRO BINDER ECLIPSE SMOKE GREY", "price": "11.05", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-eclipse-smoke-grey"},
 "10619724923153": {"available": false, "name": "DECK BOX PUMPKIN ORANGE", "price": "1.27", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-pumpkin-orange"},
 "10619724955921": {"available": true, "name": "PRO BINDER 9PKT RUBY ZIPPER", "price": "17.14", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-9pkt-ruby-zipper"},
@@ -451,7 +451,7 @@
 "10619726233873": {"available": true, "name": "CAROLINA PANTHER RIDDELL ECLIPSE ALTERNATE REPLICA HELMET", "price": "125.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/eclipse-replica-carolina-panther"},
 "10619726266641": {"available": true, "name": "GREEN BAY PACKERS RIDDELL ECLIPSE ALTERNATE REPLICA HELMET", "price": "125.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/eclipse-replica-g-b-packers"},
 "10619726299409": {"available": false, "name": "LOS ANGELES CHARGERS RIDDELL ECLIPSE ALTERNATE MINI HELMET", "price": "25.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/eclipse-alt-mini-l-a-chargers"},
-"10619726332177": {"available": true, "name": "19 PANINI MOSAIC FAST BREAK BASKETBALL", "price": "190.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/19-panini-mosaic-fast-break-bk"},
+"10619726332177": {"available": false, "name": "19 PANINI MOSAIC FAST BREAK BASKETBALL", "price": "190.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/19-panini-mosaic-fast-break-bk"},
 "10619726364945": {"available": true, "name": "19 PANINI DONRUSS OPTIC CHOICE BASKETBALL", "price": "295.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/19-panini-donruss-optic-choic-bk"},
 "10619726397713": {"available": true, "name": "AUTO LEAF J.JEUDY BAMA JERSEY", "price": "69.50", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/auto-leaf-j-jeudy-bama-jersey"},
 "10619726430481": {"available": true, "name": "AUTO LEAF JOEY BART BAT", "price": "115.00", "published": "2025-10-24", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/auto-leaf-joey-bart-bat"},
