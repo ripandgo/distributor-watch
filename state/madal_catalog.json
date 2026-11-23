@@ -1,7 +1,7 @@
 {
-"count": 7254,
-"fetched_at": "2026-11-23T18:39:12.782130+00:00",
-"pending": {},
+"count": 7253,
+"fetched_at": "2026-11-23T18:44:12.082109+00:00",
+"pending": {"20830": {"item": {"badge": "&nbsp;", "maker": "The Bazooka Companies, LLC", "name": "BaZooka Original Throwback 10 Piece 12ct", "preorder_status": "", "sku": "TOP261", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Bazooka-Original-Throwback-10-Piece-12-Count"}, "since": "2026-11-23T18:44:12.082109+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -3713,7 +3713,6 @@
 "20699": {"badge": "&nbsp;", "maker": "Perfetti Van Melle USA Inc.", "name": "Mentos Rolls Mint 1.3oz 15ct", "preorder_status": "", "sku": "PVM4180", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Mentos-Rolls-Mint-1.32-Ounce-15-Count"},
 "20779": {"badge": "&nbsp;", "maker": "Spangler Candy Company", "name": "Necco Wafers Assorted Roll 2oz 24ct", "preorder_status": "", "sku": "SPA90000", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Necco-Wafers-Assorted-Roll-2-Ounces-24-Count"},
 "20784": {"badge": "&nbsp;", "maker": "Ferrara Candy Company", "name": "Spree Roll 1.77oz 36ct", "preorder_status": "", "sku": "SUN15120", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/product/20784"},
-"20830": {"badge": "&nbsp;", "maker": "The Bazooka Companies, LLC", "name": "BaZooka Original Throwback 10 Piece 12ct", "preorder_status": "", "sku": "TOP261", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Bazooka-Original-Throwback-10-Piece-12-Count"},
 "20831": {"badge": "50% OFF SHORT DATE SALE, Expirations 8/15/2026", "maker": "The Bazooka Companies, LLC", "name": "Push Pop Triple Power 1.2oz 16ct", "preorder_status": "", "sku": "TOP492", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Push-Pop-Triple-Power-1.2-Ounce-16-Count"},
 "20833": {"badge": "50% OFF SHORT DATE SALE, Expires 7/09/26", "maker": "The Bazooka Companies, LLC", "name": "Baby Bottle Pop 1.1oz 18ct", "preorder_status": "", "sku": "TOP595", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Baby-Bottle-Pop-1.1-Ounce-18-Count"},
 "20836": {"badge": "50% OFF SHORT DATE SALE, Expires 9/01/26", "maker": "The Bazooka Companies, LLC", "name": "Push Pop Jumpin Jumbo 1.06oz 18ct", "preorder_status": "", "sku": "TOP626", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Push-Pop-Jumpin-Jumbo-1.06-Ounce-18-Count"},
