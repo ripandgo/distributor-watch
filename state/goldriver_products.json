@@ -1,6 +1,6 @@
 {
 "count": 1126,
-"fetched_at": "2026-11-24T17:00:38.416795+00:00",
+"fetched_at": "2026-11-24T17:05:38.842646+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -588,7 +588,7 @@
 "10619733475601": {"available": true, "name": "BCW COMIC DIVIDERS WHITE", "price": "10.24", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-comic-dividers-white"},
 "10619733508369": {"available": false, "name": "22 WILD CARD DRAFT PICK MEGA BOX BASKETBALL", "price": "25.00", "published": "2025-10-08", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/22-wild-card-drf-pk-bsk-mega-bx"},
 "10619733573905": {"available": true, "name": "DECK P ECLIPSE SMALL MATTE WHITE", "price": "3.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-small-matte-white"},
-"10619733606673": {"available": true, "name": "DECK P ECLIPSE SMALL MATTE BLK", "price": "3.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-small-matte-blk"},
+"10619733606673": {"available": true, "name": "DECK P ECLIPSE SMALL MATTE BLACK", "price": "3.90", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-small-matte-blk"},
 "10619733639441": {"available": true, "name": "PAGES TOPLOADER", "price": "17.12", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pages-toploader"},
 "10619733672209": {"available": true, "name": "PRO BINDER VIVID 4PKT TEAL", "price": "12.21", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-vivid-4pkt-teal"},
 "10619733704977": {"available": true, "name": "PRO BINDER 9PKT ZIP SILVER", "price": "28.30", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-9pkt-zip-silver"},
@@ -1125,7 +1125,7 @@
 "15521852293393": {"available": true, "name": "26 TOPPS MUSEUM COLLECTION BASEBALL", "price": "575.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-museum-collection-bse"},
 "15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"},
 "15524876583185": {"available": false, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "350.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"},
-"15527268942097": {"available": true, "name": "26 TOPPS MIDNIGHT FOOTBALL", "price": "625.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-midnight-ftb"},
+"15527268942097": {"available": true, "name": "26 TOPPS MIDNIGHT FOOTBALL", "price": "600.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-midnight-ftb"},
 "15527270809873": {"available": true, "name": "POKEMON DAY 2027", "price": "9.50", "published": "2026-11-23", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-day-2027"},
 "15528816214289": {"available": true, "name": "26 TOPPS PRO DEBUT BASEBALL", "price": "175.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-pro-debut-bse"},
 "15534237155601": {"available": false, "name": "26 TOPPS ALLEN & GINTER X", "price": "280.00", "published": "2026-11-20", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-allen-ginter-x"}
