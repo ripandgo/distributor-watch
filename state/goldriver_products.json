@@ -1,6 +1,6 @@
 {
 "count": 1127,
-"fetched_at": "2026-11-24T18:00:22.652372+00:00",
+"fetched_at": "2026-11-24T18:05:22.587342+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -407,8 +407,8 @@
 "10619723776273": {"available": true, "name": "DECKBOX TOBACCO CARD 85399", "price": "2.22", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deckbox-tobacco-card-85399"},
 "10619723809041": {"available": true, "name": "DECKBOX TOBACCO CARD BOX", "price": "1.82", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deckbox-tobacco-card-box"},
 "10619723874577": {"available": true, "name": "BCW COMIC BOOK BIN GRADED BLK", "price": "25.00", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-comic-book-bin-graded-blk"},
-"10619724038417": {"available": false, "name": "TOP LOADER BULK 100PT 84519", "price": "11.89", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-bulk-100pt-84519"},
-"10619724071185": {"available": true, "name": "TOP LOADER BULK 130PT 84520 (50ct bundle minimum)", "price": "0.42", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-bulk-130pt-84520"},
+"10619724038417": {"available": false, "name": "TOP LOADER BULK 100PT 84519 (50ct Bundle)", "price": "11.89", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-bulk-100pt-84519"},
+"10619724071185": {"available": true, "name": "TOP LOADER BULK 130PT 84520 (50ct Bundle minimum)", "price": "0.42", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-bulk-130pt-84520"},
 "10619724103953": {"available": true, "name": "ONE TOUCH 130PT BLACK BORDER", "price": "1.90", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/one-touch-130pt-black-border"},
 "10619724169489": {"available": true, "name": "ONE TOUCH 35PT BLACK FRM 5PK", "price": "6.58", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/one-touch-35pt-black-frm-5pk"},
 "10619724267793": {"available": true, "name": "BCW DISP BSE ACRYLIC BASE", "price": "8.50", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-disp-bse-acrylic-base"},

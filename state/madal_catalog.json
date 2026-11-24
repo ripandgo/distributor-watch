@@ -1,7 +1,7 @@
 {
-"count": 7253,
-"fetched_at": "2026-11-24T18:00:22.652372+00:00",
-"pending": {},
+"count": 7252,
+"fetched_at": "2026-11-24T18:05:22.587342+00:00",
+"pending": {"44097": {"item": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Sleeves OverPower Skybound The Walking Dead 100ct Pack Michonne", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG48962", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Sleeves-Skybound-Sleeves-MICHONNE-The-Walking-Dead-for-OverPower-CCG"}, "since": "2026-11-24T18:05:22.587342+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -5771,7 +5771,6 @@
 "44094": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Playmat OverPower Skybound Invincible Learn-To-Play Robot", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG12028", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Playmat-Skybound-Premium-Format-Learn-to-Play-Playmat-ROBOT-Invincible-for-OverPower-CCG"},
 "44095": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Playmat OverPower Skybound Invincible Double Invincible", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG12042", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Playmat-Skybound-Premium-Format-DOUBLE-Playmat-INVINCIBLE-Invincible-for-OverPower-CCG"},
 "44096": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Sleeves OverPower Skybound The Walking Dead 100ct Pack Negan", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG48924", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Sleeves-Skybound-Sleeves-NEGAN-The-Walking-Dead-for-OverPower-CCG"},
-"44097": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Sleeves OverPower Skybound The Walking Dead 100ct Pack Michonne", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG48962", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Sleeves-Skybound-Sleeves-MICHONNE-The-Walking-Dead-for-OverPower-CCG"},
 "44098": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Sleeves OverPower Skybound Invincible 100ct Pack Omni-Man", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG48948", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Sleeves-Skybound-Sleeves-OMNI-MAN-Invincible-for-OverPower-CCG"},
 "44099": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Sleeves OverPower Skybound Invincible 100ct Pack Invincible", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG48955", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Sleeves-Skybound-Sleeves-INVINCIBLE-Invincible-for-OverPower-CCG"},
 "44100": {"badge": "Pre-Order", "maker": "LRG Games", "name": "PRE-ORDER Sleeves OverPower Skybound Invincible 100ct Pack Atom Eve", "preorder_status": "Closed-for-Pre-Order", "sku": "LRG48931", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Sleves-Skybound-Sleeves-ATOM-EVE-Invincible-for-OverPower-CCG"},
