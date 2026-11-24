@@ -1,6 +1,6 @@
 {
 "count": 1126,
-"fetched_at": "2026-11-24T00:30:09.740338+00:00",
+"fetched_at": "2026-11-24T00:35:09.407369+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -538,7 +538,7 @@
 "10619730592017": {"available": false, "name": "PRO BINDER 12PKT VIVID ZIP BLUE", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-blue"},
 "10619730624785": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP GREEN", "price": "19.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-green"},
 "10619730657553": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP PURPL", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-purpl"},
-"10619730690321": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP LT BL", "price": "19.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-lt-bl"},
+"10619730690321": {"available": false, "name": "PRO BINDER 12PKT VIVID ZIP LT BL", "price": "19.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-lt-bl"},
 "10619730723089": {"available": false, "name": "ULTRA-PRO 12 POCKET PRO BINDER ZIPPERED YELLOW", "price": "19.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-yello"},
 "10619730788625": {"available": false, "name": "PRO BINDER 12PKT VIVID ZIP TEAL", "price": "19.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-teal"},
 "10619730821393": {"available": true, "name": "D BOX SATIN TOWER SMOKE GREY", "price": "9.05", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/d-box-satin-tower-smoke-grey"},
@@ -564,7 +564,7 @@
 "10619732132113": {"available": true, "name": "DISP BOOSTER BOX FOR MAGIC", "price": "21.35", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-booster-box-for-magic"},
 "10619732164881": {"available": true, "name": "21 PANINI CROWN ROYALE BASKETBALL", "price": "410.00", "published": "2025-10-06", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/21-panini-crown-royale-bsk"},
 "10619732295953": {"available": false, "name": "DISP BAT TUBE SQUARE CAP", "price": "8.80", "published": "2025-10-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-bat-tube-square-cap"},
-"10619732361489": {"available": true, "name": "PRO BINDER 12PKT VIVID ZIP BLACK", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-black"},
+"10619732361489": {"available": false, "name": "PRO BINDER 12PKT VIVID ZIP BLACK", "price": "19.80", "published": "2025-10-10", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-12pkt-vivid-zip-black"},
 "10619732427025": {"available": true, "name": "20 TOPPS BOWMAN SAPPHIRE HOBBY", "price": "750.00", "published": "2025-10-06", "type": "BASEBALL WAX", "url": "https://goldriverdistributors.com/products/20-topps-bowman-sapphire-hobby"},
 "10619732492561": {"available": true, "name": "20 PANINI SPECTRA BSK FOTL", "price": "1600.00", "published": "2025-10-24", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/20-panini-spectra-bsk-fotl"},
 "10619732525329": {"available": true, "name": "SLEEVE PLATINUM 600CT", "price": "29.20", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeve-platinum-600ct"},
