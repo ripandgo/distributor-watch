@@ -1,6 +1,6 @@
 {
 "count": 1126,
-"fetched_at": "2026-11-24T02:05:58.074963+00:00",
+"fetched_at": "2026-11-24T02:10:57.216786+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1121,7 +1121,7 @@
 "15519535726865": {"available": true, "name": "26 TOPPS FLAGSHIP NBA HOBBY", "price": "208.50", "published": "2026-11-12", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-hobby"},
 "15521697956113": {"available": true, "name": "YU-GI-OH HERO FORCE STRUCTURE DECK", "price": "86.00", "published": "2026-11-13", "type": "", "url": "https://goldriverdistributors.com/products/ygo-hero-force-structure-dk"},
 "15521829880081": {"available": false, "name": "26 UPPER DECK SERIES 1 HOCKEY", "price": "88.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-upper-deck-series-1-hky"},
-"15521852227857": {"available": true, "name": "26 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "32.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-blaster"},
+"15521852227857": {"available": false, "name": "26 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "32.50", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-blaster"},
 "15521852293393": {"available": true, "name": "26 TOPPS MUSEUM COLLECTION BASEBALL", "price": "575.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-museum-collection-bse"},
 "15521970487569": {"available": true, "name": "2027 LEAF IN THE GAME USED SPORT", "price": "290.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/2027-leaf-in-the-game-used-sport"},
 "15524876583185": {"available": false, "name": "26 TOPPS INCEPTION FOOTBALL", "price": "350.00", "published": "2026-11-16", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-inception-ftb"},
