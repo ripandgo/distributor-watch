@@ -1,6 +1,6 @@
 {
-"count": 3020,
-"fetched_at": "2026-11-24T23:18:37.604343+00:00",
+"count": 3022,
+"fetched_at": "2026-11-24T23:23:37.798816+00:00",
 "pending": {},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
@@ -3022,6 +3022,8 @@
 "84770": {"name": "PD BLUEY HERO PLAYSET", "order_due": "04/05/2027", "release_date": "06/01/2027", "sku": "HSBG5298", "url": "https://www.southernhobby.com/pd-bluey-hero-playset/p84770/"},
 "84771": {"name": "PD DR SEUSS CAT IN THE", "order_due": "05/03/2027", "release_date": "07/15/2027", "sku": "HSBG5326", "url": "https://www.southernhobby.com/pd-dr-seuss-cat-in-the/p84771/"},
 "84772": {"name": "PD MAGICAL MIXER 2", "order_due": "12/19/2026", "release_date": "01/01/2027", "sku": "HSBG5225", "url": "https://www.southernhobby.com/pd-magical-mixer-2/p84772/"},
-"84773": {"name": "Flesh and Blood: Mastery Pack - Brute", "order_due": "01/25/2027", "release_date": "04/02/2027", "sku": "FAB2705", "url": "https://www.southernhobby.com/flesh-and-blood-mastery-pack-brute/p84773/"}
+"84773": {"name": "Flesh and Blood: Mastery Pack - Brute", "order_due": "01/25/2027", "release_date": "04/02/2027", "sku": "FAB2705", "url": "https://www.southernhobby.com/flesh-and-blood-mastery-pack-brute/p84773/"},
+"84774": {"name": "Trench Crusade: Heretic Naval Raiders", "order_due": "12/09/2026", "release_date": "01/01/2027", "sku": "ARCTCPM1011", "url": "https://www.southernhobby.com/trench-crusade-heretic-naval-raiders/p84774/"},
+"84775": {"name": "Trench Crusade: Leper Pilgrims", "order_due": "12/09/2026", "release_date": "01/01/2027", "sku": "ARCTCPM3012", "url": "https://www.southernhobby.com/trench-crusade-leper-pilgrims/p84775/"}
 }
 }
