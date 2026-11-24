@@ -1,7 +1,7 @@
 {
-"count": 2952,
-"fetched_at": "2026-11-24T19:59:18.195482+00:00",
-"pending": {},
+"count": 2950,
+"fetched_at": "2026-11-24T20:04:42.171113+00:00",
+"pending": {"79996": {"item": {"name": "Bandai - One Piece Card Game: IB-09 Illustration Box 09", "order_due": "06/24/2026", "release_date": "12/11/2026", "sku": "BANOPIB09", "url": "https://www.southernhobby.com/bandai-one-piece-card-game-ib-09-illustration-box-09/p79996/"}, "since": "2026-11-24T20:04:42.171113+00:00"}, "79997": {"item": {"name": "Bandai - One Piece Card Game: IB-10 Illustration Box 10", "order_due": "06/24/2026", "release_date": "12/11/2026", "sku": "BANOPIB10", "url": "https://www.southernhobby.com/bandai-one-piece-card-game-ib-10-illustration-box-10/p79997/"}, "since": "2026-11-24T20:04:42.171113+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -621,8 +621,6 @@
 "79966": {"name": "Chrono Core TCG: SD03U Tiamut - Knight of Chaos Unlimited Structure Deck", "order_due": "06/08/2026", "release_date": "12/15/2026", "sku": "CHCSD03U", "url": "https://www.southernhobby.com/chrono-core-tcg-sd03u-tiamut-knight-of-chaos-unlimited-structure-deck/p79966/"},
 "79994": {"name": "ARCANADEA: Ornela Model Kit", "order_due": "08/08/2026", "release_date": "01/01/2027", "sku": "KBYAR018", "url": "https://www.southernhobby.com/arcanadea-ornela-model-kit/p79994/"},
 "79995": {"name": "ArtFX J: Pokemon - Hilda with Tepig Statue", "order_due": "07/04/2026", "release_date": "12/01/2026", "sku": "KBYPV305", "url": "https://www.southernhobby.com/artfx-j-pokemon-hilda-with-tepig-statue/p79995/"},
-"79996": {"name": "Bandai - One Piece Card Game: IB-09 Illustration Box 09", "order_due": "06/24/2026", "release_date": "12/11/2026", "sku": "BANOPIB09", "url": "https://www.southernhobby.com/bandai-one-piece-card-game-ib-09-illustration-box-09/p79996/"},
-"79997": {"name": "Bandai - One Piece Card Game: IB-10 Illustration Box 10", "order_due": "06/24/2026", "release_date": "12/11/2026", "sku": "BANOPIB10", "url": "https://www.southernhobby.com/bandai-one-piece-card-game-ib-10-illustration-box-10/p79997/"},
 "80002": {"name": "Megahouse Petitrama: One Piece - Egghead 0.2 (LOGBOX RE BIRTH Ver.) Box/4", "order_due": "07/11/2026", "release_date": "12/30/2026", "sku": "BASMGH85186", "url": "https://www.southernhobby.com/megahouse-petitrama-one-piece-egghead-0-2-logbox-re-birth-ver-box-4/p80002/"},
 "80003": {"name": "Megahouse Chokorin: Attack on Titan Chokorin Collection Box/6", "order_due": "07/11/2026", "release_date": "12/30/2026", "sku": "BASMGH85179", "url": "https://www.southernhobby.com/megahouse-chokorin-attack-on-titan-collection-box-6/p80003/"},
 "80004": {"name": "Megahouse Nuippo: One Piece Box/6", "order_due": "07/11/2026", "release_date": "12/30/2026", "sku": "BASMGH85129", "url": "https://www.southernhobby.com/megahouse-nuippo-one-piece-box-6/p80004/"},
