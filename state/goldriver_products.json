@@ -1,7 +1,7 @@
 {
 "count": 1120,
-"fetched_at": "2026-11-24T21:29:08.078800+00:00",
-"pending": {"10619717681425": {"item": {"available": true, "name": "DECKBOX PRO DUAL BLACK", "price": "3.41", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deckbox-pro-dual-black"}, "since": "2026-11-24T21:24:08.722519+00:00"}, "10619720401169": {"item": {"available": false, "name": "DECKBOX PRO DUAL LT BLUE", "price": "3.16", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deckbox-pro-dual-lt-blue"}, "since": "2026-11-24T21:24:08.722519+00:00"}, "10619733311761": {"item": {"available": true, "name": "21 PANINI MOSAIC FAST BREAK BASKETBALL", "price": "120.00", "published": "2026-11-23", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/21-panini-mosaic-fast-bk-bsk"}, "since": "2026-11-24T21:29:08.078800+00:00"}},
+"fetched_at": "2026-11-24T21:34:08.571805+00:00",
+"pending": {"10619733311761": {"item": {"available": true, "name": "21 PANINI MOSAIC FAST BREAK BASKETBALL", "price": "120.00", "published": "2026-11-23", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/21-panini-mosaic-fast-bk-bsk"}, "since": "2026-11-24T21:29:08.078800+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -123,7 +123,7 @@
 "10619712307473": {"available": true, "name": "BASEBALL DISPLAY UV PROTECTED CASE", "price": "1.95", "published": "2025-10-15", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-bse-square-holder-uv-prot"},
 "10619712340241": {"available": false, "name": "CARDBOARD VAULTED BOX(2 PIECE)", "price": "1.15", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/cardboard-vaulted-box2-piece"},
 "10619712373009": {"available": true, "name": "COMIC SLEEVE SHEET MUSIC", "price": "4.80", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/comic-sleeve-sheet-music"},
-"10619712405777": {"available": true, "name": "SLEEVES VINTAGE 23/4X315/16", "price": "0.66", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-vintage-23-4x315-16"},
+"10619712405777": {"available": true, "name": "SLEEVES VINTAGE", "price": "0.66", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-vintage-23-4x315-16"},
 "10619712438545": {"available": true, "name": "McFARLANE KINGS M.BIBBY", "price": "1.00", "published": "2025-10-06", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/mcfarlane-kings-m-bibby"},
 "10619712504081": {"available": true, "name": "SCREWDOWN 1/4 W/DIAMOND FROST\"", "price": "0.61", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/screwdown-1-4-w-diamond-frost"},
 "10619712536849": {"available": true, "name": "DECK VAULT BOX RED 81653", "price": "1.30", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-vault-box-red-81653"},
