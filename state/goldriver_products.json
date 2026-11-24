@@ -1,7 +1,7 @@
 {
-"count": 1122,
-"fetched_at": "2026-11-24T22:29:01.995327+00:00",
-"pending": {},
+"count": 1121,
+"fetched_at": "2026-11-24T22:34:01.138295+00:00",
+"pending": {"10619708408081": {"item": {"available": true, "name": "GAMING CASE PORTABLE", "price": "14.25", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/gaming-case-portable"}, "since": "2026-11-24T22:34:01.138295+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -29,7 +29,6 @@
 "10619708309777": {"available": true, "name": "BOX 100 CT HINGED", "price": "0.51", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/box-100-ct-hinged"},
 "10619708342545": {"available": false, "name": "HINGED 50 CARD STORAGE CASE", "price": "0.49", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/box-50-ct-hinged"},
 "10619708375313": {"available": true, "name": "PAGES 3 POCKET (4X6)", "price": "13.17", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pages-3-pocket-4x6"},
-"10619708408081": {"available": true, "name": "GAMING CASE PORTABLE", "price": "14.25", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/gaming-case-portable"},
 "10619708440849": {"available": true, "name": "COMIC BAG REGULAR", "price": "3.55", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/comic-bag-regular"},
 "10619708473617": {"available": true, "name": "LAS VEGAS RAIDERS RIDDELL SPEED MINI HELMET", "price": "25.00", "published": "2025-10-06", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/helmet-l-v-raider-mini-replica"},
 "10619708506385": {"available": false, "name": "DENVER BRONCOS RIDDELL SPEED MINI HELMET", "price": "25.00", "published": "2025-10-06", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/helmet-broncos-mini-replica"},
