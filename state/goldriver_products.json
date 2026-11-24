@@ -1,7 +1,7 @@
 {
-"count": 1120,
-"fetched_at": "2026-11-24T21:34:08.571805+00:00",
-"pending": {"10619733311761": {"item": {"available": true, "name": "21 PANINI MOSAIC FAST BREAK BASKETBALL", "price": "120.00", "published": "2026-11-23", "type": "BASKETBALL WAX", "url": "https://goldriverdistributors.com/products/21-panini-mosaic-fast-bk-bsk"}, "since": "2026-11-24T21:29:08.078800+00:00"}},
+"count": 1122,
+"fetched_at": "2026-11-24T21:39:08.095007+00:00",
+"pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -112,6 +112,7 @@
 "10619711717649": {"available": true, "name": "BOX 10 CT 2 PIECE", "price": "0.52", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/box-10-ct-2-pc"},
 "10619711750417": {"available": true, "name": "TOP LOADER REGULAR CLR", "price": "1.75", "published": "2026-07-23", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-regular-clr"},
 "10619711914257": {"available": true, "name": "DECK BOX BLUE", "price": "1.27", "published": "2025-10-14", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-blue"},
+"10619711947025": {"available": true, "name": "DECK BOX BLACK", "price": "1.27", "published": "2026-11-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-black"},
 "10619711979793": {"available": true, "name": "DECK BOX RED", "price": "1.27", "published": "2025-10-13", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-red"},
 "10619712012561": {"available": true, "name": "DECK BOX CLEAR", "price": "1.27", "published": "2025-10-14", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-clear"},
 "10619712045329": {"available": false, "name": "4 POCKET COLLECTORS PORTFOLIO NAVY", "price": "2.46", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/port-4-pkt-collector-blue"},
@@ -311,6 +312,7 @@
 "10619719778577": {"available": true, "name": "DECK PRO SM LIME GREEN MATTE", "price": "2.65", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-sm-lime-green-matte"},
 "10619719811345": {"available": true, "name": "DECKBOX PRO DUAL LT GREEN SMALL", "price": "3.41", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deckbox-pro-dual-lt-green-small"},
 "10619719942417": {"available": true, "name": "PRO BINDER PREMIUM GREEN", "price": "17.63", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/pro-binder-premium-green"},
+"10619719975185": {"available": false, "name": "DECK BOX BRIGHT YELLOW", "price": "1.09", "published": "2026-11-24", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-bright-yellow"},
 "10619720073489": {"available": true, "name": "DECK PRO SM CLEAR MATTE", "price": "2.65", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-pro-sm-clear-matte"},
 "10619720106257": {"available": false, "name": "DECK BOX AQUA", "price": "1.27", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-aqua"},
 "10619720139025": {"available": true, "name": "DECK BOX BRIGHT PINK", "price": "1.27", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-box-bright-pink"},
