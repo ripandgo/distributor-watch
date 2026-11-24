@@ -1,6 +1,6 @@
 {
-"count": 1126,
-"fetched_at": "2026-11-24T17:35:22.632709+00:00",
+"count": 1127,
+"fetched_at": "2026-11-24T17:40:22.457430+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1128,6 +1128,7 @@
 "15527268942097": {"available": true, "name": "26 TOPPS MIDNIGHT FOOTBALL", "price": "600.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-midnight-ftb"},
 "15527270809873": {"available": true, "name": "POKEMON DAY 2027", "price": "9.50", "published": "2026-11-23", "type": "", "url": "https://goldriverdistributors.com/products/pokemon-day-2027"},
 "15528816214289": {"available": true, "name": "26 TOPPS PRO DEBUT BASEBALL", "price": "175.00", "published": "2026-11-18", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-pro-debut-bse"},
-"15534237155601": {"available": false, "name": "26 TOPPS ALLEN & GINTER X", "price": "280.00", "published": "2026-11-20", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-allen-ginter-x"}
+"15534237155601": {"available": false, "name": "26 TOPPS ALLEN & GINTER X", "price": "280.00", "published": "2026-11-20", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-allen-ginter-x"},
+"15545017270545": {"available": true, "name": "26 TOPPS FINEST FANTASTIC FOUR (SEALED CASES ONLY)", "price": "300.00", "published": "2026-11-24", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-finest-fantastic-four"}
 }
 }
