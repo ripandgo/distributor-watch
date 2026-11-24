@@ -1,7 +1,7 @@
 {
-"count": 7253,
-"fetched_at": "2026-11-24T13:01:21.787723+00:00",
-"pending": {},
+"count": 7252,
+"fetched_at": "2026-11-24T13:06:21.353851+00:00",
+"pending": {"47268": {"item": {"badge": "&nbsp;", "maker": null, "name": "PRE-ORDER Yugioh Glorious Victors Booster Pack 24ct", "preorder_status": "Closed-for-Pre-Order", "sku": "KON87341", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Yu-Gi-Oh-Glorious-Victors-Booster-Pack-24ct"}, "since": "2026-11-24T13:06:21.353851+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -7108,7 +7108,6 @@
 "47173": {"badge": "Pre-Order", "maker": "FanRoll by Metallic Dice Games", "name": "PRE-ORDER Tokens Catan Masterpiece Series Ancient Civilization China", "preorder_status": "Pre-Order-Open-After-Deadline", "sku": "MDGC83", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Catan-Masterpiece-Series-Ancient-Civilization-China-Tokens"},
 "47174": {"badge": "Pre-Order", "maker": "FanRoll by Metallic Dice Games", "name": "PRE-ORDER Tokens Catan Masterpiece Series Ancient Civilization Greece", "preorder_status": "Pre-Order-Open-After-Deadline", "sku": "MDGC85", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Catan-Masterpiece-Series-Ancient-Civilization-Greece-Tokens"},
 "47175": {"badge": "Pre-Order", "maker": "FanRoll by Metallic Dice Games", "name": "PRE-ORDER Tokens Catan Masterpiece Series Ancient Civilization German", "preorder_status": "Pre-Order-Open-After-Deadline", "sku": "MDGC86", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Catan-Masterpiece-Series-Ancient-Civilization-German-Tokens"},
-"47268": {"badge": "&nbsp;", "maker": null, "name": "PRE-ORDER Yugioh Glorious Victors Booster Pack 24ct", "preorder_status": "Closed-for-Pre-Order", "sku": "KON87341", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Yu-Gi-Oh-Glorious-Victors-Booster-Pack-24ct"},
 "47269": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Deck Box OBSIDIAN One-Touch Tower", "preorder_status": "Pre-Order-Open-After-Deadline", "sku": "ULT16969", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Deck-Box-OBSIDIAN-One-Touch-Tower"},
 "47270": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Playmat OBSIDIAN Leatherette Mat", "preorder_status": "Pre-Order-Open-After-Deadline", "sku": "ULT16970", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Playmat-OBSIDIAN-Leatherette-Mat"},
 "47271": {"badge": "Pre-Order", "maker": "Ultra PRO International", "name": "PRE-ORDER Counter OBSIDIAN Magtracker", "preorder_status": "Pre-Order-Open-After-Deadline", "sku": "ULT16971", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ORDER-Counter-OBSIDIAN-Magtracker"},
