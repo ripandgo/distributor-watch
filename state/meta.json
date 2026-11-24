@@ -1,10 +1,11 @@
 {
  "error_streak": {
-  "southernhobby_new": 360,
-  "southernhobby_rss": 360,
-  "southernhobby_solicitations": 360,
-  "southernhobby_upcoming": 395
+  "phd_news": 1,
+  "southernhobby_new": 361,
+  "southernhobby_rss": 361,
+  "southernhobby_solicitations": 361,
+  "southernhobby_upcoming": 396
  },
  "last_post": "2026-11-24T05:49:32.017785+00:00",
- "last_run": "2026-11-24T05:49:32.017785+00:00"
+ "last_run": "2026-11-24T05:52:19.889444+00:00"
 }
