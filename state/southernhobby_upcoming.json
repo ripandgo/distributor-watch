@@ -1,7 +1,7 @@
 {
-"count": 3021,
-"fetched_at": "2026-11-24T22:34:01.138295+00:00",
-"pending": {},
+"count": 3020,
+"fetched_at": "2026-11-24T22:39:01.363553+00:00",
+"pending": {"79325": {"item": {"name": "Bandai - Union Arena: My Hero Academia Booster Box", "order_due": "06/01/2026", "release_date": "12/11/2026", "sku": "BANUAUE25BT", "url": "https://www.southernhobby.com/bandai-union-arena-my-hero-academia-booster-box/p79325/"}, "since": "2026-11-24T22:39:01.363553+00:00"}},
 "items": {
 "34480": {"name": "Transformers War for Cybertron: Siege Commander Class Jetfire Action Figure", "order_due": "11/14/2026", "release_date": "01/01/2027", "sku": "HSBE4824", "url": "https://www.southernhobby.com/transformers-war-for-cybertron-siege-commander-class-jetfire-action-figure/p34480/"},
 "54091": {"name": "Bandai Hobby HGUC 1/144: #102 AMS-129 Geara Zulu - Model Kit", "order_due": "---", "release_date": "12/01/2026", "sku": "BAS2077706", "url": "https://www.southernhobby.com/bandai-hobby-hguc-1-144-102-ams-129-geara-zulu-model-kit/p54091/"},
@@ -346,7 +346,6 @@
 "79320": {"name": "ARCANADEA: XenoAlma Trickle Dekapodia - Model Kit", "order_due": "06/29/2026", "release_date": "02/28/2027", "sku": "KBYAS004", "url": "https://www.southernhobby.com/arcanadea-xenoalma-trickle-dekapodia-model-kit/p79320/"},
 "79323": {"name": "Transformers: Takara Tomy - New Legends NL-03 Nemesis Star Convoy", "order_due": "06/01/2026", "release_date": "11/26/2026", "sku": "HSBG5914", "url": "https://www.southernhobby.com/transformers-takara-tomy-new-legends-nl-03-nemesis-star-convoy/p79323/"},
 "79324": {"name": "Transformers: Takara Tomy - Missing Link C-14 Ironhide", "order_due": "06/01/2026", "release_date": "12/28/2026", "sku": "HSBG4416", "url": "https://www.southernhobby.com/transformers-takara-tomy-missing-link-c-14-ironhide/p79324/"},
-"79325": {"name": "Bandai - Union Arena: My Hero Academia Booster Box", "order_due": "06/01/2026", "release_date": "12/11/2026", "sku": "BANUAUE25BT", "url": "https://www.southernhobby.com/bandai-union-arena-my-hero-academia-booster-box/p79325/"},
 "79327": {"name": "BLEACH Thousand-Year Blood War: Ichigo Kurosaki (Stirring Souls vol. 5) - Masterlise Ichibansho Figure", "order_due": "06/07/2026", "release_date": "11/30/2026", "sku": "BAS72503", "url": "https://www.southernhobby.com/bleach-thousand-year-blood-war-ichigo-kurosaki-stirring-souls-vol-5-masterlise-ichibansho-figure/p79327/"},
 "79328": {"name": "BLEACH Thousand-Year Blood War: Character B (TBA)(Stirring Souls vol. 5) - Masterlise Ichibansho Figure", "order_due": "06/07/2026", "release_date": "11/30/2026", "sku": "BAS72504", "url": "https://www.southernhobby.com/bleach-thousand-year-blood-war-character-b-tba-stirring-souls-vol-5-masterlise-ichibansho-figure/p79328/"},
 "79329": {"name": "BLEACH Thousand-Year Blood War: Character C (TBA)(Stirring Souls vol. 5) - Masterlise Ichibansho Figure", "order_due": "06/07/2026", "release_date": "11/30/2026", "sku": "BAS72505", "url": "https://www.southernhobby.com/bleach-thousand-year-blood-war-character-c-tba-stirring-souls-vol-5-masterlise-ichibansho-figure/p79329/"},
