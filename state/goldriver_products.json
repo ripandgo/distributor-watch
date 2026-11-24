@@ -1,7 +1,7 @@
 {
-"count": 1128,
-"fetched_at": "2026-11-24T20:09:30.847414+00:00",
-"pending": {},
+"count": 1127,
+"fetched_at": "2026-11-24T20:14:30.374552+00:00",
+"pending": {"10619712471313": {"item": {"available": true, "name": "DECK PROTECTOR MINI CLR", "price": "3.95", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-protector-mini-clr"}, "since": "2026-11-24T20:14:30.374552+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -125,7 +125,6 @@
 "10619712373009": {"available": true, "name": "COMIC SLEEVE SHEET MUSIC", "price": "4.80", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/comic-sleeve-sheet-music"},
 "10619712405777": {"available": true, "name": "SLEEVES VINTAGE 23/4X315/16", "price": "0.66", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-vintage-23-4x315-16"},
 "10619712438545": {"available": true, "name": "McFARLANE KINGS M.BIBBY", "price": "1.00", "published": "2025-10-06", "type": "MEMORABILLA", "url": "https://goldriverdistributors.com/products/mcfarlane-kings-m-bibby"},
-"10619712471313": {"available": true, "name": "DECK PROTECTOR MINI CLR", "price": "3.95", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-protector-mini-clr"},
 "10619712504081": {"available": true, "name": "SCREWDOWN 1/4 W/DIAMOND FROST\"", "price": "0.61", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/screwdown-1-4-w-diamond-frost"},
 "10619712536849": {"available": true, "name": "DECK VAULT BOX RED 81653", "price": "1.30", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-vault-box-red-81653"},
 "10619712569617": {"available": true, "name": "DECK VAULT BOX GREEN 81655", "price": "1.30", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-vault-box-green-81655"},
