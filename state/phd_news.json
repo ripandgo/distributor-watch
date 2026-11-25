@@ -1,11 +1,10 @@
 {
 "count": 100,
-"fetched_at": "2026-11-25T20:04:14.763194+00:00",
-"pending": {},
+"fetched_at": "2026-11-25T20:09:14.852003+00:00",
+"pending": {"86996": {"item": {"modified": "2026-07-21T17:22:44", "name": "Pathfinder Battles Deep Cuts, D&D Nolzur’s Marvelous Miniatures, & More — WizKids", "posted": "2026-07-21", "url": "https://www.phdgames.com/2026/07/21/pathfinder-battles-deep-cuts-dd-nolzurs-marvelous-miniatures-more-wizkids/"}, "since": "2026-11-25T20:09:14.852003+00:00"}},
 "items": {
 "86944": {"modified": "2026-08-31T13:13:48", "name": "Magic: The Gathering — Star Trek | Wizards of the Coast", "posted": "2026-08-31", "url": "https://www.phdgames.com/2026/08/31/magic-the-gathering-star-trek-wizards-of-the-coast/"},
 "86971": {"modified": "2026-11-16T17:41:41", "name": "Gundam Assemble Q1 ’27 Releases — Bandai Hobby", "posted": "2026-07-28", "url": "https://www.phdgames.com/2026/07/28/gundam-assemble-q1-27-releases-bandai-hobby/"},
-"86996": {"modified": "2026-07-21T17:22:44", "name": "Pathfinder Battles Deep Cuts, D&D Nolzur’s Marvelous Miniatures, & More — WizKids", "posted": "2026-07-21", "url": "https://www.phdgames.com/2026/07/21/pathfinder-battles-deep-cuts-dd-nolzurs-marvelous-miniatures-more-wizkids/"},
 "87028": {"modified": "2026-07-23T12:47:25", "name": "Cardfight Vanguard: Parallactic Fate & Future Card Buddyfight Disaster Force — Bushiroad", "posted": "2026-07-23", "url": "https://www.phdgames.com/2026/07/23/cardfight-vanguard-parallactic-fate-future-card-buddyfight-disaster-force-bushiroad/"},
 "87046": {"modified": "2026-07-24T14:30:01", "name": "Advanced Dice & Crayon Sets, Advent-ure Calendars, and More — Black Oak Workshop", "posted": "2026-07-24", "url": "https://www.phdgames.com/2026/07/24/advanced-dice-crayon-sets-advent-ure-calendars-and-more-black-oak-workshop/"},
 "87234": {"modified": "2026-07-28T15:14:25", "name": "Hololive OCG: Diva Fever — Bushiroad", "posted": "2026-07-28", "url": "https://www.phdgames.com/2026/07/28/hololive-ocg-diva-fever-bushiroad/"},
@@ -102,6 +101,7 @@
 "88990": {"modified": "2026-11-20T16:10:19", "name": "Tamashii Nations: Luffy’s One Piece Figure with Card Game DON!! — Bandai Hobby", "posted": "2026-11-20", "url": "https://www.phdgames.com/2026/11/20/tamashii-nations-luffys-one-piece-figure-with-card-game-don-bandai-hobby/"},
 "89000": {"modified": "2026-11-23T17:56:47", "name": "Lorescape Modular Customizable Hex-Terrain", "posted": "2026-11-23", "url": "https://www.phdgames.com/2026/11/23/lorescape-modular-customizable-hex-terrain/"},
 "89054": {"modified": "2026-11-24T16:53:50", "name": "Tideward — Avalon Hill", "posted": "2026-11-24", "url": "https://www.phdgames.com/2026/11/24/tideward-avalon-hill/"},
-"89070": {"modified": "2026-11-25T11:41:38", "name": "Everdell Journeys & Gather — Tycoon Games", "posted": "2026-11-25", "url": "https://www.phdgames.com/2026/11/25/everdell-journeys-gather-tycoon-games/"}
+"89070": {"modified": "2026-11-25T11:41:38", "name": "Everdell Journeys & Gather — Tycoon Games", "posted": "2026-11-25", "url": "https://www.phdgames.com/2026/11/25/everdell-journeys-gather-tycoon-games/"},
+"89085": {"modified": "2026-11-25T15:09:07", "name": "Pathfinder: The Unseen World, Flip-Mat: Fey Sites, & Flip-Mat: Starship Decks — Paizo", "posted": "2026-11-25", "url": "https://www.phdgames.com/2026/11/25/pathfinder-the-unseen-world-flip-mat-fey-sites-flip-mat-starship-decks-paizo/"}
 }
 }
