@@ -1,9 +1,8 @@
 {
 "count": 100,
-"fetched_at": "2026-11-25T16:35:04.762850+00:00",
-"pending": {},
+"fetched_at": "2026-11-25T16:40:04.555026+00:00",
+"pending": {"86760": {"item": {"modified": "2026-09-28T11:09:41", "name": "Chaotic TCG: Dawn of Perim — Secrets Decoded | Panini", "posted": "2026-07-20", "url": "https://www.phdgames.com/2026/07/20/chaotic-tcg-dawn-of-perim-secrets-decoded-panini/"}, "since": "2026-11-25T16:40:04.555026+00:00"}},
 "items": {
-"86760": {"modified": "2026-09-28T11:09:41", "name": "Chaotic TCG: Dawn of Perim — Secrets Decoded | Panini", "posted": "2026-07-20", "url": "https://www.phdgames.com/2026/07/20/chaotic-tcg-dawn-of-perim-secrets-decoded-panini/"},
 "86944": {"modified": "2026-08-31T13:13:48", "name": "Magic: The Gathering — Star Trek | Wizards of the Coast", "posted": "2026-08-31", "url": "https://www.phdgames.com/2026/08/31/magic-the-gathering-star-trek-wizards-of-the-coast/"},
 "86971": {"modified": "2026-11-16T17:41:41", "name": "Gundam Assemble Q1 ’27 Releases — Bandai Hobby", "posted": "2026-07-28", "url": "https://www.phdgames.com/2026/07/28/gundam-assemble-q1-27-releases-bandai-hobby/"},
 "86996": {"modified": "2026-07-21T17:22:44", "name": "Pathfinder Battles Deep Cuts, D&D Nolzur’s Marvelous Miniatures, & More — WizKids", "posted": "2026-07-21", "url": "https://www.phdgames.com/2026/07/21/pathfinder-battles-deep-cuts-dd-nolzurs-marvelous-miniatures-more-wizkids/"},
@@ -102,6 +101,7 @@
 "88971": {"modified": "2026-11-19T17:26:29", "name": "Pokémon TCG: Mega Evolution—Flowing Fists", "posted": "2026-11-19", "url": "https://www.phdgames.com/2026/11/19/pokemon-tcg-mega-evolution-flowing-fists/"},
 "88990": {"modified": "2026-11-20T16:10:19", "name": "Tamashii Nations: Luffy’s One Piece Figure with Card Game DON!! — Bandai Hobby", "posted": "2026-11-20", "url": "https://www.phdgames.com/2026/11/20/tamashii-nations-luffys-one-piece-figure-with-card-game-don-bandai-hobby/"},
 "89000": {"modified": "2026-11-23T17:56:47", "name": "Lorescape Modular Customizable Hex-Terrain", "posted": "2026-11-23", "url": "https://www.phdgames.com/2026/11/23/lorescape-modular-customizable-hex-terrain/"},
-"89054": {"modified": "2026-11-24T16:53:50", "name": "Tideward — Avalon Hill", "posted": "2026-11-24", "url": "https://www.phdgames.com/2026/11/24/tideward-avalon-hill/"}
+"89054": {"modified": "2026-11-24T16:53:50", "name": "Tideward — Avalon Hill", "posted": "2026-11-24", "url": "https://www.phdgames.com/2026/11/24/tideward-avalon-hill/"},
+"89070": {"modified": "2026-11-25T11:41:38", "name": "Everdell Journeys & Gather — Tycoon Games", "posted": "2026-11-25", "url": "https://www.phdgames.com/2026/11/25/everdell-journeys-gather-tycoon-games/"}
 }
 }
