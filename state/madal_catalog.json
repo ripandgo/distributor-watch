@@ -1,7 +1,7 @@
 {
-"count": 7254,
-"fetched_at": "2026-11-24T23:53:18.083945+00:00",
-"pending": {},
+"count": 7253,
+"fetched_at": "2026-11-24T23:58:17.297751+00:00",
+"pending": {"16006": {"item": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Inner Sea Intrigue", "preorder_status": "", "sku": "PZO9292", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Inner-Sea-Intrigue-1E"}, "since": "2026-11-24T23:58:17.297751+00:00"}},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
 "10942": {"badge": "&nbsp;", "maker": null, "name": "Baseball 2022 Bowman Retail Pack 24ct Display", "preorder_status": "", "sku": "22BBBOWMARETBX", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/product/10942"},
@@ -1976,7 +1976,6 @@
 "15998": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Giantslayer Poster Map Folio", "preorder_status": "", "sku": "PZO9282", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/product/15998"},
 "15999": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Inner Sea Monster Codex", "preorder_status": "", "sku": "PZO9283", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Inner-Sea-Monster-Codex-1E"},
 "16003": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Hell's Rebels Poster Map Folio", "preorder_status": "", "sku": "PZO9288", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Hells-Rebels-Poster-Map-Folio"},
-"16006": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Inner Sea Intrigue", "preorder_status": "", "sku": "PZO9292", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Inner-Sea-Intrigue-1E"},
 "16007": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Path of the Hellknight", "preorder_status": "", "sku": "PZO9293", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Path-of-the-Hellknight-1E"},
 "16008": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Hell's Vengeance Poster Map Folio", "preorder_status": "", "sku": "PZO9294", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Hells-Vengeance-Poster-Map-Folio"},
 "16010": {"badge": "&nbsp;", "maker": "Paizo Inc.", "name": "Pathfinder 1E Campaign Setting Inner Sea Temples", "preorder_status": "", "sku": "PZO9296", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Pathfinder-RPG-Campaign-Setting-Inner-Sea-Temples-1E"},
