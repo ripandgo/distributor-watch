@@ -1,7 +1,7 @@
 {
-"count": 1121,
-"fetched_at": "2026-11-25T15:12:01.421068+00:00",
-"pending": {},
+"count": 1119,
+"fetched_at": "2026-11-25T15:17:01.154010+00:00",
+"pending": {"10619722400017": {"item": {"available": true, "name": "DECK P ECLIPSE FOREST GREEN 100C", "price": "6.13", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-forest-green-100c"}, "since": "2026-11-25T15:17:01.154010+00:00"}, "10619722432785": {"item": {"available": true, "name": "COMIC BAG SIGNATURE 84825", "price": "3.33", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/comic-bag-signature-84825"}, "since": "2026-11-25T15:17:01.154010+00:00"}},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
 "10619707392273": {"available": true, "name": "SEMI RIGID PROTECTOR", "price": "16.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/semi-rigid-protector"},
@@ -369,8 +369,6 @@
 "10619722301713": {"available": false, "name": "35PT UV ONE TOUCH MAGNETIC HOLDER", "price": "8.68", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/one-touch-35pt-5-pack"},
 "10619722334481": {"available": true, "name": "TOP LOADER SLEEVES 100CT MLTIPAK", "price": "7.70", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/top-loader-sleeves-100ct-mltipak"},
 "10619722367249": {"available": true, "name": "DECK P ECLIPSE JET BLACK 100CT", "price": "6.62", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-jet-black-100ct"},
-"10619722400017": {"available": true, "name": "DECK P ECLIPSE FOREST GREEN 100C", "price": "6.13", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/deck-p-eclipse-forest-green-100c"},
-"10619722432785": {"available": true, "name": "COMIC BAG SIGNATURE 84825", "price": "3.33", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/comic-bag-signature-84825"},
 "10619722465553": {"available": true, "name": "DISP BASEBALL CAP HOLDER 84482", "price": "6.27", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-baseball-cap-holder-84482"},
 "10619722498321": {"available": true, "name": "DISP EXECUTIVE CARD HOLDER 85275", "price": "5.25", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/disp-executive-card-holder-85275"},
 "10619722531089": {"available": true, "name": "BCW COMIC BOOK BIN BLK", "price": "18.00", "published": "2025-10-13", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/bcw-comic-book-bin-blk"},
