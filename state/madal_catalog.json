@@ -1,6 +1,6 @@
 {
 "count": 7252,
-"fetched_at": "2026-11-25T21:03:40.265345+00:00",
+"fetched_at": "2026-11-25T21:08:40.243400+00:00",
 "pending": {},
 "items": {
 "10941": {"badge": "&nbsp;", "maker": "The Topps Company, Inc.", "name": "Hockey 2021-22 NHL Sticker Collection 50 Packs of Stickers", "preorder_status": "", "sku": "21HKToppsbx", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/2021-22-TOPPS-NHL-Sticker-Collection-Box-50-Packs"},
@@ -5012,7 +5012,7 @@
 "34103": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Journey Together Booster Bundle (SV9)", "preorder_status": "", "sku": "POK10341", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/WEEKLY-LIMIT-5-Pokmon-TCG-Journey-Together-Booster-Bundle-SV9"},
 "34104": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Journey Together 3-Pack Blister 24ct Case (SV9)", "preorder_status": "", "sku": "POK10174", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ALLOCATED-Pokmon-TCG-Journey-Together-3-Booster-Blister-24ct-Case-SV9"},
 "34106": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Journey Together Build & Battle Box 10ct Display (SV9)", "preorder_status": "", "sku": "POK10361", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ALLOCATED-Pokmon-TCG-Journey-Together-Build-Battle-Box-10ct-Display-SV9"},
-"34200": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Charizard ex Special Collection", "preorder_status": "", "sku": "POK10417", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Pokemon-Charizard-ex-Special-Collection"},
+"34200": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Charizard ex Special Collection", "preorder_status": "", "sku": "POK10417", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/Pokemon-Charizard-ex-Special-Collection"},
 "34201": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Iono's Bellibolt ex Premium Collection", "preorder_status": "", "sku": "POK10431", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/PRE-ALLOCATED-Pokmon-Ionos-Bellibolt-ex-Premium-Collection"},
 "34310": {"badge": "&nbsp;", "maker": "Brotherwise Games, LLC", "name": "Super Boss Monster", "preorder_status": "", "sku": "BGM832", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/PRE-ORDER-Super-Boss-Monster"},
 "34410": {"badge": "&nbsp;", "maker": "Chessex Dice", "name": "Dice D12 Blank Ivory 10ct Set", "preorder_status": "", "sku": "CHX29045", "stock_AK": "No", "stock_KY": "Yes", "url": "https://www.madal.com/product/34410"},
@@ -5711,7 +5711,7 @@
 "43565": {"badge": "Pre-Order", "maker": "USAopoly, Inc.", "name": "Spot It The Grinch", "preorder_status": "", "sku": "USASI154-779", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Spot-It-The-Grinch"},
 "43566": {"badge": "Pre-Order", "maker": "USAopoly, Inc.", "name": "Trivia Spirit of America", "preorder_status": "", "sku": "USATR023-080", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/Trivia-Spirit-of-America"},
 "43567": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Loteria Toy Story 5", "preorder_status": "", "sku": "USAUP004-169", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Loteria-Toy-Story-5"},
-"43568": {"badge": "Pre-Order", "maker": "USAopoly, Inc.", "name": "PRE-ORDER Yahtzee One Piece Fire Fist", "preorder_status": "Pre-Order-Open", "sku": "USAYZ113-943", "stock_AK": "Yes", "stock_KY": "No", "url": "https://www.madal.com/Yahtzee-One-Piece-Fire-Fist"},
+"43568": {"badge": "Pre-Order", "maker": "USAopoly, Inc.", "name": "PRE-ORDER Yahtzee One Piece Fire Fist", "preorder_status": "Pre-Order-Open", "sku": "USAYZ113-943", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Yahtzee-One-Piece-Fire-Fist"},
 "43570": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Yahtzee KFC", "preorder_status": "", "sku": "USAYZ194-330", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Yahtzee-KFC"},
 "43571": {"badge": "&nbsp;", "maker": "USAopoly, Inc.", "name": "Yahtzee Pringles", "preorder_status": "", "sku": "USAYZ194-950", "stock_AK": "Yes", "stock_KY": "Yes", "url": "https://www.madal.com/Yahtzee-Pringles"},
 "43634": {"badge": "&nbsp;", "maker": "The Pokémon Company International", "name": "Pokemon Prismatic Evolutions Mini Tin 8ct Display (SV8.5) MARCH 2026", "preorder_status": "", "sku": "POK10388", "stock_AK": "No", "stock_KY": "No", "url": "https://www.madal.com/WEEKLY-LIMIT-1-Pokemon-TCG-Prismatic-Evolutions-Mini-Tin-8ct-Display-SV8.5-MARCH-2026"},
