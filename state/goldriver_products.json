@@ -1,6 +1,6 @@
 {
 "count": 1119,
-"fetched_at": "2026-11-27T09:57:24.716257+00:00",
+"fetched_at": "2026-11-27T10:02:24.509363+00:00",
 "pending": {},
 "items": {
 "10619707359505": {"available": true, "name": "SLEEVES SOFT PREMIUM", "price": "1.45", "published": "2025-10-06", "type": "SUPPLIES", "url": "https://goldriverdistributors.com/products/sleeves-soft-premium"},
@@ -1104,7 +1104,7 @@
 "15507981402385": {"available": true, "name": "DECK PR 200CT MATTE RED", "price": "8.00", "published": "2026-11-19", "type": "", "url": "https://goldriverdistributors.com/products/deck-pr-100ct-matte-red-200ct"},
 "15508888650001": {"available": true, "name": "26 TOPPS FLAGSHIP NBA JUMBO", "price": "445.00", "published": "2026-11-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-flagship-bsk-jumbo"},
 "15509383938321": {"available": false, "name": "26 TOPPS MARVEL NEON BLASTER", "price": "30.00", "published": "2026-11-09", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-marvel-neon-blaster"},
-"15509572878609": {"available": true, "name": "2026 WILD CARD HOLIDAY HITS", "price": "73.50", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/2026-wild-card-holiday-hits"},
+"15509572878609": {"available": false, "name": "2026 WILD CARD HOLIDAY HITS", "price": "73.50", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/2026-wild-card-holiday-hits"},
 "15513429934353": {"available": true, "name": "25 TOPPS FLAGSHIP BASKETBALL BLASTER", "price": "65.00", "published": "2026-11-10", "type": "", "url": "https://goldriverdistributors.com/products/25-topps-basketball-blaster"},
 "15516205220113": {"available": true, "name": "26 TOPPS CHROME COSMIC BASEBALL", "price": "925.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-chrome-cosmic-bse"},
 "15516205252881": {"available": true, "name": "26 TOPPS FIVE STAR BASEBALL (SEALED 3 BOX CASES ONLY)", "price": "2100.00", "published": "2026-11-11", "type": "", "url": "https://goldriverdistributors.com/products/26-topps-five-star-baseball"},
